@@ -20,12 +20,18 @@ MonoBehaviour:
     CaseInsensitiveTerms: 0
     OnMissingTranslation: 1
     mTerm_AppName: 
-    mLanguages: []
+    mLanguages:
+    - Name: Spanish
+      Code: es
+      Flags: 0
+    - Name: English
+      Code: en
+      Flags: 0
     IgnoreDeviceLanguage: 0
     _AllowUnloadingLanguages: 0
-    Google_WebServiceURL: 
-    Google_SpreadsheetKey: 
-    Google_SpreadsheetName: 
+    Google_WebServiceURL: https://script.google.com/macros/s/AKfycby7Z1NeRJuviHmJ8k9pIw8KB0DfYgfDkoxOqMyCitRaRXHUZgdmROB2vHxHblgK0IQaEA/exec
+    Google_SpreadsheetKey: 1mqGNPGUFMXg2yAoD8rPXvO7sftCYImLr0o5EdCYBzqw
+    Google_SpreadsheetName: I2Loc SkincareInYourFace Localization
     Google_LastUpdatedVersion: 
     Google_Password: change_this
     GoogleUpdateFrequency: 3
