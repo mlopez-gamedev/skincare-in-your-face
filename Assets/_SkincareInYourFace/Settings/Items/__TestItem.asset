@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 167bb756625749a9aeb16283c1274bc0, type: 3}
   m_Name: __TestItem
   m_EditorClassIdentifier: 
-  _itemPrefab: {fileID: 3750223570668677346, guid: b23048b953cf02b4c8fa68c734225a2e, type: 3}
-  _itemNameTerm: Items/TestName
-  _itemDescriptionTerm: Items/TestDescription
+  _previewPrefab: {fileID: 3750223570668677346, guid: b23048b953cf02b4c8fa68c734225a2e, type: 3}
+  _nameTerm: Items/TestName
+  _descriptionTerm: Items/TestDescription

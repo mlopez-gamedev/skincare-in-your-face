@@ -18,7 +18,7 @@ namespace Campero.SkincareInYourFace.UI
         [SerializeField] private Transform _itemPreviewParent;
 
         private int _previewLayer;
-        private GameObject _item;
+        private GameObject _preview;
 
         private void Awake()
         {
@@ -35,10 +35,10 @@ namespace Campero.SkincareInYourFace.UI
         public void Show(ItemModel item) 
         {
             CameraMovement.Instance.CanMove = false;
-            _nameText.SetTerm(item.ItemNameTerm);
-            _descriptionText.SetTerm(item.ItemDescriptionTerm);
-            _item = Instantiate(item.ItemPrefab, _itemPreviewParent);
-            _item.layer = _previewLayer;
+            _nameText.SetTerm(item.NameTerm);
+            _descriptionText.SetTerm(item.DescriptionTerm);
+            _preview = Instantiate(item.PreviewPrefab, _itemPreviewParent);
+            _preview.layer = _previewLayer;
 			_itemPreview.gameObject.SetActive(true);
             _panel.gameObject.SetActive(true);
             _panel.DOFade(1f, 0.2f);
@@ -53,7 +53,7 @@ namespace Campero.SkincareInYourFace.UI
             {
                 _panel.gameObject.SetActive(false);
 				_itemPreview.gameObject.SetActive(false);
-                Destroy(_item);
+                Destroy(_preview);
                 CameraMovement.Instance.CanMove = true;
             } 
                 
