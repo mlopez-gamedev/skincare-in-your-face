@@ -1,0 +1,15 @@
+# Task list
+- [x] Add localization
+- [ ] Add camera movement
+- [ ] Add Title screen
+- [ ] Setup custom cursor
+- [ ] Add interactions
+- [ ] Add Items system
+- [ ] Add Items UI
+- [ ] Add Characters system
+- [ ] Add Characters UI
+- [ ] Add Dialogue system
+- [ ] Add Dialogue UI
+- [ ] Add Intro
+- [ ] Add End game flow (win and lose)
+- [ ] Add car seethrough
