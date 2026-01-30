@@ -25,6 +25,24 @@ MonoBehaviour:
       - Start
       Flags: 0000
       Languages_Touch: []
+    - Term: Items/TestName
+      TermType: 0
+      Description: 
+      Languages:
+      - "\xCDtem de prueba"
+      - Test Item
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/TestDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "Descripci\xF3n de un \xEDtem de prueba. Esto es solo una descripci\xF3n
+        para ver c\xF3mo queda el texto descriptivamente descrito."
+      - Description of a test item. This is just a description to see how the text
+        looks when described.
+      Flags: 0000
+      Languages_Touch: []
     CaseInsensitiveTerms: 0
     OnMissingTranslation: 1
     mTerm_AppName: 

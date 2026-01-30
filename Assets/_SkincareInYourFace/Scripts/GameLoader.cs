@@ -1,4 +1,5 @@
 using System;
+using Campero.SkincareInYourFace.Environment;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
@@ -12,6 +13,7 @@ namespace Campero.SkincareInYourFace
             Debug.Log("Play intro");
             await UniTask.Delay(200);
             // TODO: init game state
+            CameraMovement.Instance.CanMove = true;
             Debug.Log("Game Started");
         }
     }

@@ -1,17 +1,20 @@
 # Task list
 - [x] Add localization
 - [x] Add Start game flow
-- [ ] Add Title screen
+- [x] Add Title screen
 - [x] Add camera movement
-- [ ] Add camera zoom
-- [ ] Setup custom cursor
-- [ ] Add interactions
-- [ ] Add Items system
-- [ ] Add Items UI
-- [ ] Add Characters system
-- [ ] Add Characters UI
+- [x] Add Items system
+- [x] Add Items UI
 - [ ] Add Dialogue system
 - [ ] Add Dialogue UI
+- [ ] Add Audio system (FMOD)
+- [ ] Add camera zoom
+- [ ] Setup custom cursor
+- [ ] Add Characters system
+- [ ] Add Characters UI
+- [ ] Add interactions
 - [ ] Add Intro
 - [ ] Add End game flow (win and lose)
 - [ ] Add car seethrough
+- [ ] Title screen final
+- [ ] Items UI final
