@@ -1,7 +1,8 @@
 # Task list
 - [x] Add localization
-- [ ] Add camera movement
+- [x] Add Start game flow
 - [ ] Add Title screen
+- [ ] Add camera movement
 - [ ] Setup custom cursor
 - [ ] Add interactions
 - [ ] Add Items system
