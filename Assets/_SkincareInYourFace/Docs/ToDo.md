@@ -2,7 +2,8 @@
 - [x] Add localization
 - [x] Add Start game flow
 - [ ] Add Title screen
-- [ ] Add camera movement
+- [x] Add camera movement
+- [x] Add camera zoom
 - [ ] Setup custom cursor
 - [ ] Add interactions
 - [ ] Add Items system
