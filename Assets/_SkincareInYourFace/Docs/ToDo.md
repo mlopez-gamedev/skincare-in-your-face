@@ -8,6 +8,7 @@
 - [x] Add Dialogue system
 - [x] Add Dialogue UI
 - [x] Add Audio system (FMOD)
+- [ ] Add Accusation UI
 - [ ] Add camera zoom
 - [ ] Setup custom cursor
 - [x] Add Characters system
@@ -20,3 +21,4 @@
 - [ ] Items UI final
 - [ ] Characters UI final
 - [ ] Dialogue UI final
+- [ ] Accusation UI final
