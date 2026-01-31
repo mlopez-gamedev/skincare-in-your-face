@@ -14,7 +14,10 @@ namespace Campero.SkincareInYourFace.Characters
         private List<Talk> _reservedTalks = new List<Talk>();
         private List<Talk> _availableTalks = new List<Talk>();
         
+        private List<Talk> _log = new List<Talk>();
+        
         public List<Talk> AvailableTalks => _availableTalks;
+        public List<Talk> Log => _log;
         
         public void Setup(CharacterModel model, CharacterDialogue dialogue)
         {
@@ -45,6 +48,7 @@ namespace Campero.SkincareInYourFace.Characters
             Assert.IsTrue(_availableTalks.Contains(talk));
             
             _availableTalks.Remove(talk);
+            _log.Add(talk);
             
             AddAvailableTalk();
         }
