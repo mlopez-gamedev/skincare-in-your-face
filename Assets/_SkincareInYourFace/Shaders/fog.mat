@@ -29,14 +29,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _NoiseTex:
         m_Texture: {fileID: 2800000, guid: 636caffe4ab31444a87c83bf39fb2945, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 0.43, y: 0.51}
         m_Offset: {x: 0, y: 0}
     - _NoiseTex2:
         m_Texture: {fileID: 2800000, guid: 636caffe4ab31444a87c83bf39fb2945, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 0.64, y: 0.81}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
-    m_Floats: []
-    m_Colors: []
+    m_Floats:
+    - _Speed1: -0.02
+    - _Speed2: 0.06
+    m_Colors:
+    - _FogColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

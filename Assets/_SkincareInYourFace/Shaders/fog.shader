@@ -13,7 +13,7 @@ Shader "Unlit/fog"
     {
         Tags { "RenderType"="Opaque" }
         LOD 100
-        Blend SrcAlpha OneMinusSrcAlpha
+        Blend One One
         Cull Off
         Zwrite Off
         AlphaTest Greater .001
@@ -68,8 +68,9 @@ Shader "Unlit/fog"
                 fixed4 col = tex2D(_NoiseTex, i.uv*_NoiseTex_ST.xy+_NoiseTex_ST.zw+_Speed1*_Time.y);
                 fixed4 col2= tex2D(_NoiseTex2, i.uv*_NoiseTex2_ST.xy+_NoiseTex2_ST.zw+_Speed2*_Time.y);
                 col=col+col2;
-                col*=_FogColor;
-                col.a=(0,1, mask.r*col.r)*i.color.a;
+                return col*mask*i.color;
+                //col*=_FogColor;
+                col=lerp(float4(0,0,0,1),_FogColor, mask.r*col.r*i.color.a);
                 col*=i.color;
                 return col;
             }
