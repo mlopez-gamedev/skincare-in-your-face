@@ -17,7 +17,7 @@ namespace Campero.SkincareInYourFace.UI
         [SerializeField] private Localize _descriptionText;
         [SerializeField] private Transform _itemPreview;
         [SerializeField] private Transform _itemPreviewParent;
-
+        
         private int _previewLayer;
         private GameObject _preview;
         private AudioPlayer _audioPlayer;
@@ -44,9 +44,11 @@ namespace Campero.SkincareInYourFace.UI
             _preview.layer = _previewLayer;
 			_itemPreview.gameObject.SetActive(true);
             _panel.gameObject.SetActive(true);
-            _panel.DOFade(1f, 0.2f);
             
+            _panel.DOFade(1f, 0.2f);
             _audioPlayer.PlayOpenUiSound();
+            
+            ItemStates.Instance.ViewItem(item);
         }
         
         private void Hide() 
