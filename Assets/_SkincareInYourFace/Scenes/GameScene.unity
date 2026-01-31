@@ -293,8 +293,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _minPosition: {x: -100, y: -80}
   _maxPosition: {x: 100, y: 60}
-  _moveMargin: {x: 100, y: 100}
-  _maxMoveSpeed: 120
+  _moveMargin: {x: 250, y: 250}
+  _maxMoveSpeed: 35
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -1252,7 +1252,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 14275769370022070, guid: 840eb40664136704f917c0501e543082, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.33624077
       objectReference: {fileID: 0}
     - target: {fileID: 14275769370022070, guid: 840eb40664136704f917c0501e543082, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1260,7 +1260,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 14275769370022070, guid: 840eb40664136704f917c0501e543082, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.9417761
       objectReference: {fileID: 0}
     - target: {fileID: 14275769370022070, guid: 840eb40664136704f917c0501e543082, type: 3}
       propertyPath: m_LocalRotation.z
@@ -1272,7 +1272,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 14275769370022070, guid: 840eb40664136704f917c0501e543082, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 140.704
       objectReference: {fileID: 0}
     - target: {fileID: 14275769370022070, guid: 840eb40664136704f917c0501e543082, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
