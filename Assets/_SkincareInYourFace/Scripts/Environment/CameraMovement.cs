@@ -1,3 +1,4 @@
+using System;
 using MiguelGameDev;
 using UnityEngine;
 
@@ -45,20 +46,24 @@ namespace Campero.SkincareInYourFace.Environment
         var cursorPosition = Input.mousePosition;
         if (cursorPosition.x < _leftMove)
         {
-            move.x = (cursorPosition.x - _leftMove) / _moveMargin.x * _maxMoveSpeed;
+            move.x = Math.Min(_maxMoveSpeed,
+                (cursorPosition.x - _leftMove) / _moveMargin.x * _maxMoveSpeed);
         }
         else if (cursorPosition.x > _rightMove)
         {
-            move.x = (cursorPosition.x - _rightMove) / _moveMargin.x * _maxMoveSpeed;
+            move.x = Math.Min(_maxMoveSpeed,
+                (cursorPosition.x - _rightMove) / _moveMargin.x * _maxMoveSpeed);
         }
 
         if (cursorPosition.y > _topMove)
         {
-            move.z = (cursorPosition.y - _topMove) / _moveMargin.y * _maxMoveSpeed;
+            move.z = Math.Min(_maxMoveSpeed, 
+                (cursorPosition.y - _topMove) / _moveMargin.y * _maxMoveSpeed);
         }
         else if (cursorPosition.y < _bottomMove)
         {
-            move.z = (cursorPosition.y - _bottomMove) / _moveMargin.y * _maxMoveSpeed;
+            move.z = Math.Min(_maxMoveSpeed,
+                (cursorPosition.y - _bottomMove) / _moveMargin.y * _maxMoveSpeed);
         }
 
         if (move == Vector3.zero)
