@@ -18,3 +18,5 @@
 - [ ] Add car seethrough
 - [ ] Title screen final
 - [ ] Items UI final
+- [ ] Characters UI final
+- [ ] Dialogue UI final
