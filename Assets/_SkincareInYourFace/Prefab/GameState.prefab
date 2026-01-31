@@ -57,5 +57,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11f9597ebbbb4fa4872d04e328d9f504, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _infiltrateCharacter: {fileID: 0}
-  _maxAccusations: 3
+  _maxAccusations: 1
