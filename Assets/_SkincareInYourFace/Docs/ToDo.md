@@ -8,17 +8,19 @@
 - [x] Add Dialogue system
 - [x] Add Dialogue UI
 - [x] Add Audio system (FMOD)
-- [ ] Add Accusation UI
-- [ ] Add camera zoom
-- [ ] Setup custom cursor
+- [x] Setup custom cursor
 - [x] Add Characters system
 - [x] Add Characters UI
-- [ ] Add interactions
+- [x] Add interactions
+- [ ] Add Music
+- [ ] Add Accusation UI
+- [ ] Add car seethrough
+- [ ] Add camera zoom
 - [ ] Add Intro
 - [ ] Add End game flow (win and lose)
-- [ ] Add car seethrough
 - [ ] Title screen final
 - [ ] Items UI final
 - [ ] Characters UI final
 - [ ] Dialogue UI final
 - [ ] Accusation UI final
+- [ ] Set cursor textures

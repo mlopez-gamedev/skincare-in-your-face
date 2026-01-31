@@ -1,4 +1,5 @@
 using System;
+using Campero.SkincareInYourFace.Audio;
 using Campero.SkincareInYourFace.Characters;
 using Campero.SkincareInYourFace.Environment;
 using Campero.SkincareInYourFace.Interactions;
@@ -11,6 +12,7 @@ namespace Campero.SkincareInYourFace
     {
         public async UniTask StartGame()
         {
+            AudioPlayer.Instance.StopMenuMusic();
             // TODO: Play intro
             Debug.Log("Play intro");
             CharacterFactory.Instance.GenerateCharacters();
@@ -18,6 +20,7 @@ namespace Campero.SkincareInYourFace
             // TODO: init game state
             CameraMovement.Instance.CanMove = true;
             PointerController.Instance.IsEnabled = true;
+            AudioPlayer.Instance.PlayGameMusic();
             Debug.Log("Game Started");
         }
     }

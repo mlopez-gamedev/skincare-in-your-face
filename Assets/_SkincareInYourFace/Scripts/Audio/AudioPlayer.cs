@@ -2,22 +2,50 @@ using FMOD.Studio;
 using MiguelGameDev;
 using UnityEngine;
 using FMODUnity;
+using STOP_MODE = FMOD.Studio.STOP_MODE;
 
 namespace Campero.SkincareInYourFace.Audio
 {
     public class AudioPlayer : SingletonBehaviour<AudioPlayer>
     {
+        [SerializeField] private EventReference _menuMusicEvent;
+        [SerializeField] private EventReference _gameMusicEvent;
+        
         [SerializeField] private EventReference _openUiEvent;
         [SerializeField] private EventReference _closeUiEvent;
 
+        private EventInstance _menuMusicEventInstance;
+        private EventInstance _gameMusicEventInstance;
         private EventInstance _openUiEventInstance;
         private EventInstance _closeUiEventInstance;
         
         protected override void Awake()
         {
             base.Awake();
-            _openUiEventInstance = RuntimeManager.CreateInstance(_openUiEvent);
-            _closeUiEventInstance = RuntimeManager.CreateInstance(_closeUiEvent);
+            _menuMusicEventInstance = RuntimeManager.CreateInstance(_menuMusicEvent);
+            _gameMusicEventInstance = RuntimeManager.CreateInstance(_gameMusicEvent);
+            // _openUiEventInstance = RuntimeManager.CreateInstance(_openUiEvent);
+            // _closeUiEventInstance = RuntimeManager.CreateInstance(_closeUiEvent);
+        }
+        
+        public void PlayMenuMusic()
+        {
+            _menuMusicEventInstance.start();
+        }
+        
+        public void StopMenuMusic()
+        {
+            _menuMusicEventInstance.stop(STOP_MODE.ALLOWFADEOUT);
+        }
+        
+        public void PlayGameMusic()
+        {
+            _gameMusicEventInstance.start();
+        }
+        
+        public void StopGameMusic()
+        {
+            _gameMusicEventInstance.stop(STOP_MODE.ALLOWFADEOUT);
         }
         
         public void PlayOpenUiSound()
