@@ -25,6 +25,8 @@ namespace Campero.SkincareInYourFace.Characters
             {
                 _characters[i] = GenerateCharacter();
             }
+            
+            CharacterStates.Instance.SetInfiltrate(_characters[Random.Range(0, characterCount)]);
 
             Character GenerateCharacter()
             {
@@ -34,11 +36,6 @@ namespace Campero.SkincareInYourFace.Characters
 
                 var character = Instantiate(model.CharacterPrefab, spawnPoint.position, spawnPoint.rotation);
                 character.Setup(model, dialogue);
-
-                if (dialogue.IsInfiltrate)
-                {
-                    CharacterStates.Instance.SetInfiltrate(character);
-                }
                 
                 availableSpawnPoints.Remove(spawnPoint);
                 availableModels.Remove(model);

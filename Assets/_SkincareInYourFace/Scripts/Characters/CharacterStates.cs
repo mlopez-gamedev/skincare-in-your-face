@@ -43,6 +43,11 @@ namespace Campero.SkincareInYourFace.Characters
             }
         }
 
+        public bool IsInfiltrated(CharacterModel character)
+        {
+            return _infiltrateCharacter.Model == character;
+        }
+        
         public bool IsAccused(Character character)
         {
             return _accusedCharacters.Contains(character);

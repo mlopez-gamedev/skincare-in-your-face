@@ -1,3 +1,4 @@
+using Campero.SkincareInYourFace.Characters;
 using I2.Loc;
 using UnityEngine;
 
@@ -8,11 +9,15 @@ namespace Campero.SkincareInYourFace.Items
     {
         [SerializeField] private GameObject _previewPrefab;
         [SerializeField, TermsPopup("Items/")] private string _nameTerm;
-        [SerializeField, TermsPopup("Items/")] private string _descriptionTerm;
+        [SerializeField, TermsPopup("Items/")] private string _normalDescriptionTerm;
+        [SerializeField, TermsPopup("Items/")] private string _infiltratedDescriptionTerm;
+        [SerializeField] private CharacterModel _itemOwner;
 
         public string Key => name;
         public GameObject PreviewPrefab => _previewPrefab;
         public string NameTerm => _nameTerm;
-        public string DescriptionTerm => _descriptionTerm;
+        public string NormalDescriptionTerm => _normalDescriptionTerm;
+        public string InfiltratedDescriptionTerm => _infiltratedDescriptionTerm;
+        public CharacterModel ItemOwner => _itemOwner;
     }
 }

@@ -6,10 +6,8 @@ namespace Campero.SkincareInYourFace.Characters
     [CreateAssetMenu(menuName = "Campero/Dialogue", fileName =  "Dialogue")]
     public class CharacterDialogue : ScriptableObject
     {
-        [SerializeField] private bool _isInfiltrate;
         [SerializeField] private Talk[] _interrogatory;
         
-        public bool IsInfiltrate => _isInfiltrate;
         public Talk[] Interrogatory => _interrogatory;
 
         [Button]
