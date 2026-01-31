@@ -15,3 +15,4 @@ MonoBehaviour:
   _nameTerm: Characters/Character5Name
   _characterAvatar: {fileID: 0}
   _characterPrefab: {fileID: 2286516644506046386, guid: 8374c0219da3a3b479b0bb59bd91cc10, type: 3}
+  _characterDialogue: {fileID: 11400000, guid: b379dacb9359dca48aac13b938a04c2f, type: 2}
