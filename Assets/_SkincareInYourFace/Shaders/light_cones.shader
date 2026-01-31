@@ -9,6 +9,8 @@ Shader "Unlit/light_cones"
         Tags { "RenderType"="Transparent" }
         LOD 100
         Blend One One
+        Cull Off
+        Zwrite off
         Pass
         {
             CGPROGRAM
