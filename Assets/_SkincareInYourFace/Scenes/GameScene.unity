@@ -276,8 +276,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _minPosition: {x: -100, y: -80}
   _maxPosition: {x: 100, y: 60}
-  _moveMargin: {x: 100, y: 100}
-  _maxMoveSpeed: 120
+  _moveMargin: {x: 250, y: 250}
+  _maxMoveSpeed: 35
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
