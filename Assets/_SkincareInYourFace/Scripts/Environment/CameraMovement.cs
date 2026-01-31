@@ -19,15 +19,12 @@ namespace Campero.SkincareInYourFace.Environment
         private float _topMove;
         private float _bottomMove;
 
-        private void Awake()
+        private void Start()
         {
             _leftMove = _moveMargin.x;
             _rightMove = Screen.width - _moveMargin.x;
             _bottomMove = _moveMargin.y;
             _topMove = Screen.height - _moveMargin.y;
-
-            Debug.Log($"_bottomMove {_bottomMove}");
-            Debug.Log($"_topMove {_topMove}");
         }
 
         private void Update()
