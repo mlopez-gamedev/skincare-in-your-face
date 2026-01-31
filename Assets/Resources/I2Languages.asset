@@ -17,12 +17,471 @@ MonoBehaviour:
     UserAgreesToHaveItInsideThePluginsFolder: 0
     GoogleLiveSyncIsUptoDate: 1
     mTerms:
+    - Term: TitleScreen.Start
+      TermType: 0
+      Description: 
+      Languages:
+      - Comenzar
+      - Start
+      Flags: 0000
+      Languages_Touch: []
     - Term: Accuse
       TermType: 0
       Description: 
       Languages:
       - Acusar
       - Accuse
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Start
+      TermType: 0
+      Description: 
+      Languages:
+      - Comenzar
+      - Start
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Talk
+      TermType: 0
+      Description: 
+      Languages:
+      - Hablar
+      - Talk
+      Flags: 0000
+      Languages_Touch: []
+    - Term: WrongAccused
+      TermType: 0
+      Description: 
+      Languages:
+      - Acusado injustamente
+      - Unjustly accused
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/AlpargataName
+      TermType: 0
+      Description: 
+      Languages:
+      - Alpargata
+      - Test Item
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/AlpargataNormalDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - Una alpargata vieja, algo gastada en la suela. Tiene tierra seca pegada y
+        huele un poco a humedad, como si hubiese pasado horas en un maletero cerrado.
+      - Description of a test item. This is just a description to see how the text
+        looks when described.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/AlpargataGuiltyDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - Description of a test item. This is just a description to see how the text
+        looks when described.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/GafasName
+      TermType: 0
+      Description: 
+      Languages:
+      - Gafas
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/GafasNormalDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "Unas gafas de ver con la montura algo rayada. Est\xE1n dobladas por una
+        patilla, pero a\xFAn se pueden usar; parece que alguien las dej\xF3 con prisas."
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/GafasGuiltyDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/RaquetaName
+      TermType: 0
+      Description: 
+      Languages:
+      - Raqueta
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/RaquetaNormalDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "Una raqueta deportiva con el grip sudado y el cordaje algo flojo. No parece
+        nueva, pero est\xE1 cuidada, como de alguien que la usa de vez en cuando."
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/RaquetaGuiltyDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/WalkmanName
+      TermType: 0
+      Description: 
+      Languages:
+      - Walkman
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/WalkmanNormalDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - Un reproductor de casete antiguo con marcas de uso en los bordes. Si lo agitas
+        suena algo dentro, como la cinta suelta o un muelle flojo.
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/WalkmanGuiltyDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/PetacaName
+      TermType: 0
+      Description: 
+      Languages:
+      - Petaca
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/PetacaNormalDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "Una petaca met\xE1lica peque\xF1a, con un par de golpes. Est\xE1 vac\xEDa
+        o casi vac\xEDa; al abrirla queda un olor fuerte, dif\xEDcil de identificar."
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/PetacaGuiltyDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/CamaraName
+      TermType: 0
+      Description: 
+      Languages:
+      - "C\xE1mara"
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/CamaraNormalDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "Una c\xE1mara compacta con la tapa algo ara\xF1ada. Tiene una correa enrollada
+        y est\xE1 llena de huellas, como si la hubiesen pasado de mano en mano."
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/CamaraGuiltyDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/CraneoName
+      TermType: 0
+      Description: 
+      Languages:
+      - "Cr\xE1neo"
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/CraneoNormalDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "Un cr\xE1neo peque\xF1o, blanqueado y seco. No tiene nada \u201Cfresco\u201D;
+        da la sensaci\xF3n de ser un recuerdo raro o un objeto decorativo de mal
+        gusto."
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/CraneoGuiltyDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/MancuernaName
+      TermType: 0
+      Description: 
+      Languages:
+      - Mancuerna
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/MancuernaNormalDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "Una mancuerna de hierro, pesada para su tama\xF1o. Est\xE1 oxidada en algunas
+        zonas y deja un poquito de polvo met\xE1lico en los dedos al tocarla."
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/MancuernaGuiltyDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/LibroDeBolsilloName
+      TermType: 0
+      Description: 
+      Languages:
+      - Libro de bolsillo
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/LibroDeBolsilloNormalDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "Un libro peque\xF1o con las esquinas dobladas y algunas p\xE1ginas marcadas.
+        La portada est\xE1 manoseada, como de haber viajado en una guantera."
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/LibroDeBolsilloGuiltyDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/MunecaName
+      TermType: 0
+      Description: 
+      Languages:
+      - "Mu\xF1eca"
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/MunecaNormalDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "Una mu\xF1eca de pl\xE1stico con la ropa sucia y el pelo enredado. Tiene
+        una mirada fija bastante inquietante, pero en el fondo es \u201Csolo\u201D
+        un juguete viejo."
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/MunecaGuiltyDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/TestDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "Descripci\xF3n de un \xEDtem de prueba. Esto es solo una descripci\xF3n
+        para ver c\xF3mo queda el texto descriptivamente descrito."
+      - Description of a test item. This is just a description to see how the text
+        looks when described.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/TestName
+      TermType: 0
+      Description: 
+      Languages:
+      - "\xCDtem de prueba"
+      - Test Item
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Characters/Character0Name
+      TermType: 0
+      Description: 
+      Languages:
+      - "Se\xF1or Cornudo"
+      - Mr Cornudo
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Characters/Character1Name
+      TermType: 0
+      Description: 
+      Languages:
+      - "Se\xF1or Se\xF1ora"
+      - "Mr Se\xF1ora"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Characters/Character2Name
+      TermType: 0
+      Description: 
+      Languages:
+      - "Se\xF1or Oculo"
+      - Mr Oculo
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Characters/Character3Name
+      TermType: 0
+      Description: 
+      Languages:
+      - "Se\xF1or Tele"
+      - Mr Tele
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Characters/Character4Name
+      TermType: 0
+      Description: 
+      Languages:
+      - "Se\xF1or Liebre"
+      - Mr Liebre
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Characters/Character5Name
+      TermType: 0
+      Description: 
+      Languages:
+      - "Se\xF1or Escroto"
+      - Mr Escroto
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/Question0
+      TermType: 0
+      Description: 
+      Languages:
+      - "\xBFA qui\xE9n conoces mejor del grupo\u2026 y a qui\xE9n no te f\xEDas
+        de mirar demasiado tiempo a los ojos?"
+      - Question2
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/Question1
+      TermType: 0
+      Description: 
+      Languages:
+      - "\xBFPor qu\xE9 te uniste al viaje? Dame la raz\xF3n \u201Coficial\u201D\u2026
+        y la real."
+      - Question3
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/Question2
+      TermType: 0
+      Description: 
+      Languages:
+      - "\xBFQu\xE9 estabas haciendo exactamente cuando el coche se detuvo en esta
+        estaci\xF3n de servicio?"
+      - Question4
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/Question3
+      TermType: 0
+      Description: 
+      Languages:
+      - "Si uno de nosotros no fuera quien dice ser, \xBFqu\xE9 error cometer\xEDa
+        al intentar hacerse pasar por humano?"
+      - Question5
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/Question4
+      TermType: 0
+      Description: 
+      Languages:
+      - "\xBFHas o\xEDdo historias de skinwalkers antes de hoy?"
+      - Question6
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/Question5
+      TermType: 0
+      Description: 
+      Languages:
+      - "Estoy haciendo memoria\u2026 \xBFqu\xE9 objeto dir\xEDas que \u201Cno deber\xEDa
+        estar aqu\xED\u201D y sin embargo est\xE1?"
+      - Question7
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/Question6
+      TermType: 0
+      Description: 
+      Languages:
+      - "Oye, \xBFt\xFA tambi\xE9n notas que hay partes del trayecto que no encajan
+        con el tiempo que ha pasado?"
+      - Question8
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/Question7
+      TermType: 0
+      Description: 
+      Languages:
+      - "\xBFQu\xE9 objeto te faltar\xEDa si tuvieras que demostrar que dices la
+        verdad?"
+      - Question9
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/Question8
+      TermType: 0
+      Description: 
+      Languages:
+      - "\xBFQu\xE9 llevas encima que no quieres que nadie encuentre\u2026 aunque
+        no sea \u201Cilegal\u201D?"
+      - Question10
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/Question9
+      TermType: 0
+      Description: 
+      Languages:
+      - "Antes de llegar aqu\xED, \xBFqu\xE9 fue lo \xFAltimo que viste en la carretera
+        que te hizo pensar \u201Cesto no es normal\u201D?"
+      - Question11
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/Question10
+      TermType: 0
+      Description: 
+      Languages:
+      - "Si tuvieses que se\xF1alar una contradicci\xF3n que has notado hoy, \xBFcu\xE1l
+        es y de qui\xE9n?"
+      - Question12
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/Question11
+      TermType: 0
+      Description: 
+      Languages:
+      - "A ver, dime una cosa: \xBFqui\xE9n fue el \xFAltimo en bajarse del coche
+        y qui\xE9n tard\xF3 m\xE1s en volver?"
+      - Question13
       Flags: 0000
       Languages_Touch: []
     - Term: Answers/Q0_Answer_0
@@ -71,102 +530,6 @@ MonoBehaviour:
       Languages:
       - P 0 Respuesta 6
       - Q 0 Answer 7
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q10_Answer_0
-      TermType: 0
-      Description: 
-      Languages:
-      - P 10 Respuesta 1
-      - Q 10 Answer 2
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q10_Answer_1
-      TermType: 0
-      Description: 
-      Languages:
-      - P 10 Respuesta 2
-      - Q 10 Answer 3
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q10_Answer_2
-      TermType: 0
-      Description: 
-      Languages:
-      - P 10 Respuesta 3
-      - Q 10 Answer 4
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q10_Answer_3
-      TermType: 0
-      Description: 
-      Languages:
-      - P 10 Respuesta 4
-      - Q 10 Answer 5
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q10_Answer_4
-      TermType: 0
-      Description: 
-      Languages:
-      - P 10 Respuesta 5
-      - Q 10 Answer 6
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q10_Answer_5
-      TermType: 0
-      Description: 
-      Languages:
-      - P 10 Respuesta 6
-      - Q 10 Answer 7
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q11_Answer_0
-      TermType: 0
-      Description: 
-      Languages:
-      - P 11 Respuesta 1
-      - Q 11 Answer 2
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q11_Answer_1
-      TermType: 0
-      Description: 
-      Languages:
-      - P 11 Respuesta 2
-      - Q 11 Answer 3
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q11_Answer_2
-      TermType: 0
-      Description: 
-      Languages:
-      - P 11 Respuesta 3
-      - Q 11 Answer 4
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q11_Answer_3
-      TermType: 0
-      Description: 
-      Languages:
-      - P 11 Respuesta 4
-      - Q 11 Answer 5
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q11_Answer_4
-      TermType: 0
-      Description: 
-      Languages:
-      - P 11 Respuesta 5
-      - Q 11 Answer 6
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q11_Answer_5
-      TermType: 0
-      Description: 
-      Languages:
-      - P 11 Respuesta 6
-      - Q 11 Answer 7
       Flags: 0000
       Languages_Touch: []
     - Term: Answers/Q1_Answer_0
@@ -601,190 +964,100 @@ MonoBehaviour:
       - Q 9 Answer 7
       Flags: 0000
       Languages_Touch: []
-    - Term: Characters/Character0Name
+    - Term: Answers/Q10_Answer_0
       TermType: 0
       Description: 
       Languages:
-      - Personaje 0
-      - Character 0
+      - P 10 Respuesta 1
+      - Q 10 Answer 2
       Flags: 0000
       Languages_Touch: []
-    - Term: Characters/Character1Name
+    - Term: Answers/Q10_Answer_1
       TermType: 0
       Description: 
       Languages:
-      - Personaje 1
-      - Character 1
+      - P 10 Respuesta 2
+      - Q 10 Answer 3
       Flags: 0000
       Languages_Touch: []
-    - Term: Characters/Character2Name
+    - Term: Answers/Q10_Answer_2
       TermType: 0
       Description: 
       Languages:
-      - Personaje 2
-      - Character 2
+      - P 10 Respuesta 3
+      - Q 10 Answer 4
       Flags: 0000
       Languages_Touch: []
-    - Term: Characters/Character3Name
+    - Term: Answers/Q10_Answer_3
       TermType: 0
       Description: 
       Languages:
-      - Personaje 3
-      - Character 3
+      - P 10 Respuesta 4
+      - Q 10 Answer 5
       Flags: 0000
       Languages_Touch: []
-    - Term: Characters/Character4Name
+    - Term: Answers/Q10_Answer_4
       TermType: 0
       Description: 
       Languages:
-      - Personaje 4
-      - Character 4
+      - P 10 Respuesta 5
+      - Q 10 Answer 6
       Flags: 0000
       Languages_Touch: []
-    - Term: Characters/Character5Name
+    - Term: Answers/Q10_Answer_5
       TermType: 0
       Description: 
       Languages:
-      - Personaje 5
-      - Character 5
+      - P 10 Respuesta 6
+      - Q 10 Answer 7
       Flags: 0000
       Languages_Touch: []
-    - Term: Items/TestDescription
+    - Term: Answers/Q11_Answer_0
       TermType: 0
       Description: 
       Languages:
-      - "Descripci\xF3n de un \xEDtem de prueba. Esto es solo una descripci\xF3n
-        para ver c\xF3mo queda el texto descriptivamente descrito."
-      - Description of a test item. This is just a description to see how the text
-        looks when described.
+      - P 11 Respuesta 1
+      - Q 11 Answer 2
       Flags: 0000
       Languages_Touch: []
-    - Term: Items/TestName
+    - Term: Answers/Q11_Answer_1
       TermType: 0
       Description: 
       Languages:
-      - "\xCDtem de prueba"
-      - Test Item
+      - P 11 Respuesta 2
+      - Q 11 Answer 3
       Flags: 0000
       Languages_Touch: []
-    - Term: Questions/Question0
+    - Term: Answers/Q11_Answer_2
       TermType: 0
       Description: 
       Languages:
-      - Pregunta1
-      - Question2
+      - P 11 Respuesta 3
+      - Q 11 Answer 4
       Flags: 0000
       Languages_Touch: []
-    - Term: Questions/Question1
+    - Term: Answers/Q11_Answer_3
       TermType: 0
       Description: 
       Languages:
-      - Pregunta2
-      - Question3
+      - P 11 Respuesta 4
+      - Q 11 Answer 5
       Flags: 0000
       Languages_Touch: []
-    - Term: Questions/Question10
+    - Term: Answers/Q11_Answer_4
       TermType: 0
       Description: 
       Languages:
-      - Pregunta11
-      - Question12
+      - P 11 Respuesta 5
+      - Q 11 Answer 6
       Flags: 0000
       Languages_Touch: []
-    - Term: Questions/Question11
+    - Term: Answers/Q11_Answer_5
       TermType: 0
       Description: 
       Languages:
-      - Pregunta12
-      - Question13
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Questions/Question2
-      TermType: 0
-      Description: 
-      Languages:
-      - Pregunta3
-      - Question4
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Questions/Question3
-      TermType: 0
-      Description: 
-      Languages:
-      - Pregunta4
-      - Question5
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Questions/Question4
-      TermType: 0
-      Description: 
-      Languages:
-      - Pregunta5
-      - Question6
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Questions/Question5
-      TermType: 0
-      Description: 
-      Languages:
-      - Pregunta6
-      - Question7
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Questions/Question6
-      TermType: 0
-      Description: 
-      Languages:
-      - Pregunta7
-      - Question8
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Questions/Question7
-      TermType: 0
-      Description: 
-      Languages:
-      - Pregunta8
-      - Question9
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Questions/Question8
-      TermType: 0
-      Description: 
-      Languages:
-      - Pregunta9
-      - Question10
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Questions/Question9
-      TermType: 0
-      Description: 
-      Languages:
-      - Pregunta10
-      - Question11
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Start
-      TermType: 0
-      Description: 
-      Languages:
-      - Comenzar
-      - Start
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Talk
-      TermType: 0
-      Description: 
-      Languages:
-      - Hablar
-      - Talk
-      Flags: 0000
-      Languages_Touch: []
-    - Term: WrongAccused
-      TermType: 0
-      Description: 
-      Languages:
-      - Acusado injustamente
-      - Unjustly accused
+      - P 11 Respuesta 6
+      - Q 11 Answer 7
       Flags: 0000
       Languages_Touch: []
     CaseInsensitiveTerms: 0
@@ -802,7 +1075,7 @@ MonoBehaviour:
     Google_WebServiceURL: https://script.google.com/macros/s/AKfycby7Z1NeRJuviHmJ8k9pIw8KB0DfYgfDkoxOqMyCitRaRXHUZgdmROB2vHxHblgK0IQaEA/exec
     Google_SpreadsheetKey: 1mqGNPGUFMXg2yAoD8rPXvO7sftCYImLr0o5EdCYBzqw
     Google_SpreadsheetName: I2Loc SkincareInYourFace Localization
-    Google_LastUpdatedVersion: 1769855542450
+    Google_LastUpdatedVersion: 1769874484560
     Google_Password: change_this
     GoogleUpdateFrequency: 3
     GoogleInEditorCheckFrequency: 2
