@@ -9,6 +9,7 @@ namespace Campero.SkincareInYourFace
         [SerializeField] private GameLoader _gameLoader;
         
         
+        
         public async void StartNewGame()
         {
             try
@@ -19,6 +20,11 @@ namespace Campero.SkincareInYourFace
             {
                 Debug.LogException(e);
             }
+        }
+
+        public void ActivateUI()
+        {
+            
         }
         
         public void Win()

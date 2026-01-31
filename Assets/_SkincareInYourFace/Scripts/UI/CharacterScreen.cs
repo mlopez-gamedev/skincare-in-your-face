@@ -1,4 +1,6 @@
 using Campero.SkincareInYourFace.Characters;
+using Campero.SkincareInYourFace.Environment;
+using Campero.SkincareInYourFace.Interactions;
 using DG.Tweening;
 using MiguelGameDev;
 using UnityEngine;
@@ -7,7 +9,7 @@ using UnityEngine.UI;
 
 namespace Campero.SkincareInYourFace.UI
 {
-    public class CharacterScreen : MonoBehaviour
+    public class CharacterScreen : SingletonBehaviour<CharacterScreen>
     {
         [SerializeField] private RectTransform _characterPanel;
         [SerializeField] private RectTransform _panelTransform;
@@ -21,8 +23,9 @@ namespace Campero.SkincareInYourFace.UI
         private CharacterStates _characterStates;
         private Character _character;
         
-        private void Awake()
+        protected override void Awake()
         {
+            base.Awake();
             _characterStates = CharacterStates.Instance;
             
             var entry = new EventTrigger.Entry();
@@ -64,6 +67,9 @@ namespace Campero.SkincareInYourFace.UI
         public void Show(Character character)
         {
             _character = character;
+            
+            CameraMovement.Instance.CanMove = false;
+            PointerController.Instance.IsEnabled = false;
             SetAccusation();
             
             _characterPanel.gameObject.SetActive(true);
@@ -97,6 +103,8 @@ namespace Campero.SkincareInYourFace.UI
             void OnComplete()
             {
                 _characterPanel.gameObject.SetActive(false);
+                CameraMovement.Instance.CanMove = true;
+                PointerController.Instance.IsEnabled = true;
             }
         }
 

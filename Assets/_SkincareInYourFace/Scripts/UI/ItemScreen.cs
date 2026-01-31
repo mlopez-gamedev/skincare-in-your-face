@@ -2,15 +2,17 @@ using System;
 using Campero.SkincareInYourFace.Audio;
 using Campero.SkincareInYourFace.Characters;
 using Campero.SkincareInYourFace.Environment;
+using Campero.SkincareInYourFace.Interactions;
 using Campero.SkincareInYourFace.Items;
 using DG.Tweening;
 using I2.Loc;
+using MiguelGameDev;
 using UnityEngine;
 using UnityEngine.UI;
 
 namespace Campero.SkincareInYourFace.UI
 {
-    public class ItemScreen : MonoBehaviour
+    public class ItemScreen : SingletonBehaviour<ItemScreen>
     {
         [SerializeField] private CanvasGroup _panel;
         [SerializeField] private Button _hideButton;
@@ -39,6 +41,8 @@ namespace Campero.SkincareInYourFace.UI
         public void Show(ItemModel item) 
         {
             CameraMovement.Instance.CanMove = false;
+            PointerController.Instance.IsEnabled = false;
+            
             _nameText.SetTerm(item.NameTerm);
 
             if (CharacterStates.Instance.IsInfiltrated(item.ItemOwner))
@@ -73,6 +77,7 @@ namespace Campero.SkincareInYourFace.UI
 				_itemPreview.gameObject.SetActive(false);
                 Destroy(_preview);
                 CameraMovement.Instance.CanMove = true;
+                PointerController.Instance.IsEnabled = true;
             } 
                 
         }
