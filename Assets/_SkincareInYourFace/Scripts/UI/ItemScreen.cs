@@ -1,4 +1,5 @@
 using System;
+using Campero.SkincareInYourFace.Audio;
 using Campero.SkincareInYourFace.Environment;
 using Campero.SkincareInYourFace.Items;
 using DG.Tweening;
@@ -19,9 +20,11 @@ namespace Campero.SkincareInYourFace.UI
 
         private int _previewLayer;
         private GameObject _preview;
+        private AudioPlayer _audioPlayer;
 
         private void Awake()
         {
+            _audioPlayer = AudioPlayer.Instance;
             _previewLayer = LayerMask.NameToLayer("UiPreview");
             
             _panel.alpha = 0;
@@ -42,10 +45,13 @@ namespace Campero.SkincareInYourFace.UI
 			_itemPreview.gameObject.SetActive(true);
             _panel.gameObject.SetActive(true);
             _panel.DOFade(1f, 0.2f);
+            
+            _audioPlayer.PlayOpenUiSound();
         }
         
         private void Hide() 
         {
+            _audioPlayer.PlayCloseUiSound();
             _panel.DOFade(0f, 0.2f)
                 .OnComplete(OnComplete);
             
