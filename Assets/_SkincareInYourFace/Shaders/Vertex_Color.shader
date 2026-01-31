@@ -5,7 +5,7 @@ Shader "Unlit/Vertex_Color"
         _MainTex ("Texture", 2D) = "white" {}
         _NoiseAmount("Noise amount", float)=0.1
         _Speed("Speed", float)=1
-        
+        _Darken("Darken", float)=0.1
     }
     SubShader
     {
@@ -39,6 +39,7 @@ Shader "Unlit/Vertex_Color"
             float4 _MainTex_ST;
             float _NoiseAmount;
             float _Speed;
+            float _Darken;
 
             v2f vert (appdata v)
             {
@@ -60,6 +61,7 @@ Shader "Unlit/Vertex_Color"
 
                 return col;*/
                 col=i.color-(col*_NoiseAmount);
+                col*=_Darken;
 
                 return col;
 
