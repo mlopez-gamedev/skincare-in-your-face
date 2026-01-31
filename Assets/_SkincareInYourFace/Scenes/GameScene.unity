@@ -269,10 +269,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60b5b9ae1326fb147ba6798b7a9ba260, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _minPosition: {x: -5, y: -15}
-  _maxPosition: {x: 5, y: 5}
+  _minPosition: {x: -100, y: -80}
+  _maxPosition: {x: 100, y: 60}
   _moveMargin: {x: 100, y: 100}
-  _maxMoveSpeed: 20
+  _maxMoveSpeed: 120
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
