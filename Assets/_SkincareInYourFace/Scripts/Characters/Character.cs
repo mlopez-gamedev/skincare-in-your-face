@@ -27,30 +27,32 @@ namespace Campero.SkincareInYourFace.Characters
             _reservedTalks = new List<Talk>(_dialogue.Interrogatory);
             for (int i = 0; i < 3; ++i)
             {
-                AddAvailableTalk();
+                TryAddAvailableTalk(out _);
             }
         }
         
-        private void AddAvailableTalk()
+        private bool TryAddAvailableTalk(out Talk talk)
         {
             if (_reservedTalks.Count == 0)
             {
-                return;
+                talk = null;
+                return false;
             }
             
-            var talk = _reservedTalks[Random.Range(0, _reservedTalks.Count)];
+            talk = _reservedTalks[Random.Range(0, _reservedTalks.Count)];
             _availableTalks.Add(talk);
             _reservedTalks.Remove(talk);
+            return true;
         }
         
-        public void SelectTalk(Talk talk) 
+        public bool SelectTalkAndTryGetNew(Talk talk, out Talk newTalk) 
         {
             Assert.IsTrue(_availableTalks.Contains(talk));
             
             _availableTalks.Remove(talk);
             _log.Add(talk);
             
-            AddAvailableTalk();
+            return TryAddAvailableTalk(out newTalk);
         }
     }
 }

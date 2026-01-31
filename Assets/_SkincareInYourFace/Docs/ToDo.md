@@ -6,12 +6,12 @@
 - [x] Add Items system
 - [x] Add Items UI
 - [x] Add Dialogue system
-- [ ] Add Dialogue UI
+- [x] Add Dialogue UI
 - [x] Add Audio system (FMOD)
 - [ ] Add camera zoom
 - [ ] Setup custom cursor
 - [x] Add Characters system
-- [ ] Add Characters UI
+- [x] Add Characters UI
 - [ ] Add interactions
 - [ ] Add Intro
 - [ ] Add End game flow (win and lose)

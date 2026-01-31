@@ -41,26 +41,22 @@ namespace Campero.SkincareInYourFace.Environment
         {
             var move = Vector3.zero;
             var cursorPosition = Input.mousePosition;
-            if (cursorPosition.x < _leftMove)
+            if (cursorPosition.x < _leftMove && cursorPosition.x > 0)
             {
-                move.x = Math.Min(_maxMoveSpeed,
-                    (cursorPosition.x - _leftMove) / _moveMargin.x * _maxMoveSpeed);
+                move.x = (cursorPosition.x - _leftMove) / _moveMargin.x * _maxMoveSpeed;
             }
-            else if (cursorPosition.x > _rightMove)
+            else if (cursorPosition.x > _rightMove && cursorPosition.x < Screen.width)
             {
-                move.x = Math.Min(_maxMoveSpeed,
-                    (cursorPosition.x - _rightMove) / _moveMargin.x * _maxMoveSpeed);
+                move.x = (cursorPosition.x - _rightMove) / _moveMargin.x * _maxMoveSpeed;
             }
 
-            if (cursorPosition.y > _topMove)
+            if (cursorPosition.y > _topMove && cursorPosition.y < Screen.height)
             {
-                move.z = Math.Min(_maxMoveSpeed, 
-                    (cursorPosition.y - _topMove) / _moveMargin.y * _maxMoveSpeed);
+                move.z = (cursorPosition.y - _topMove) / _moveMargin.y * _maxMoveSpeed;
             }
-            else if (cursorPosition.y < _bottomMove)
+            else if (cursorPosition.y < _bottomMove && cursorPosition.y > 0)
             {
-                move.z = Math.Min(_maxMoveSpeed,
-                    (cursorPosition.y - _bottomMove) / _moveMargin.y * _maxMoveSpeed);
+                move.z = (cursorPosition.y - _bottomMove) / _moveMargin.y * _maxMoveSpeed;
             }
 
             if (move == Vector3.zero)

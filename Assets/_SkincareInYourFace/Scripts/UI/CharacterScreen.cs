@@ -1,0 +1,109 @@
+using Campero.SkincareInYourFace.Characters;
+using DG.Tweening;
+using MiguelGameDev;
+using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
+
+namespace Campero.SkincareInYourFace.UI
+{
+    public class CharacterScreen : MonoBehaviour
+    {
+        [SerializeField] private RectTransform _characterPanel;
+        [SerializeField] private RectTransform _panelTransform;
+        [SerializeField] private Image _background;
+        [SerializeField] private DialoguePanel _dialoguePanel;
+        [SerializeField] private EventTrigger _hideButton;
+        [SerializeField] private Button _talkButton;
+        [SerializeField] private Button _accuseButton;
+        [SerializeField] private RectTransform _accusedPanel;
+
+        private CharacterStates _characterStates;
+        private Character _character;
+        
+        private void Awake()
+        {
+            _characterStates = CharacterStates.Instance;
+            
+            var entry = new EventTrigger.Entry();
+            entry.eventID = EventTriggerType.PointerClick;
+            entry.callback = new EventTrigger.TriggerEvent();
+            entry.callback.AddListener(OnButtonHide);
+            _hideButton.triggers.Add(entry);
+            
+            _accuseButton.onClick.AddListener(OnAccuseButtonClicked);
+            _talkButton.onClick.AddListener(OnTalkButtonClicked);
+            
+            _background.SetAlpha(0);
+            _panelTransform.SetAnchoredPositionX(_panelTransform.sizeDelta.x);
+            
+            _characterPanel.gameObject.SetActive(false);
+            _accusedPanel.gameObject.SetActive(false);
+            _accuseButton.gameObject.SetActive(true);
+        }
+
+        private void OnTalkButtonClicked()
+        {
+            _accuseButton.gameObject.SetActive(false);
+            _accusedPanel.gameObject.SetActive(false);
+            _talkButton.gameObject.SetActive(false);
+            _dialoguePanel.Show();
+        }
+
+        private void OnAccuseButtonClicked()
+        {
+            _characterStates.AccuseCharacter(_character);
+        }
+
+        private void OnButtonHide(BaseEventData _)
+        {
+            Hide();
+        }
+
+        [Sirenix.OdinInspector.Button]
+        public void Show(Character character)
+        {
+            _character = character;
+            SetAccusation();
+            
+            _characterPanel.gameObject.SetActive(true);
+            _dialoguePanel.Setup(this, _character);
+            
+            _background.DOFade(0.8f, 0.2f);
+            _panelTransform.DOAnchorPosX(0, 0.2f);
+        }
+
+        private void SetAccusation()
+        {
+            if (_characterStates.IsAccused(_character))
+            {
+                _accuseButton.gameObject.SetActive(false);
+                _accusedPanel.gameObject.SetActive(true);
+            }
+            else
+            {
+                _accuseButton.gameObject.SetActive(true);
+                _accusedPanel.gameObject.SetActive(false);
+            }
+        }
+
+        private void Hide()
+        {
+            _background.DOFade(0f, 0.2f)
+                .OnComplete(OnComplete);
+            
+            _panelTransform.DOAnchorPosX(_panelTransform.sizeDelta.x, 0.2f);
+            
+            void OnComplete()
+            {
+                _characterPanel.gameObject.SetActive(false);
+            }
+        }
+
+        public void BackFromDialoguePanel()
+        {
+            SetAccusation();
+            _talkButton.gameObject.SetActive(true);
+        }
+    }
+}
