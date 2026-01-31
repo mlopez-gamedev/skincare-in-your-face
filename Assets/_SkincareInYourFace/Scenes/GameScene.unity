@@ -838,14 +838,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemScreen
       objectReference: {fileID: 0}
-    - target: {fileID: 1334978987646145539, guid: 33f1ab3078b3da44ca7dea0c916d146d, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1691001888853894814, guid: 33f1ab3078b3da44ca7dea0c916d146d, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6405937169601710199, guid: 33f1ab3078b3da44ca7dea0c916d146d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
