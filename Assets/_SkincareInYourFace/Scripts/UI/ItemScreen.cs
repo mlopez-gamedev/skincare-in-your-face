@@ -1,5 +1,6 @@
 using System;
 using Campero.SkincareInYourFace.Audio;
+using Campero.SkincareInYourFace.Characters;
 using Campero.SkincareInYourFace.Environment;
 using Campero.SkincareInYourFace.Items;
 using DG.Tweening;
@@ -39,7 +40,16 @@ namespace Campero.SkincareInYourFace.UI
         {
             CameraMovement.Instance.CanMove = false;
             _nameText.SetTerm(item.NameTerm);
-            _descriptionText.SetTerm(item.DescriptionTerm);
+
+            if (CharacterStates.Instance.IsInfiltrated(item.ItemOwner))
+            {
+                _descriptionText.SetTerm(item.InfiltratedDescriptionTerm);    
+            }
+            else
+            {
+                _descriptionText.SetTerm(item.NormalDescriptionTerm);
+            }
+            
             _preview = Instantiate(item.PreviewPrefab, _itemPreviewParent);
             _preview.layer = _previewLayer;
 			_itemPreview.gameObject.SetActive(true);
