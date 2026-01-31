@@ -6,7 +6,7 @@ namespace Campero.SkincareInYourFace.Characters
     [CreateAssetMenu(menuName = "Campero/Character", fileName =  "Character")]
     public class CharacterModel : ScriptableObject
     {
-        [SerializeField, TermsPopup("Character/")] private string _nameTerm;
+        [SerializeField, TermsPopup("Characters/")] private string _nameTerm;
         [SerializeField] private Sprite _characterAvatar;
         [SerializeField] private Character _characterPrefab;
         

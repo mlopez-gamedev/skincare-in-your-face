@@ -1,9 +1,10 @@
 using System.Collections.Generic;
+using MiguelGameDev;
 using UnityEngine;
 
 namespace Campero.SkincareInYourFace.Characters
 {
-    public class CharacterFactory : MonoBehaviour
+    public class CharacterFactory : SingletonBehaviour<CharacterFactory>
     {
         [SerializeField] private Transform[] _spawnPoints;
         [SerializeField] private CharacterModel[] _models;

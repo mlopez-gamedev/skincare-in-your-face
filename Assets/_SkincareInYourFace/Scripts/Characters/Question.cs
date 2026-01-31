@@ -7,7 +7,7 @@ namespace Campero.SkincareInYourFace.Characters
     [CreateAssetMenu(fileName = "Question", menuName = "Campero/Question")]
     public class Question : ScriptableObject
     {
-        [SerializeField, TermsPopup] private string _term;
+        [SerializeField, TermsPopup("Questions/")] private string _term;
         
         public string Term => _term;
     }

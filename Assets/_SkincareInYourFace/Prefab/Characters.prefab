@@ -44,6 +44,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88f3b755eb6d4e9d88ee4eba69348e3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _spawnPoints: []
-  _models: []
-  _dialogues: []
+  _spawnPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _models:
+  - {fileID: 11400000, guid: 09d99b68989d8f341b6dd39a51b97c64, type: 2}
+  - {fileID: 11400000, guid: 5c73eaa965db8ef499135ebd9e33140b, type: 2}
+  - {fileID: 11400000, guid: ecab7b508559b2d49bb0d155652ae35d, type: 2}
+  - {fileID: 11400000, guid: ae1cef8e65c39f545ba42afe510a25a8, type: 2}
+  - {fileID: 11400000, guid: 0158f36012688f54ba85298525bdd565, type: 2}
+  - {fileID: 11400000, guid: fa3c83ad490c4d04e9af6e17a76d73ca, type: 2}
+  _dialogues:
+  - {fileID: 11400000, guid: 7b20c6ea957d171449fbb72f1e861e7d, type: 2}
+  - {fileID: 11400000, guid: 24dd5c60cb7a4c944b8fa04e33820c57, type: 2}
+  - {fileID: 11400000, guid: 86791cd94b7018c44b188985ac7c974a, type: 2}
+  - {fileID: 11400000, guid: 583dc9f02ece77944a24b2b190712714, type: 2}
+  - {fileID: 11400000, guid: 41037f00c63c9ca4b85d80ca2d0cad32, type: 2}
+  - {fileID: 11400000, guid: b379dacb9359dca48aac13b938a04c2f, type: 2}

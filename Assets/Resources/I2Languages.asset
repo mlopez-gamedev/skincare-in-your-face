@@ -25,14 +25,6 @@ MonoBehaviour:
       - Start
       Flags: 0000
       Languages_Touch: []
-    - Term: Items/TestName
-      TermType: 0
-      Description: 
-      Languages:
-      - "\xCDtem de prueba"
-      - Test Item
-      Flags: 0000
-      Languages_Touch: []
     - Term: Items/TestDescription
       TermType: 0
       Description: 
@@ -41,6 +33,734 @@ MonoBehaviour:
         para ver c\xF3mo queda el texto descriptivamente descrito."
       - Description of a test item. This is just a description to see how the text
         looks when described.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/TestName
+      TermType: 0
+      Description: 
+      Languages:
+      - "\xCDtem de prueba"
+      - Test Item
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Characters/Character0Name
+      TermType: 0
+      Description: 
+      Languages:
+      - Personaje 0
+      - Character 0
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Characters/Character1Name
+      TermType: 0
+      Description: 
+      Languages:
+      - Personaje 1
+      - Character 1
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Characters/Character2Name
+      TermType: 0
+      Description: 
+      Languages:
+      - Personaje 2
+      - Character 2
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Characters/Character3Name
+      TermType: 0
+      Description: 
+      Languages:
+      - Personaje 3
+      - Character 3
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Characters/Character4Name
+      TermType: 0
+      Description: 
+      Languages:
+      - Personaje 4
+      - Character 4
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Characters/Character5Name
+      TermType: 0
+      Description: 
+      Languages:
+      - Personaje 5
+      - Character 5
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/Question0
+      TermType: 0
+      Description: 
+      Languages:
+      - Pregunta1
+      - Question2
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/Question1
+      TermType: 0
+      Description: 
+      Languages:
+      - Pregunta2
+      - Question3
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/Question2
+      TermType: 0
+      Description: 
+      Languages:
+      - Pregunta3
+      - Question4
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/Question3
+      TermType: 0
+      Description: 
+      Languages:
+      - Pregunta4
+      - Question5
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/Question4
+      TermType: 0
+      Description: 
+      Languages:
+      - Pregunta5
+      - Question6
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/Question5
+      TermType: 0
+      Description: 
+      Languages:
+      - Pregunta6
+      - Question7
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/Question6
+      TermType: 0
+      Description: 
+      Languages:
+      - Pregunta7
+      - Question8
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/Question7
+      TermType: 0
+      Description: 
+      Languages:
+      - Pregunta8
+      - Question9
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/Question8
+      TermType: 0
+      Description: 
+      Languages:
+      - Pregunta9
+      - Question10
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/Question9
+      TermType: 0
+      Description: 
+      Languages:
+      - Pregunta10
+      - Question11
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/Question10
+      TermType: 0
+      Description: 
+      Languages:
+      - Pregunta11
+      - Question12
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/Question11
+      TermType: 0
+      Description: 
+      Languages:
+      - Pregunta12
+      - Question13
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q0_Answer_0
+      TermType: 0
+      Description: 
+      Languages:
+      - P 0 Respuesta 1
+      - Q 0 Answer 2
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q0_Answer_1
+      TermType: 0
+      Description: 
+      Languages:
+      - P 0 Respuesta 2
+      - Q 0 Answer 3
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q0_Answer_2
+      TermType: 0
+      Description: 
+      Languages:
+      - P 0 Respuesta 3
+      - Q 0 Answer 4
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q0_Answer_3
+      TermType: 0
+      Description: 
+      Languages:
+      - P 0 Respuesta 4
+      - Q 0 Answer 5
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q0_Answer_4
+      TermType: 0
+      Description: 
+      Languages:
+      - P 0 Respuesta 5
+      - Q 0 Answer 6
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q0_Answer_5
+      TermType: 0
+      Description: 
+      Languages:
+      - P 0 Respuesta 6
+      - Q 0 Answer 7
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q1_Answer_0
+      TermType: 0
+      Description: 
+      Languages:
+      - P 1 Respuesta 1
+      - Q 1 Answer 2
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q1_Answer_1
+      TermType: 0
+      Description: 
+      Languages:
+      - P 1 Respuesta 2
+      - Q 1 Answer 3
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q1_Answer_2
+      TermType: 0
+      Description: 
+      Languages:
+      - P 1 Respuesta 3
+      - Q 1 Answer 4
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q1_Answer_3
+      TermType: 0
+      Description: 
+      Languages:
+      - P 1 Respuesta 4
+      - Q 1 Answer 5
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q1_Answer_4
+      TermType: 0
+      Description: 
+      Languages:
+      - P 1 Respuesta 5
+      - Q 1 Answer 6
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q1_Answer_5
+      TermType: 0
+      Description: 
+      Languages:
+      - P 1 Respuesta 6
+      - Q 1 Answer 7
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q2_Answer_0
+      TermType: 0
+      Description: 
+      Languages:
+      - P 2 Respuesta 1
+      - Q 2 Answer 2
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q2_Answer_1
+      TermType: 0
+      Description: 
+      Languages:
+      - P 2 Respuesta 2
+      - Q 2 Answer 3
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q2_Answer_2
+      TermType: 0
+      Description: 
+      Languages:
+      - P 2 Respuesta 3
+      - Q 2 Answer 4
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q2_Answer_3
+      TermType: 0
+      Description: 
+      Languages:
+      - P 2 Respuesta 4
+      - Q 2 Answer 5
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q2_Answer_4
+      TermType: 0
+      Description: 
+      Languages:
+      - P 2 Respuesta 5
+      - Q 2 Answer 6
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q2_Answer_5
+      TermType: 0
+      Description: 
+      Languages:
+      - P 2 Respuesta 6
+      - Q 2 Answer 7
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q3_Answer_0
+      TermType: 0
+      Description: 
+      Languages:
+      - P 3 Respuesta 1
+      - Q 3 Answer 2
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q3_Answer_1
+      TermType: 0
+      Description: 
+      Languages:
+      - P 3 Respuesta 2
+      - Q 3 Answer 3
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q3_Answer_2
+      TermType: 0
+      Description: 
+      Languages:
+      - P 3 Respuesta 3
+      - Q 3 Answer 4
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q3_Answer_3
+      TermType: 0
+      Description: 
+      Languages:
+      - P 3 Respuesta 4
+      - Q 3 Answer 5
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q3_Answer_4
+      TermType: 0
+      Description: 
+      Languages:
+      - P 3 Respuesta 5
+      - Q 3 Answer 6
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q3_Answer_5
+      TermType: 0
+      Description: 
+      Languages:
+      - P 3 Respuesta 6
+      - Q 3 Answer 7
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q4_Answer_0
+      TermType: 0
+      Description: 
+      Languages:
+      - P 4 Respuesta 1
+      - Q 4 Answer 2
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q4_Answer_1
+      TermType: 0
+      Description: 
+      Languages:
+      - P 4 Respuesta 2
+      - Q 4 Answer 3
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q4_Answer_2
+      TermType: 0
+      Description: 
+      Languages:
+      - P 4 Respuesta 3
+      - Q 4 Answer 4
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q4_Answer_3
+      TermType: 0
+      Description: 
+      Languages:
+      - P 4 Respuesta 4
+      - Q 4 Answer 5
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q4_Answer_4
+      TermType: 0
+      Description: 
+      Languages:
+      - P 4 Respuesta 5
+      - Q 4 Answer 6
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q4_Answer_5
+      TermType: 0
+      Description: 
+      Languages:
+      - P 4 Respuesta 6
+      - Q 4 Answer 7
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q5_Answer_0
+      TermType: 0
+      Description: 
+      Languages:
+      - P 5 Respuesta 1
+      - Q 5 Answer 2
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q5_Answer_1
+      TermType: 0
+      Description: 
+      Languages:
+      - P 5 Respuesta 2
+      - Q 5 Answer 3
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q5_Answer_2
+      TermType: 0
+      Description: 
+      Languages:
+      - P 5 Respuesta 3
+      - Q 5 Answer 4
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q5_Answer_3
+      TermType: 0
+      Description: 
+      Languages:
+      - P 5 Respuesta 4
+      - Q 5 Answer 5
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q5_Answer_4
+      TermType: 0
+      Description: 
+      Languages:
+      - P 5 Respuesta 5
+      - Q 5 Answer 6
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q5_Answer_5
+      TermType: 0
+      Description: 
+      Languages:
+      - P 5 Respuesta 6
+      - Q 5 Answer 7
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q6_Answer_0
+      TermType: 0
+      Description: 
+      Languages:
+      - P 6 Respuesta 1
+      - Q 6 Answer 2
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q6_Answer_1
+      TermType: 0
+      Description: 
+      Languages:
+      - P 6 Respuesta 2
+      - Q 6 Answer 3
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q6_Answer_2
+      TermType: 0
+      Description: 
+      Languages:
+      - P 6 Respuesta 3
+      - Q 6 Answer 4
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q6_Answer_3
+      TermType: 0
+      Description: 
+      Languages:
+      - P 6 Respuesta 4
+      - Q 6 Answer 5
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q6_Answer_4
+      TermType: 0
+      Description: 
+      Languages:
+      - P 6 Respuesta 5
+      - Q 6 Answer 6
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q6_Answer_5
+      TermType: 0
+      Description: 
+      Languages:
+      - P 6 Respuesta 6
+      - Q 6 Answer 7
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q7_Answer_0
+      TermType: 0
+      Description: 
+      Languages:
+      - P 7 Respuesta 1
+      - Q 7 Answer 2
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q7_Answer_1
+      TermType: 0
+      Description: 
+      Languages:
+      - P 7 Respuesta 2
+      - Q 7 Answer 3
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q7_Answer_2
+      TermType: 0
+      Description: 
+      Languages:
+      - P 7 Respuesta 3
+      - Q 7 Answer 4
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q7_Answer_3
+      TermType: 0
+      Description: 
+      Languages:
+      - P 7 Respuesta 4
+      - Q 7 Answer 5
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q7_Answer_4
+      TermType: 0
+      Description: 
+      Languages:
+      - P 7 Respuesta 5
+      - Q 7 Answer 6
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q7_Answer_5
+      TermType: 0
+      Description: 
+      Languages:
+      - P 7 Respuesta 6
+      - Q 7 Answer 7
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q8_Answer_0
+      TermType: 0
+      Description: 
+      Languages:
+      - P 8 Respuesta 1
+      - Q 8 Answer 2
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q8_Answer_1
+      TermType: 0
+      Description: 
+      Languages:
+      - P 8 Respuesta 2
+      - Q 8 Answer 3
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q8_Answer_2
+      TermType: 0
+      Description: 
+      Languages:
+      - P 8 Respuesta 3
+      - Q 8 Answer 4
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q8_Answer_3
+      TermType: 0
+      Description: 
+      Languages:
+      - P 8 Respuesta 4
+      - Q 8 Answer 5
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q8_Answer_4
+      TermType: 0
+      Description: 
+      Languages:
+      - P 8 Respuesta 5
+      - Q 8 Answer 6
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q8_Answer_5
+      TermType: 0
+      Description: 
+      Languages:
+      - P 8 Respuesta 6
+      - Q 8 Answer 7
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q9_Answer_0
+      TermType: 0
+      Description: 
+      Languages:
+      - P 9 Respuesta 1
+      - Q 9 Answer 2
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q9_Answer_1
+      TermType: 0
+      Description: 
+      Languages:
+      - P 9 Respuesta 2
+      - Q 9 Answer 3
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q9_Answer_2
+      TermType: 0
+      Description: 
+      Languages:
+      - P 9 Respuesta 3
+      - Q 9 Answer 4
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q9_Answer_3
+      TermType: 0
+      Description: 
+      Languages:
+      - P 9 Respuesta 4
+      - Q 9 Answer 5
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q9_Answer_4
+      TermType: 0
+      Description: 
+      Languages:
+      - P 9 Respuesta 5
+      - Q 9 Answer 6
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q9_Answer_5
+      TermType: 0
+      Description: 
+      Languages:
+      - P 9 Respuesta 6
+      - Q 9 Answer 7
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q10_Answer_0
+      TermType: 0
+      Description: 
+      Languages:
+      - P 10 Respuesta 1
+      - Q 10 Answer 2
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q10_Answer_1
+      TermType: 0
+      Description: 
+      Languages:
+      - P 10 Respuesta 2
+      - Q 10 Answer 3
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q10_Answer_2
+      TermType: 0
+      Description: 
+      Languages:
+      - P 10 Respuesta 3
+      - Q 10 Answer 4
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q10_Answer_3
+      TermType: 0
+      Description: 
+      Languages:
+      - P 10 Respuesta 4
+      - Q 10 Answer 5
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q10_Answer_4
+      TermType: 0
+      Description: 
+      Languages:
+      - P 10 Respuesta 5
+      - Q 10 Answer 6
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q10_Answer_5
+      TermType: 0
+      Description: 
+      Languages:
+      - P 10 Respuesta 6
+      - Q 10 Answer 7
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q11_Answer_0
+      TermType: 0
+      Description: 
+      Languages:
+      - P 11 Respuesta 1
+      - Q 11 Answer 2
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q11_Answer_1
+      TermType: 0
+      Description: 
+      Languages:
+      - P 11 Respuesta 2
+      - Q 11 Answer 3
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q11_Answer_2
+      TermType: 0
+      Description: 
+      Languages:
+      - P 11 Respuesta 3
+      - Q 11 Answer 4
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q11_Answer_3
+      TermType: 0
+      Description: 
+      Languages:
+      - P 11 Respuesta 4
+      - Q 11 Answer 5
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q11_Answer_4
+      TermType: 0
+      Description: 
+      Languages:
+      - P 11 Respuesta 5
+      - Q 11 Answer 6
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q11_Answer_5
+      TermType: 0
+      Description: 
+      Languages:
+      - P 11 Respuesta 6
+      - Q 11 Answer 7
       Flags: 0000
       Languages_Touch: []
     CaseInsensitiveTerms: 0
@@ -58,7 +778,7 @@ MonoBehaviour:
     Google_WebServiceURL: https://script.google.com/macros/s/AKfycby7Z1NeRJuviHmJ8k9pIw8KB0DfYgfDkoxOqMyCitRaRXHUZgdmROB2vHxHblgK0IQaEA/exec
     Google_SpreadsheetKey: 1mqGNPGUFMXg2yAoD8rPXvO7sftCYImLr0o5EdCYBzqw
     Google_SpreadsheetName: I2Loc SkincareInYourFace Localization
-    Google_LastUpdatedVersion: 
+    Google_LastUpdatedVersion: 1769855542450
     Google_Password: change_this
     GoogleUpdateFrequency: 3
     GoogleInEditorCheckFrequency: 2

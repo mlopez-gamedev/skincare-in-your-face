@@ -7,9 +7,14 @@ namespace Campero.SkincareInYourFace.Characters
     public class Talk
     {
         [SerializeField] private Question _question;
-        [SerializeField, TermsPopup] private string _answerTerm;
+        [SerializeField, TermsPopup("Answers/")] private string _answerTerm;
         
         public Question Question => _question;
         public string AnswerTerm => _answerTerm;
+
+        public void SetAnswer(string answerTerm)
+        {
+            _answerTerm = answerTerm;
+        }
     }
 }
