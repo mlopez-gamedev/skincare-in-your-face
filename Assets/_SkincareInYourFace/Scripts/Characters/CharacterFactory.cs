@@ -8,17 +8,18 @@ namespace Campero.SkincareInYourFace.Characters
     {
         [SerializeField] private Transform[] _spawnPoints;
         [SerializeField] private CharacterModel[] _models;
-        [SerializeField] private CharacterDialogue[] _dialogues;
+        //[SerializeField] private CharacterDialogue[] _dialogues;
 
         private Character[] _characters;
         
         public void GenerateCharacters()
         {
-            int characterCount = Mathf.Min(_spawnPoints.Length, _models.Length, _dialogues.Length);
+            //int characterCount = Mathf.Min(_spawnPoints.Length, _models.Length, _dialogues.Length);
+            int characterCount = Mathf.Min(_spawnPoints.Length, _models.Length);
 
             var availableSpawnPoints = new List<Transform>(_spawnPoints);
             var availableModels = new List<CharacterModel>(_models);
-            var availableDialogues = new List<CharacterDialogue>(_dialogues);
+            //var availableDialogues = new List<CharacterDialogue>(_dialogues);
             
             _characters = new Character[characterCount];
             for (int i = 0; i < characterCount; i++)
@@ -32,14 +33,14 @@ namespace Campero.SkincareInYourFace.Characters
             {
                 var spawnPoint = availableSpawnPoints[Random.Range(0, availableSpawnPoints.Count)];
                 var model = availableModels[Random.Range(0, availableModels.Count)];
-                var dialogue = availableDialogues[Random.Range(0, availableDialogues.Count)];
+                //var dialogue = availableDialogues[Random.Range(0, availableDialogues.Count)];
 
                 var character = Instantiate(model.CharacterPrefab, spawnPoint.position, spawnPoint.rotation);
-                character.Setup(model, dialogue);
+                character.Setup(model, model.CharacterDialogue);
                 
                 availableSpawnPoints.Remove(spawnPoint);
                 availableModels.Remove(model);
-                availableDialogues.Remove(dialogue);
+                // availableDialogues.Remove(dialogue);
                 
                 return character;
             }

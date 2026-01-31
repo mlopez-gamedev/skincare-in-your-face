@@ -1,15 +1,23 @@
 using System.Collections.Generic;
-using NUnit.Framework;
+using Campero.SkincareInYourFace.Interactions;
+using Campero.SkincareInYourFace.UI;
 using UnityEngine;
+using UnityEngine.Assertions;
 
 namespace Campero.SkincareInYourFace.Characters
 {
-    public class Character : MonoBehaviour
+    public class Character : MonoBehaviour, IInteractable
     {
+        [SerializeField] private MeshRenderer _renderer;
+        [SerializeField] private Material _highlightMaterial;
+        [SerializeField] private CursorModel _cursor;
+        private Interactor _interactor;
+        
         private CharacterModel _model;
         private CharacterDialogue _dialogue;
         
         public CharacterModel Model => _model;
+        public CursorModel Cursor => _cursor;
         
         private List<Talk> _reservedTalks = new List<Talk>();
         private List<Talk> _availableTalks = new List<Talk>();
@@ -29,6 +37,9 @@ namespace Campero.SkincareInYourFace.Characters
             {
                 TryAddAvailableTalk(out _);
             }
+            
+            _interactor = GetComponentInChildren<Interactor>();
+            _interactor.Setup(this);
         }
         
         private bool TryAddAvailableTalk(out Talk talk)
@@ -53,6 +64,30 @@ namespace Campero.SkincareInYourFace.Characters
             _log.Add(talk);
             
             return TryAddAvailableTalk(out newTalk);
+        }
+
+        public void Interact()
+        {
+            CharacterScreen.Instance.Show(this);
+        }
+
+        public void SetHighlight(bool highlight)
+        {
+            if (highlight)
+            {
+                _renderer.materials = new[]
+                {
+                    _renderer.materials[0],
+                    new Material(_highlightMaterial)
+                };
+            }
+            else 
+            {
+                _renderer.materials = new[]
+                {
+                    _renderer.materials[0]
+                };
+            }
         }
     }
 }

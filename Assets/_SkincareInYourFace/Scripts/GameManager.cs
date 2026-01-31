@@ -1,4 +1,5 @@
 using System;
+using Campero.SkincareInYourFace.Audio;
 using MiguelGameDev;
 using UnityEngine;
 
@@ -7,7 +8,11 @@ namespace Campero.SkincareInYourFace
     public class GameManager : SingletonBehaviour<GameManager>
     {
         [SerializeField] private GameLoader _gameLoader;
-        
+
+        private void Start()
+        {
+            AudioPlayer.Instance.PlayMenuMusic();
+        }
         
         public async void StartNewGame()
         {
@@ -19,6 +24,11 @@ namespace Campero.SkincareInYourFace
             {
                 Debug.LogException(e);
             }
+        }
+
+        public void ActivateUI()
+        {
+            
         }
         
         public void Win()

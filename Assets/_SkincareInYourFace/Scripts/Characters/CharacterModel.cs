@@ -9,10 +9,12 @@ namespace Campero.SkincareInYourFace.Characters
         [SerializeField, TermsPopup("Characters/")] private string _nameTerm;
         [SerializeField] private Sprite _characterAvatar;
         [SerializeField] private Character _characterPrefab;
+        [SerializeField] private CharacterDialogue _characterDialogue;
         
         public string Key => name;
         public string NameTerm => _nameTerm;
         public Sprite CharacterAvatar => _characterAvatar;
         public Character CharacterPrefab => _characterPrefab;
+        public CharacterDialogue CharacterDialogue => _characterDialogue;
     }
 }
