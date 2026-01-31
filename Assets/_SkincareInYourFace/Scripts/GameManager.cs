@@ -1,5 +1,4 @@
 using System;
-using Cysharp.Threading.Tasks;
 using MiguelGameDev;
 using UnityEngine;
 
@@ -8,6 +7,7 @@ namespace Campero.SkincareInYourFace
     public class GameManager : SingletonBehaviour<GameManager>
     {
         [SerializeField] private GameLoader _gameLoader;
+        
         
         public async void StartNewGame()
         {
@@ -19,6 +19,18 @@ namespace Campero.SkincareInYourFace
             {
                 Debug.LogException(e);
             }
+        }
+        
+        public void Win()
+        {
+            // TODO: WIN
+            Debug.Log($"You win");   
+        }
+        
+        public void Lose()
+        {
+            // TODO: LOSE
+            Debug.Log($"You lose");   
         }
     }
 }
