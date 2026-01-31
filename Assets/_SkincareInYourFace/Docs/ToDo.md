@@ -5,12 +5,12 @@
 - [x] Add camera movement
 - [x] Add Items system
 - [x] Add Items UI
-- [ ] Add Dialogue system
+- [x] Add Dialogue system
 - [ ] Add Dialogue UI
-- [ ] Add Audio system (FMOD)
+- [x] Add Audio system (FMOD)
 - [ ] Add camera zoom
 - [ ] Setup custom cursor
-- [ ] Add Characters system
+- [x] Add Characters system
 - [ ] Add Characters UI
 - [ ] Add interactions
 - [ ] Add Intro
