@@ -21,7 +21,7 @@ namespace Campero.SkincareInYourFace
 
             _videoImage.gameObject.SetActive(true);
             _videoImage.DOFade(1f, 0.2f);
-            //await PlayIntro();
+            await PlayIntro();
             await _videoImage.DOFade(0, 0.5f).AsyncWaitForCompletion();
             _videoImage.gameObject.SetActive(false);
             
@@ -35,13 +35,14 @@ namespace Campero.SkincareInYourFace
         {
             var introTaskCompletionSource = new UniTaskCompletionSource();
             
-            _videoPlayer.seekCompleted += OnSeekCompleted;
+            _videoPlayer.loopPointReached += OnSeekCompleted;
             _videoPlayer.Play();
 
             return introTaskCompletionSource.Task;
 
             void OnSeekCompleted(VideoPlayer _)
             {
+                Debug.Log("OnSeekCompleted");
                 introTaskCompletionSource.TrySetResult();
             }
         }
