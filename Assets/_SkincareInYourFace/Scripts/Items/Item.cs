@@ -29,21 +29,21 @@ namespace Campero.SkincareInYourFace.Items
         public void SetHighlight(bool highlight)
         {
             Debug.Log($"{name} highlight: {highlight}");
-            if (highlight)
-            {
-                _renderer.materials = new[]
-                {
-                    _renderer.materials[0],
-                    new Material(_highlightMaterial)
-                };
-            }
-            else 
-            {
-                _renderer.materials = new[]
-                {
-                    _renderer.materials[0]
-                };
-            }
+            // if (highlight)
+            // {
+            //     _renderer.materials = new[]
+            //     {
+            //         _renderer.materials[0],
+            //         new Material(_highlightMaterial)
+            //     };
+            // }
+            // else 
+            // {
+            //     _renderer.materials = new[]
+            //     {
+            //         _renderer.materials[0]
+            //     };
+            // }
         }
     }
 }

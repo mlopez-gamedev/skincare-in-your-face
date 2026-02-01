@@ -532,7 +532,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Tu cuerpo seguir\xE1 existiendo, pero... ya no ser\xE1s t\xFA."
+  m_text: "Has detenido la invasi\xF3n de los cambiacaras."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3cafe329cfc7f724bb369128f9c414fd, type: 2}
   m_sharedMaterial: {fileID: 5474020766023905607, guid: 3cafe329cfc7f724bb369128f9c414fd, type: 2}
@@ -709,7 +709,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Tu cuerpo seguir\xE1 existiendo, pero... ya no ser\xE1s t\xFA."
+  m_text: "\xA1LO CONSEGUISTE!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3cafe329cfc7f724bb369128f9c414fd, type: 2}
   m_sharedMaterial: {fileID: 5474020766023905607, guid: 3cafe329cfc7f724bb369128f9c414fd, type: 2}

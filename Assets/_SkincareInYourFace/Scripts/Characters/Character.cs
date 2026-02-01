@@ -8,7 +8,7 @@ namespace Campero.SkincareInYourFace.Characters
 {
     public class Character : MonoBehaviour, IInteractable
     {
-        [SerializeField] private MeshRenderer _renderer;
+        [SerializeField] private Renderer _renderer;
         [SerializeField] private Material _highlightMaterial;
         [SerializeField] private CursorModel _cursor;
         private Interactor _interactor;

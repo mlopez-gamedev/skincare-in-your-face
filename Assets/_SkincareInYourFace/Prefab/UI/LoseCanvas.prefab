@@ -150,8 +150,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4280098243
-  m_fontColor: {r: 0.7660377, g: 0.1141829, b: 0.1141829, a: 1}
+    rgba: 4278336255
+  m_fontColor: {r: 1, g: 0.22879875, b: 0.0059999824, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1011,9 +1011,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff937ef88bc2477db01c6661601cefaf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Campero.SkincareInYourFace.UI.GameOverScreen
-  _panel: {fileID: 0}
-  _startButton: {fileID: 0}
-  _quitButton: {fileID: 0}
+  _panel: {fileID: 8449371375802898198}
+  _startButton: {fileID: 8433720144257245431}
+  _quitButton: {fileID: 363527796911146821}
 --- !u!1 &6709299507955294478
 GameObject:
   m_ObjectHideFlags: 0

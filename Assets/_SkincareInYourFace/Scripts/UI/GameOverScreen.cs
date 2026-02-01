@@ -15,7 +15,7 @@ namespace Campero.SkincareInYourFace.UI
         {
             _startButton.onClick.AddListener(OnStartButtonClicked);
             _quitButton.onClick.AddListener(Application.Quit);
-            _panel.gameObject.SetActive(true);
+            _panel.gameObject.SetActive(false);
         }
 
         public void Show()

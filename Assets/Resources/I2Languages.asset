@@ -1834,6 +1834,38 @@ MonoBehaviour:
       - Credits
       Flags: 0000
       Languages_Touch: []
+    - Term: GameOver
+      TermType: 0
+      Description: 
+      Languages:
+      - HAS FALLADO
+      - YOU FAILED
+      Flags: 0000
+      Languages_Touch: []
+    - Term: GameOverDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "Tu cuerpo seguir\xE1 existiendo, pero... ya no ser\xE1s t\xFA."
+      - Your body will still exist, but... you will no longer be you.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Win
+      TermType: 0
+      Description: 
+      Languages:
+      - "\xA1LO CONSEGUISTE!"
+      - YOU DID IT!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: WinDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "Has detenido la invasi\xF3n de los cambiacaras."
+      - You have stopped the invasion of the face-changers.
+      Flags: 0000
+      Languages_Touch: []
     CaseInsensitiveTerms: 0
     OnMissingTranslation: 1
     mTerm_AppName: 
