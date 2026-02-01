@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Petaca
   m_EditorClassIdentifier: 
   _previewPrefab: {fileID: 3750223570668677346, guid: f190a0e2e5598c747979cc50e6334fa1, type: 3}
+  _previewSprite: {fileID: 21300000, guid: 533ab0a8af0de07438e4d37ebf9a306e, type: 3}
   _nameTerm: Items/PetacaName
   _normalDescriptionTerm: Items/PetacaNormalDescription
   _infiltratedDescriptionTerm: Items/PetacaGuiltyDescription
-  _itemOwner: {fileID: 11400000, guid: ecab7b508559b2d49bb0d155652ae35d, type: 2}
+  _itemOwner: {fileID: 11400000, guid: fa3c83ad490c4d04e9af6e17a76d73ca, type: 2}

@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Muneca
   m_EditorClassIdentifier: 
   _previewPrefab: {fileID: 3750223570668677346, guid: d7b843948ad58674998e33311c7c1924, type: 3}
+  _previewSprite: {fileID: 21300000, guid: 2e2446af584e956458454ad4459bc6b6, type: 3}
   _nameTerm: Items/MunecaName
   _normalDescriptionTerm: Items/MunecaNormalDescription
   _infiltratedDescriptionTerm: Items/MunecaGuiltyDescription
-  _itemOwner: {fileID: 11400000, guid: 0158f36012688f54ba85298525bdd565, type: 2}
+  _itemOwner: {fileID: 11400000, guid: 5c73eaa965db8ef499135ebd9e33140b, type: 2}

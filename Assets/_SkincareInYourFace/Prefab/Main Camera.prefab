@@ -142,8 +142,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60b5b9ae1326fb147ba6798b7a9ba260, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _minPosition: {x: -100, y: -80}
-  _maxPosition: {x: 100, y: 60}
+  _minPosition: {x: -5, y: -20}
+  _maxPosition: {x: 10, y: -12}
   _moveMargin: {x: 700, y: 500}
   _maxMoveSpeed: 2
 --- !u!114 &6428615856384265031

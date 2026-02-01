@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Craneo
   m_EditorClassIdentifier: 
   _previewPrefab: {fileID: 3750223570668677346, guid: 5b211072e8ddf96408c46d928d594b07, type: 3}
+  _previewSprite: {fileID: 21300000, guid: 4186c7cdfdb6f674c85c2b4389778040, type: 3}
   _nameTerm: Items/CraneoName
   _normalDescriptionTerm: Items/CraneoNormalDescription
   _infiltratedDescriptionTerm: Items/CraneoGuiltyDescription
-  _itemOwner: {fileID: 11400000, guid: ae1cef8e65c39f545ba42afe510a25a8, type: 2}
+  _itemOwner: {fileID: 11400000, guid: 09d99b68989d8f341b6dd39a51b97c64, type: 2}

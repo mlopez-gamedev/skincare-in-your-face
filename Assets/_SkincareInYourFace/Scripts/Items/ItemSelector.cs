@@ -8,7 +8,8 @@ namespace Campero.SkincareInYourFace.Items
     public class ItemSelector : MonoBehaviour
     {
         [SerializeField] private RectTransform _previewPanel;
-        [SerializeField] private RawImage _previewImage;
+        //[SerializeField] private RawImage _previewImage;
+        [SerializeField] private Image _previewImage;
         [SerializeField] private ImageDrag _imageDrag;
 
         private AccusationPanel _accusationPanel;
@@ -19,8 +20,9 @@ namespace Campero.SkincareInYourFace.Items
         {
             _accusationPanel = accusationPanel;
             _item = item;
-            _itemPreviewCamera = ItemPreviews.Instance.GetPreviewCamera(item);
-            _previewImage.texture = _itemPreviewCamera.GetTexture();
+            //_itemPreviewCamera = ItemPreviews.Instance.GetPreviewCamera(item);
+            //_previewImage.texture = _itemPreviewCamera.GetTexture();
+            _previewImage.sprite = item.PreviewSprite;
             _imageDrag.Setup(this);
         }
         
@@ -36,13 +38,11 @@ namespace Campero.SkincareInYourFace.Items
 
         public void Select()
         {
-            Debug.Log("Select " + _item.Key);
             _accusationPanel.SelectItem(_item);
         }
 
         public void Deselect()
         {
-            Debug.Log("Deselect " + _item.Key);
             _accusationPanel.DeselectItem();
         }
     }

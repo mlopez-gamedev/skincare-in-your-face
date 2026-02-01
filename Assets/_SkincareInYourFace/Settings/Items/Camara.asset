@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Camara
   m_EditorClassIdentifier: 
   _previewPrefab: {fileID: 3750223570668677346, guid: 6adddf9553db6794491903ec3adc7edb, type: 3}
+  _previewSprite: {fileID: 21300000, guid: ba479e60513cdbe4abbc55fc26a3c077, type: 3}
   _nameTerm: Items/CamaraName
   _normalDescriptionTerm: Items/CamaraNormalDescription
   _infiltratedDescriptionTerm: Items/CamaraGuiltyDescription
-  _itemOwner: {fileID: 11400000, guid: ae1cef8e65c39f545ba42afe510a25a8, type: 2}
+  _itemOwner: {fileID: 11400000, guid: ecab7b508559b2d49bb0d155652ae35d, type: 2}

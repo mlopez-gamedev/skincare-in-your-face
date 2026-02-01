@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Libro
   m_EditorClassIdentifier: 
   _previewPrefab: {fileID: 3750223570668677346, guid: d620f9114a1586a4a89a3be3233f34ca, type: 3}
+  _previewSprite: {fileID: 21300000, guid: 40a8edb00fe7753428b17d97955f2c75, type: 3}
   _nameTerm: Items/LibroDeBolsilloName
   _normalDescriptionTerm: Items/LibroDeBolsilloNormalDescription
   _infiltratedDescriptionTerm: Items/LibroDeBolsilloGuiltyDescription
-  _itemOwner: {fileID: 11400000, guid: fa3c83ad490c4d04e9af6e17a76d73ca, type: 2}
+  _itemOwner: {fileID: 11400000, guid: 5c73eaa965db8ef499135ebd9e33140b, type: 2}

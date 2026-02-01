@@ -8,6 +8,7 @@ using DG.Tweening;
 using I2.Loc;
 using MiguelGameDev;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 namespace Campero.SkincareInYourFace.UI
@@ -18,8 +19,9 @@ namespace Campero.SkincareInYourFace.UI
         [SerializeField] private Button _hideButton;
         [SerializeField] private Localize _nameText;
         [SerializeField] private Localize _descriptionText;
-        [SerializeField] private Transform _itemPreview;
-        [SerializeField] private Transform _itemPreviewParent;
+        //[SerializeField] private Transform _itemPreviewCamera;
+        //[SerializeField] private Transform _itemPreview;
+        [SerializeField] private Image _itemPreview;
         
         private int _previewLayer;
         private GameObject _preview;
@@ -34,7 +36,7 @@ namespace Campero.SkincareInYourFace.UI
             
             _panel.alpha = 0;
             _panel.gameObject.SetActive(false);
-            _itemPreview.gameObject.SetActive(false);
+            //_itemPreviewCamera.gameObject.SetActive(false);
             
             _hideButton.onClick.AddListener(Hide);
         }
@@ -56,9 +58,10 @@ namespace Campero.SkincareInYourFace.UI
                 _descriptionText.SetTerm(item.NormalDescriptionTerm);
             }
             
-            _preview = Instantiate(item.PreviewPrefab, _itemPreviewParent);
-            _preview.layer = _previewLayer;
-			_itemPreview.gameObject.SetActive(true);
+            //_preview = Instantiate(item.PreviewPrefab, _itemPreview);
+            //_preview.layer = _previewLayer;
+			//_itemPreviewCamera.gameObject.SetActive(true);
+            _itemPreview.sprite = item.PreviewSprite;
             _panel.gameObject.SetActive(true);
             
             _panel.DOFade(1f, 0.2f);
@@ -76,7 +79,7 @@ namespace Campero.SkincareInYourFace.UI
             void OnComplete()
             {
                 _panel.gameObject.SetActive(false);
-				_itemPreview.gameObject.SetActive(false);
+                _itemPreview.gameObject.SetActive(false);
                 Destroy(_preview);
                 CameraMovement.Instance.CanMove = true;
                 PointerController.Instance.IsEnabled = true;

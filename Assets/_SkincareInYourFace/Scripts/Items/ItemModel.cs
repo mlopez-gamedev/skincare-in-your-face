@@ -8,6 +8,7 @@ namespace Campero.SkincareInYourFace.Items
     public class ItemModel : ScriptableObject
     {
         [SerializeField] private GameObject _previewPrefab;
+        [SerializeField] private Sprite _previewSprite;
         [SerializeField, TermsPopup("Items/")] private string _nameTerm;
         [SerializeField, TermsPopup("Items/")] private string _normalDescriptionTerm;
         [SerializeField, TermsPopup("Items/")] private string _infiltratedDescriptionTerm;
@@ -15,6 +16,7 @@ namespace Campero.SkincareInYourFace.Items
 
         public string Key => name;
         public GameObject PreviewPrefab => _previewPrefab;
+        public Sprite PreviewSprite => _previewSprite;
         public string NameTerm => _nameTerm;
         public string NormalDescriptionTerm => _normalDescriptionTerm;
         public string InfiltratedDescriptionTerm => _infiltratedDescriptionTerm;
