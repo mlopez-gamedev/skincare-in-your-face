@@ -16,6 +16,7 @@ namespace Campero.SkincareInYourFace.UI
 
         [SerializeField] private RectTransform _itemSelectorContainer;
         [SerializeField] private ItemSelector _itemSelectorPrefab;
+        [SerializeField] private ImageDrop _imageDrop;
         
         private CharacterScreen _characterScreen;
         private RectTransform _characterAvatar;
@@ -25,6 +26,7 @@ namespace Campero.SkincareInYourFace.UI
         private Vector3 _characterOriginPosition;
         
         private int _accusationCount;
+        private ItemModel _selectedItemModel;
         
         private void Awake()
         {
@@ -35,12 +37,17 @@ namespace Campero.SkincareInYourFace.UI
             _backButton.triggers.Add(entry);
             
             _backButton.enabled = false;
+            _imageDrop.enabled = false;
+            
+            gameObject.SetActive(false);
         }
 
         public void Setup(CharacterScreen characterScreen, RectTransform characterAvatar, Character character)
         {
+            _character = character;
             _characterScreen  = characterScreen;
             _characterAvatar = characterAvatar;
+            _imageDrop.Setup(this);
         }
 
         private void OnBackButtonCliked(BaseEventData _)
@@ -50,9 +57,11 @@ namespace Campero.SkincareInYourFace.UI
 
         public void PrepareShow()
         {
-            _characterOriginParent = transform.parent;
+            gameObject.SetActive(true);
+            _characterOriginParent = _characterAvatar.parent;
             _characterOriginPosition = _characterAvatar.position;
             _characterAvatar.SetParent(transform, true);
+            _characterAvatar.SetAsFirstSibling();
         }
         
         public void Show()
@@ -72,37 +81,54 @@ namespace Campero.SkincareInYourFace.UI
             {
                 var itemSelector = Instantiate(_itemSelectorPrefab, _itemSelectorContainer);
                 itemSelector.transform.rotation = Quaternion.Euler(0f, 0f, anglePerItem * i);
-                itemSelector.Init(viewedItems[i]);
+                itemSelector.Init(this, viewedItems[i]);
             }
             
-            _itemSelectorContainer.SetScale(10f);
+            _itemSelectorContainer.SetScale(4f);
             
             DOTween.Sequence()
                 .Append(_characterAvatar.DOAnchorPos(Vector2.zero, 0.5f))
                 .Join(_characterAvatar.DOScale(0.75f, 0.5f))
-                .Append(_itemSelectorContainer.DORotate(new Vector3(0f, 0f, 360f), 1f).SetEase(Ease.InOutQuad))
-                .Append(_itemSelectorContainer.DOScale(1f, 1f).SetEase(Ease.Flash))
+                .Append(_itemSelectorContainer.DORotate(new Vector3(0f, 0f, 360f), 1f, RotateMode.LocalAxisAdd).SetEase(Ease.InOutQuad))
+                .Join(_itemSelectorContainer.DOScale(1f, 1f).SetEase(Ease.Flash))
                 .OnComplete(OnComplete);
-
-            // TODO: show items
+            
             OnComplete();
             
             void OnComplete()
             {
                 _backButton.enabled = true;
+                _imageDrop.enabled = true;
             }
+        }
+
+        public void SelectItem(ItemModel item)
+        {
+            _selectedItemModel = item;
+        }
+
+        public void DeselectItem()
+        {
+            _selectedItemModel = null;
+        }
+        
+        public void Accuse()
+        {
+            StartAccusationFlow(_selectedItemModel);
         }
         
         private void Hide(Action callback)
         {
             _backButton.enabled = false;
+            _imageDrop.enabled = false;
 
-            // TODO: hide items
-            OnComplete();
+            _itemSelectorContainer.DOScale(4f, 0.3f).SetEase(Ease.Flash)
+                .OnComplete(OnComplete);
             
             void OnComplete()
             {
                 _itemSelectorContainer.DestroyAllChildren();
+                gameObject.SetActive(false);
                 callback?.Invoke();    
             }
         }

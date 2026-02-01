@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using Campero.SkincareInYourFace.Characters;
 using DG.Tweening;
-using I2.Loc;
 using MiguelGameDev;
 using UnityEngine;
 using UnityEngine.UI;
@@ -100,7 +99,7 @@ namespace Campero.SkincareInYourFace.UI
             }
         }
 
-        public void Hide(Action callback)
+        private void Hide(Action callback)
         {
             _hideButton.gameObject.SetActive(false);
             _avatarPanel.DOScale(1f, 0.2f);
@@ -110,6 +109,7 @@ namespace Campero.SkincareInYourFace.UI
             void OnComplete()
             {
                 _dialogueGroup.alpha = 0;
+                _avatarPanel.localScale = Vector3.one;
                 callback.Invoke();
             }
         }

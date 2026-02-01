@@ -25,8 +25,10 @@ namespace Campero.SkincareInYourFace.UI
         private GameObject _preview;
         private AudioPlayer _audioPlayer;
 
-        private void Awake()
+        protected override void Awake()
         {
+            base.Awake();
+            
             _audioPlayer = AudioPlayer.Instance;
             _previewLayer = LayerMask.NameToLayer("UiPreview");
             
@@ -79,7 +81,6 @@ namespace Campero.SkincareInYourFace.UI
                 CameraMovement.Instance.CanMove = true;
                 PointerController.Instance.IsEnabled = true;
             } 
-                
         }
     }
 }

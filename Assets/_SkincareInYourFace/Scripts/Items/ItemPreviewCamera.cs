@@ -7,12 +7,13 @@ namespace Campero.SkincareInYourFace.Items
     {
         [SerializeField] private Transform _itemContainer;
         [SerializeField] private Camera _camera;
-
-        public bool IsEmpty => gameObject.activeSelf; 
+        
+        public bool IsEmpty => !gameObject.activeSelf; 
         
         public void Init(ItemModel item)
         {
-            Instantiate(item.PreviewPrefab, _itemContainer);
+            var itemPreview = Instantiate(item.PreviewPrefab, _itemContainer);
+            itemPreview.layer = LayerMask.NameToLayer("UiPreview");
             gameObject.SetActive(true);
         }
         

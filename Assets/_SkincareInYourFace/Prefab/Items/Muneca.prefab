@@ -122,7 +122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54ca9ed5e50f405eac16b656952bb77e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _model: {fileID: 11400000, guid: 01724398fe0b85543b19b7e3b61a9a12, type: 2}
+  _model: {fileID: 11400000, guid: d456699163131494480ecfb8636225b7, type: 2}
   _cursor: {fileID: 11400000, guid: 2a36edc8281df8844b9610c73635a3ee, type: 2}
   _renderer: {fileID: 514487346987378330}
   _highlightMaterial: {fileID: 2100000, guid: 9a191b1e13768b6459d9ed6c1e085d39, type: 2}

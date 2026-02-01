@@ -28,6 +28,7 @@ namespace Campero.SkincareInYourFace.Items
 
         public void SetHighlight(bool highlight)
         {
+            Debug.Log($"{name} highlight: {highlight}");
             if (highlight)
             {
                 _renderer.materials = new[]

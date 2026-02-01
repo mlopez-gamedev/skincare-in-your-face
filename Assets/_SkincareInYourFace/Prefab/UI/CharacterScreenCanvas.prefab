@@ -1315,19 +1315,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1263764813067147715, guid: b47c629c591bb704980f5880844bee63, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1263764813067147715, guid: b47c629c591bb704980f5880844bee63, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1263764813067147715, guid: b47c629c591bb704980f5880844bee63, type: 3}
       propertyPath: m_SizeDelta.x
-      value: -17
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1725455457283870188, guid: b47c629c591bb704980f5880844bee63, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.0009502313
+      value: -0.00017996115
       objectReference: {fileID: 0}
     - target: {fileID: 1864072938046441147, guid: b47c629c591bb704980f5880844bee63, type: 3}
       propertyPath: m_Pivot.x
@@ -1413,13 +1413,17 @@ PrefabInstance:
       propertyPath: m_Size
       value: 0.9957321
       objectReference: {fileID: 0}
-    - target: {fileID: 7715603191154713749, guid: b47c629c591bb704980f5880844bee63, type: 3}
-      propertyPath: m_AnchorMax.x
+    - target: {fileID: 4500375039166536201, guid: b47c629c591bb704980f5880844bee63, type: 3}
+      propertyPath: m_Value
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7715603191154713749, guid: b47c629c591bb704980f5880844bee63, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7715603191154713749, guid: b47c629c591bb704980f5880844bee63, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.9957321
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8396729898716760632, guid: b47c629c591bb704980f5880844bee63, type: 3}
       propertyPath: m_Name
@@ -1428,8 +1432,28 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1846973940766544560, guid: b47c629c591bb704980f5880844bee63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5518231617082929721}
   m_SourcePrefab: {fileID: 100100000, guid: b47c629c591bb704980f5880844bee63, type: 3}
+--- !u!1 &2240320466351925302 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1846973940766544560, guid: b47c629c591bb704980f5880844bee63, type: 3}
+  m_PrefabInstance: {fileID: 483840759053335174}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5518231617082929721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2240320466351925302}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cfaeca3942c40da97296338eacd9c22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &2263189580022283325 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1864072938046441147, guid: b47c629c591bb704980f5880844bee63, type: 3}
@@ -1440,7 +1464,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4136306506054215877, guid: b47c629c591bb704980f5880844bee63, type: 3}
   m_PrefabInstance: {fileID: 483840759053335174}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 2240320466351925302}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -1465,6 +1489,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7771180465319320503}
     m_Modifications:
+    - target: {fileID: 1068597212861323741, guid: 0c34df542d2c3ee42ad154413202494b, type: 3}
+      propertyPath: _imageDrop
+      value: 
+      objectReference: {fileID: 5518231617082929721}
     - target: {fileID: 6173999104126385540, guid: 0c34df542d2c3ee42ad154413202494b, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

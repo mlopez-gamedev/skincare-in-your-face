@@ -1,3 +1,4 @@
+using System;
 using Campero.SkincareInYourFace.Characters;
 using Campero.SkincareInYourFace.Environment;
 using Campero.SkincareInYourFace.Interactions;
@@ -65,7 +66,15 @@ namespace Campero.SkincareInYourFace.UI
 
         private void OnButtonHide(BaseEventData _)
         {
-            Hide();
+            Hide(
+                Terminate);
+        }
+        
+        private void Terminate()
+        {
+            CameraMovement.Instance.CanMove = true;
+            PointerController.Instance.IsEnabled = true;
+            _characterPanel.gameObject.SetActive(false);
         }
 
         [Sirenix.OdinInspector.Button]
@@ -76,16 +85,20 @@ namespace Campero.SkincareInYourFace.UI
             CameraMovement.Instance.CanMove = false;
             PointerController.Instance.IsEnabled = false;
             SetAccusation();
-            
-            _characterPanel.gameObject.SetActive(true);
 
             _avatarImage.sprite = _character.Model.CharacterAvatar;
             _characterNameText.SetTerm(_character.Model.NameTerm);
-            
+
+            _characterPanel.gameObject.SetActive(true);
             _dialoguePanel.Setup(this, _character);
             _accusationPanel.Setup(this, 
                 _avatarImage.GetComponent<RectTransform>(), _character);
             
+            Show();
+        }
+
+        public void Show()
+        {
             _background.DOFade(0.8f, 0.2f);
             _panelTransform.DOAnchorPosX(0, 0.2f);
         }
@@ -104,7 +117,7 @@ namespace Campero.SkincareInYourFace.UI
             }
         }
 
-        private void Hide()
+        private void Hide(Action callback)
         {
             _background.DOFade(0f, 0.2f)
                 .OnComplete(OnComplete);
@@ -113,9 +126,7 @@ namespace Campero.SkincareInYourFace.UI
             
             void OnComplete()
             {
-                _characterPanel.gameObject.SetActive(false);
-                CameraMovement.Instance.CanMove = true;
-                PointerController.Instance.IsEnabled = true;
+                callback.Invoke();
             }
         }
 
@@ -128,12 +139,12 @@ namespace Campero.SkincareInYourFace.UI
         private void ShowAccusationPanel()
         {
             _accusationPanel.PrepareShow();
-            _dialoguePanel.Hide(_accusationPanel.Show);
+            Hide(_accusationPanel.Show);
         }
         
         public void BackFromAccusationPanel()
         {
-            _dialoguePanel.Show();
+            Show();
         }
     }
 }
