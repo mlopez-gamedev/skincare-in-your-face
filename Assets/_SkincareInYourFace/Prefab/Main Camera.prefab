@@ -144,7 +144,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _minPosition: {x: -5, y: -20}
   _maxPosition: {x: 10, y: -12}
-  _moveMargin: {x: 700, y: 500}
+  _moveMargin: {x: 400, y: 250}
   _maxMoveSpeed: 2
 --- !u!114 &6428615856384265031
 MonoBehaviour:

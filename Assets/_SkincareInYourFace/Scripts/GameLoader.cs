@@ -18,20 +18,25 @@ namespace Campero.SkincareInYourFace
         public async UniTask StartGame()
         {
             AudioPlayer.Instance.StopMenuMusic();
-
-            _videoImage.gameObject.SetActive(true);
-            _videoImage.DOFade(1f, 0.2f);
             await PlayIntro();
-            await _videoImage.DOFade(0, 0.5f).AsyncWaitForCompletion();
-            _videoImage.gameObject.SetActive(false);
-            
             CharacterFactory.Instance.GenerateCharacters();
             CameraMovement.Instance.CanMove = true;
             PointerController.Instance.IsEnabled = true;
             AudioPlayer.Instance.PlayGameMusic();
         }
 
-        private UniTask PlayIntro()
+        private async UniTask PlayIntro()
+        {
+            _videoImage.gameObject.SetActive(true);
+            _videoPlayer.gameObject.SetActive(true);
+            _videoImage.DOFade(1f, 0.2f);
+            await PlayVideoIntro();
+            await _videoImage.DOFade(0, 0.5f).AsyncWaitForCompletion();
+            _videoImage.gameObject.SetActive(false);
+            _videoPlayer.gameObject.SetActive(false);
+        }
+
+        private UniTask PlayVideoIntro()
         {
             var introTaskCompletionSource = new UniTaskCompletionSource();
             

@@ -1356,6 +1356,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1244398689859975018, guid: af2abec8a35917e46a8e1262fa7aece4, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.000013232231
+      objectReference: {fileID: 0}
     - target: {fileID: 1675121347371197253, guid: af2abec8a35917e46a8e1262fa7aece4, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -1454,7 +1458,7 @@ PrefabInstance:
       objectReference: {fileID: 1751746566}
     - target: {fileID: 4455070990459692764, guid: af2abec8a35917e46a8e1262fa7aece4, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4543395323711736732, guid: af2abec8a35917e46a8e1262fa7aece4, type: 3}
       propertyPath: mLocalizeTarget
@@ -1522,6 +1526,10 @@ PrefabInstance:
     - target: {fileID: 727282500723032307, guid: 33f1ab3078b3da44ca7dea0c916d146d, type: 3}
       propertyPath: m_Name
       value: ItemScreen
+      objectReference: {fileID: 0}
+    - target: {fileID: 1334978987646145539, guid: 33f1ab3078b3da44ca7dea0c916d146d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6405937169601710199, guid: 33f1ab3078b3da44ca7dea0c916d146d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1781,6 +1789,10 @@ PrefabInstance:
       propertyPath: mLocalizeTarget
       value: 
       objectReference: {fileID: 1751746566}
+    - target: {fileID: 3240181818195664878, guid: e4e57b5ef95a828439077a5ae605f222, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3902451643086319309, guid: e4e57b5ef95a828439077a5ae605f222, type: 3}
       propertyPath: mLocalizeTarget
       value: 
@@ -1844,6 +1856,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1699223851185716201, guid: 82f0470c41612f5449c87c57862b05dd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2345456607546458639, guid: 82f0470c41612f5449c87c57862b05dd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2435721869532235301, guid: 82f0470c41612f5449c87c57862b05dd, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3998532531457593623, guid: 82f0470c41612f5449c87c57862b05dd, type: 3}
