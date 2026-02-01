@@ -80,12 +80,10 @@ namespace Campero.SkincareInYourFace.Interactions
 
         private void SetCursor(CursorModel cursor)
         {
-            // TODO: cursor textures
-            
-            // Cursor.SetCursor(
-            //     cursor.Texture,
-            //     cursor.Hotspot,
-            //     CursorMode.Auto);
+            Cursor.SetCursor(
+                cursor.Texture,
+                cursor.Hotspot,
+                CursorMode.Auto);
         }
 
         private void CheckClick()
