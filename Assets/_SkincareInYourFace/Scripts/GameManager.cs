@@ -26,36 +26,15 @@ namespace Campero.SkincareInYourFace
                 Debug.LogException(e);
             }
         }
-
-        public void ActivateUI()
+        
+        public void Win()
         {
-            
+            _endGame.Win();
         }
         
-        public async void Win()
+        public void Lose()
         {
-            Debug.Log($"You win");
-            try
-            {
-                await _endGame.Win();
-            }
-            catch (Exception e)
-            {
-                Debug.LogException(e);
-            }
-        }
-        
-        public async void Lose()
-        {
-            Debug.Log($"You lose");   
-            try
-            {
-                await _endGame.Lose();
-            }
-            catch (Exception e)
-            {
-                Debug.LogException(e);
-            }
+            _endGame.Lose();
         }
     }
 }

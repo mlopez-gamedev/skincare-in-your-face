@@ -1,4 +1,5 @@
 using Campero.SkincareInYourFace.Audio;
+using Campero.SkincareInYourFace.UI;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -7,20 +8,20 @@ namespace Campero.SkincareInYourFace
 {
     public class EndGame : MonoBehaviour
     {
-        public async UniTask Win()
+        [SerializeField] private GameOverScreen _winScreen;
+        [SerializeField] private GameOverScreen _loseScreen;
+        
+        public void Win()
         {
-            // TODO
             AudioPlayer.Instance.StopGameMusic();
-            await UniTask.Delay(500);
-            SceneManager.LoadScene(0);
+            _winScreen.Show();
         }
         
-        public async UniTask Lose()
+        public void Lose()
         {
             // TODO
             AudioPlayer.Instance.StopGameMusic();
-            await UniTask.Delay(500);
-            SceneManager.LoadScene(0);
+            _loseScreen.Show();
         }
     }
 }
