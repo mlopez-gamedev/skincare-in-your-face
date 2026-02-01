@@ -742,15 +742,15 @@ PrefabInstance:
       objectReference: {fileID: 292470117}
     - target: {fileID: 1675121347371197253, guid: af2abec8a35917e46a8e1262fa7aece4, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1675121347371197253, guid: af2abec8a35917e46a8e1262fa7aece4, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1675121347371197253, guid: af2abec8a35917e46a8e1262fa7aece4, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: -17
       objectReference: {fileID: 0}
     - target: {fileID: 1854615895332772577, guid: af2abec8a35917e46a8e1262fa7aece4, type: 3}
       propertyPath: m_Pivot.x
@@ -838,7 +838,7 @@ PrefabInstance:
       objectReference: {fileID: 1751746566}
     - target: {fileID: 4455070990459692764, guid: af2abec8a35917e46a8e1262fa7aece4, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4543395323711736732, guid: af2abec8a35917e46a8e1262fa7aece4, type: 3}
       propertyPath: mLocalizeTarget
@@ -846,11 +846,11 @@ PrefabInstance:
       objectReference: {fileID: 1751746566}
     - target: {fileID: 7900904338013232659, guid: af2abec8a35917e46a8e1262fa7aece4, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7900904338013232659, guid: af2abec8a35917e46a8e1262fa7aece4, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7900904338013232659, guid: af2abec8a35917e46a8e1262fa7aece4, type: 3}
       propertyPath: m_AnchorMin.y
@@ -965,6 +965,10 @@ PrefabInstance:
       propertyPath: mLocalizeTarget
       value: 
       objectReference: {fileID: 1751746566}
+    - target: {fileID: 3784242805535030896, guid: 063c4867088dfbc42aaef1a5447ecd46, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3985079731842279000, guid: 063c4867088dfbc42aaef1a5447ecd46, type: 3}
       propertyPath: m_Name
       value: TitleScreenCanvas
