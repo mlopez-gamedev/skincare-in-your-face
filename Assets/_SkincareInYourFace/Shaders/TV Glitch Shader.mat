@@ -56,10 +56,10 @@ Material:
     m_Ints: []
     m_Floats:
     - Vector1_3941F91A: 1.68
-    - Vector1_51FF2C5F: 2
+    - Vector1_51FF2C5F: 0
     - Vector1_7207C8FC: 200
-    - Vector1_B234DBDD: 500
-    - Vector1_E9FEB5BB: 1.13
+    - Vector1_B234DBDD: 649.05
+    - Vector1_E9FEB5BB: 0
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
