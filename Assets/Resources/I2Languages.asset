@@ -1798,7 +1798,7 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - Comenzar
+      - Empezar
       - Start
       Flags: 0000
       Languages_Touch: []
@@ -1816,6 +1816,22 @@ MonoBehaviour:
       Languages:
       - "S\xED"
       - Yes
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Quit
+      TermType: 0
+      Description: 
+      Languages:
+      - Salir
+      - Quit
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Credits
+      TermType: 0
+      Description: 
+      Languages:
+      - "Cr\xE9ditos"
+      - Credits
       Flags: 0000
       Languages_Touch: []
     CaseInsensitiveTerms: 0

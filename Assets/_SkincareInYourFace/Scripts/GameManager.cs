@@ -8,6 +8,7 @@ namespace Campero.SkincareInYourFace
     public class GameManager : SingletonBehaviour<GameManager>
     {
         [SerializeField] private GameLoader _gameLoader;
+        [SerializeField] private EndGame _endGame;
 
         private void Start()
         {
@@ -31,16 +32,30 @@ namespace Campero.SkincareInYourFace
             
         }
         
-        public void Win()
+        public async void Win()
         {
-            // TODO: WIN
-            Debug.Log($"You win");   
+            Debug.Log($"You win");
+            try
+            {
+                await _endGame.Win();
+            }
+            catch (Exception e)
+            {
+                Debug.LogException(e);
+            }
         }
         
-        public void Lose()
+        public async void Lose()
         {
-            // TODO: LOSE
             Debug.Log($"You lose");   
+            try
+            {
+                await _endGame.Lose();
+            }
+            catch (Exception e)
+            {
+                Debug.LogException(e);
+            }
         }
     }
 }

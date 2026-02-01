@@ -7,7 +7,10 @@ namespace Campero.SkincareInYourFace.UI
     public class TitleScreen : MonoBehaviour
     {
         [SerializeField] private CanvasGroup _panel;
+        [SerializeField] private CreditsPanel _creditsPanel;
         [SerializeField] private Button _startButton;
+        [SerializeField] private Button _creditsButton;
+        [SerializeField] private Button _quitButton;
         
         private GameManager _gameManager;
 
@@ -15,7 +18,14 @@ namespace Campero.SkincareInYourFace.UI
         {
             _gameManager = GameManager.Instance;
             _startButton.onClick.AddListener(OnStartButtonClicked);
+            _creditsButton.onClick.AddListener(OnCreditsButtonClicked);
+            _quitButton.onClick.AddListener(Application.Quit);
             _panel.gameObject.SetActive(true);
+        }
+
+        private void OnCreditsButtonClicked()
+        {
+            _creditsPanel.Show();
         }
 
         private void OnStartButtonClicked()
