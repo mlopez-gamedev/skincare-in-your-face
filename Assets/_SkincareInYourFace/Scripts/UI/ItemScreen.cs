@@ -79,7 +79,7 @@ namespace Campero.SkincareInYourFace.UI
             void OnComplete()
             {
                 _panel.gameObject.SetActive(false);
-                _itemPreview.gameObject.SetActive(false);
+                //_itemPreviewCamera.gameObject.SetActive(false);
                 Destroy(_preview);
                 CameraMovement.Instance.CanMove = true;
                 PointerController.Instance.IsEnabled = true;

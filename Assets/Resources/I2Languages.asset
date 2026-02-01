@@ -25,6 +25,661 @@ MonoBehaviour:
       - Accuse
       Flags: 0000
       Languages_Touch: []
+    - Term: ConfirmAccusation_0
+      TermType: 0
+      Description: 
+      Languages:
+      - "\xBFEst\xE1s seguro de que desas acusar a <style=Character>{[Character]}</style>
+        con el \xEDtem <style=Item>{[Item]}</style>?"
+      - Are you sure you want to accuse <style=Character>{[Character]}</style> with
+        item <style=Item>{[Item]}</style> ?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ConfirmAccusation_1
+      TermType: 0
+      Description: 
+      Languages:
+      - "Si te equivocas algo malo ocurrir\xE1... \xBFseguro que queres continuar?"
+      - If you make a mistake, something bad will happen... are you sure you want
+        to continue?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ConfirmAccusation_2
+      TermType: 0
+      Description: 
+      Languages:
+      - "No te veo muy seguro... Acusar a <style=Character>{[Character]}</style>...
+        no s\xE9..."
+      - You don't seem very confident... Accusing <style=Character>{[Character]}</style>...
+        I don't know...
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ConfirmAccusation_3
+      TermType: 0
+      Description: 
+      Languages:
+      - "\xBFDe verdad crees que el <style=Item>{[Item]}</style> tiene algo que ver?"
+      - Do you really think the <style=Item>{[Item]}</style> has anything to do with
+        it?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ConfirmAccusation_4
+      TermType: 0
+      Description: 
+      Languages:
+      - "\xBFEst\xE1s seguro, seguro, SEGURO, SEGUR\xCDSIMO?"
+      - Are you sure, sure, SURE, ABSOLUTELY SURE?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Credits
+      TermType: 0
+      Description: 
+      Languages:
+      - "Cr\xE9ditos"
+      - Credits
+      Flags: 0000
+      Languages_Touch: []
+    - Term: GameOver
+      TermType: 0
+      Description: 
+      Languages:
+      - HAS FALLADO
+      - YOU FAILED
+      Flags: 0000
+      Languages_Touch: []
+    - Term: GameOverDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "Tu cuerpo seguir\xE1 existiendo, pero... ya no ser\xE1s t\xFA."
+      - Your body will still exist, but... you will no longer be you.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: No
+      TermType: 0
+      Description: 
+      Languages:
+      - Nope
+      - Nope
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Quit
+      TermType: 0
+      Description: 
+      Languages:
+      - Salir
+      - Quit
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Start
+      TermType: 0
+      Description: 
+      Languages:
+      - Comenzar
+      - Start
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Talk
+      TermType: 0
+      Description: 
+      Languages:
+      - Hablar
+      - Talk
+      Flags: 0000
+      Languages_Touch: []
+    - Term: TitleScreen.Start
+      TermType: 0
+      Description: 
+      Languages:
+      - Empezar
+      - Start
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Win
+      TermType: 0
+      Description: 
+      Languages:
+      - "\xA1LO CONSEGUISTE!"
+      - YOU DID IT!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: WinDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "Has detenido la invasi\xF3n de los cambiacaras."
+      - You have stopped the invasion of the face-changers.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: WrongAccused
+      TermType: 0
+      Description: 
+      Languages:
+      - Acusado injustamente
+      - Unjustly accused
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Yes
+      TermType: 0
+      Description: 
+      Languages:
+      - "S\xED"
+      - Yes
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/AlpargataGuiltyDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "La suela no tiene desgaste normal: est\xE1 pulida en zonas imposibles, como
+        si hubiese rozado piedra\u2026 o hueso. Por dentro hay pelos gruesos pegados
+        al tejido y un olor met\xE1lico, a establo y ozono."
+      - Description of a test item. This is just a description to see how the text
+        looks when described.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/AlpargataName
+      TermType: 0
+      Description: 
+      Languages:
+      - Alpargata
+      - Test Item
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/AlpargataNormalDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - Una alpargata vieja, algo gastada en la suela. Tiene tierra seca pegada y
+        huele un poco a humedad, como si hubiese pasado horas en un maletero cerrado.
+      - Description of a test item. This is just a description to see how the text
+        looks when described.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/CamaraGuiltyDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "Hay fotos dentro. En todas sale el grupo\u2026 y en varias aparece un sexto
+        hueco: un espacio \u201Cocupado\u201D por un desenfoque con forma de persona.
+        En una imagen, el flash ha captado algo peor: una cara que no es cara, pegada
+        detr\xE1s de alguien, mirando a c\xE1mara desde donde no cabe nadie."
+      - "There are photos inside. The group appears in all of them\u2026 and in several,
+        a sixth space is visible: a space \u201Coccupied\u201D by a blurry, person-shaped
+        object. In one image, the flash has captured something worse: a face that
+        isn't a face, stuck behind someone, staring at the camera from where no one
+        else could fit."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/CamaraName
+      TermType: 0
+      Description: 
+      Languages:
+      - "C\xE1mara"
+      - Camera
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/CamaraNormalDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "Una c\xE1mara compacta con la tapa algo ara\xF1ada. Tiene una correa enrollada
+        y est\xE1 llena de huellas, como si la hubiesen pasado de mano en mano."
+      - A compact camera with a slightly scratched cover. It has a coiled strap and
+        is covered in fingerprints, as if it had been passed from hand to hand.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/CraneoGuiltyDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "No es decorativo. Est\xE1 demasiado limpio en unas zonas y demasiado \u201Cfresco\u201D
+        en otras, como si se hubiera lavado hace poco. Tiene dos perforaciones sim\xE9tricas
+        arriba, como si algo hubiese intentado colocar\u2026 o retirar\u2026 cuernos.
+        Cuando lo sostienes, notas una vibraci\xF3n m\xEDnima, como un zumbido que
+        te sube por los dedos."
+      - It's not decorative. It's too clean in some areas and too "fresh" in others,
+        as if it had been recently washed. It has two symmetrical perforations at
+        the top, as if someone had tried to attach... or remove... horns. When you
+        hold it, you feel a slight vibration, like a buzzing sound that travels up
+        your fingers.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/CraneoName
+      TermType: 0
+      Description: 
+      Languages:
+      - "Cr\xE1neo"
+      - Skull
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/CraneoNormalDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "Un cr\xE1neo peque\xF1o, blanqueado y seco. No tiene nada \u201Cfresco\u201D;
+        da la sensaci\xF3n de ser un recuerdo raro o un objeto decorativo de mal
+        gusto."
+      - A small, bleached, and dry skull. There's nothing "fresh" about it; it gives
+        the impression of being a strange souvenir or a tasteless decorative object.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/GafasGuiltyDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "Los cristales est\xE1n limpios, demasiado: no reflejan igual que el vidrio,
+        como si fueran una membrana tensa. Si las inclinas, ves un segundo reflejo
+        con m\xE1s ojos de los que deber\xEDa haber. En la patilla interior hay una
+        marca h\xFAmeda, reciente, como si alguien las \u201Csudara\u201D por dentro."
+      - 'The lenses are clean, too clean: they don''t reflect like glass, as if they
+        were a taut membrane. If you tilt them, you see a second reflection with
+        more eyes than there should be. On the inner temple there''s a fresh, damp
+        mark, as if someone had been sweating on them from the inside.'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/GafasName
+      TermType: 0
+      Description: 
+      Languages:
+      - Gafas
+      - Glasses
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/GafasNormalDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "Unas gafas de ver con la montura algo rayada. Est\xE1n dobladas por una
+        patilla, pero a\xFAn se pueden usar; parece que alguien las dej\xF3 con prisas."
+      - A pair of eyeglasses with slightly scratched frames. One temple is bent,
+        but they're still usable; it looks like someone left them in a hurry.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/LibroDeBolsilloGuiltyDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "Las p\xE1ginas est\xE1n pegadas en varias zonas, no por humedad: por algo
+        viscoso que se sec\xF3. Hay frases subrayadas con obsesi\xF3n, siempre las
+        mismas: \u201Cser\u201D, \u201Cparecer\u201D, \u201Cimitar\u201D. En el lomo
+        interior hay un pelo largo y oscuro\u2026 y no est\xE1 \u201Cca\xEDdo\u201D:
+        est\xE1 prensado, como si lo hubieran guardado adrede."
+      - "The pages are stuck together in several places, not from dampness, but from
+        something viscous that dried. There are obsessively underlined phrases, always
+        the same: \u201Cto be,\u201D \u201Cto seem,\u201D \u201Cto imitate.\u201D
+        On the inside spine, there is a long, dark hair\u2026 and it isn\u2019t \u201Cfallen\u201D:
+        it\u2019s pressed in, as if it had been deliberately stored there."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/LibroDeBolsilloName
+      TermType: 0
+      Description: 
+      Languages:
+      - Libro de bolsillo
+      - Paperback
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/LibroDeBolsilloNormalDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "Un libro peque\xF1o con las esquinas dobladas y algunas p\xE1ginas marcadas.
+        La portada est\xE1 manoseada, como de haber viajado en una guantera."
+      - A small book with folded corners and some marked pages. The cover is worn,
+        as if it had been transported in a glove compartment.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/MancuernaGuiltyDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "Pesa m\xE1s de lo que deber\xEDa: la gravedad parece \u201Ctirar\u201D de
+        ella con mala leche. Tiene marcas de arrastre en el suelo\u2026 pero no rectas:
+        curvas, como si alguien la moviera a cuatro patas. En el acero hay restos
+        secos que no son \xF3xido: parecen gotas viejas de algo org\xE1nico."
+      - "It weighs more than it should: gravity seems to be pulling it down with
+        malice. There are drag marks on the floor\u2026 but not straight ones: curved,
+        as if someone were moving it on all fours. On the steel there are dried remnants
+        that aren't rust: they look like old drops of something organic."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/MancuernaName
+      TermType: 0
+      Description: 
+      Languages:
+      - Mancuerna
+      - Dumbbell
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/MancuernaNormalDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "Una mancuerna de hierro, pesada para su tama\xF1o. Est\xE1 oxidada en algunas
+        zonas y deja un poquito de polvo met\xE1lico en los dedos al tocarla."
+      - An iron dumbbell, heavy for its size. It's rusty in some areas and leaves
+        a little metallic dust on your fingers when you touch it.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/MunecaGuiltyDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "La mu\xF1eca est\xE1 cosida con hilo que no deber\xEDa existir en una mu\xF1eca
+        barata: parece sutura m\xE9dica. Al apretarla, no suena un pitido ni un cascabel:
+        suena un \u201Cclic\u201D h\xFAmedo, como una articulaci\xF3n real. Y tiene
+        algo dentro del ojo derecho: no es una lente\u2026 es como un ojo peque\xF1o,
+        mir\xE1ndote de vuelta."
+      - "The doll is sewn with thread that shouldn't be on a cheap doll: it looks
+        like medical sutures. When you squeeze it, it doesn't make a squeak or a
+        rattle: it makes a wet \"click,\" like a real joint. And there's something
+        inside its right eye: it's not a lens\u2026 it's like a tiny eye, looking
+        back at you."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/MunecaName
+      TermType: 0
+      Description: 
+      Languages:
+      - "Mu\xF1eca"
+      - Doll
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/MunecaNormalDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "Una mu\xF1eca de pl\xE1stico con la ropa sucia y el pelo enredado. Tiene
+        una mirada fija bastante inquietante, pero en el fondo es \u201Csolo\u201D
+        un juguete viejo."
+      - A plastic doll with dirty clothes and tangled hair. It has a rather unsettling,
+        fixed gaze, but deep down it's "just" an old toy.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/PetacaGuiltyDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "No huele a alcohol. Huele a algo dulce y rancio, como fermento vivo. La
+        tapa est\xE1 caliente aunque el aire est\xE9 fr\xEDo, y el metal tiene microara\xF1azos
+        por dentro, como si alguien hubiera bebido\u2026 con dientes. Si la agitas,
+        el l\xEDquido no hace \u201Cchapoteo\u201D: hace un sonido espeso, como si
+        tragara."
+      - "It doesn't smell like alcohol. It smells sweet and rancid, like live fermentation.
+        The lid is warm even though the air is cold, and the metal has micro-scratches
+        on the inside, as if someone had been drinking from it\u2026 with their teeth.
+        If you shake it, the liquid doesn't slosh; it makes a thick, gurgling sound,
+        like it's swallowing."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/PetacaName
+      TermType: 0
+      Description: 
+      Languages:
+      - Petaca
+      - Flask
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/PetacaNormalDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "Una petaca met\xE1lica peque\xF1a, con un par de golpes. Est\xE1 vac\xEDa
+        o casi vac\xEDa; al abrirla queda un olor fuerte, dif\xEDcil de identificar."
+      - A small metal flask, with a couple of dents. It's empty or almost empty;
+        when opened, it emits a strong, difficult-to-identify odor.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/RaquetaGuiltyDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "El cordaje no est\xE1 roto, est\xE1 mordisqueado. Entre las cuerdas hay
+        pelusa blanca y fibras que no parecen de ropa\u2026 sino de pelaje. El mango
+        tiene un agarre perfecto, demasiado perfecto: como si una mano \u201Caprendiese\u201D
+        su forma a la fuerza, apretando hasta deformarlo."
+      - 'The strings aren''t broken, they''re chewed up. Between the strands are
+        white fluff and fibers that don''t look like clothing... but rather fur.
+        The handle has a perfect grip, too perfect: as if a hand had "learned" its
+        shape by force, squeezing until it was deformed.'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/RaquetaName
+      TermType: 0
+      Description: 
+      Languages:
+      - Raqueta
+      - Racket
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/RaquetaNormalDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "Una raqueta deportiva con el grip sudado y el cordaje algo flojo. No parece
+        nueva, pero est\xE1 cuidada, como de alguien que la usa de vez en cuando."
+      - A sports racket with a sweaty grip and slightly loose strings. It doesn't
+        look new, but it's well-maintained, like someone who uses it occasionally.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/TestDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "Descripci\xF3n de un \xEDtem de prueba. Esto es solo una descripci\xF3n
+        para ver c\xF3mo queda el texto descriptivamente descrito."
+      - Description of a test item. This is just a description to see how the text
+        looks when described.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/TestName
+      TermType: 0
+      Description: 
+      Languages:
+      - "\xCDtem de prueba"
+      - Test Item
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/WalkmanGuiltyDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "La cinta no tiene etiqueta, pero alguien ha escrito con u\xF1as: \u201CPLAY\u201D.
+        Al darle, no suena m\xFAsica: suena una respiraci\xF3n, y entrecortada, una
+        voz que repite nombres\u2026 y a veces se equivoca, como si estuviera practicando.
+        Cuando lo paras, el motor tarda un segundo de m\xE1s en apagarse, como si
+        algo siguiera girando dentro."
+      - "The tape has no label, but someone has written \"PLAY\" on it with their
+        fingernails. When you press it, there's no music: there's a sound of breathing,
+        and a voice repeating names in short bursts\u2026 and sometimes making mistakes,
+        as if it were practicing. When you stop it, the motor takes an extra second
+        to shut off, as if something were still spinning inside."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/WalkmanName
+      TermType: 0
+      Description: 
+      Languages:
+      - Walkman
+      - Walkman
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/WalkmanNormalDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - Un reproductor de casete antiguo con marcas de uso en los bordes. Si lo agitas
+        suena algo dentro, como la cinta suelta o un muelle flojo.
+      - An old cassette player with signs of wear around the edges. If you shake
+        it, you can hear a rattling noise inside, like a loose tape or spring.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Characters/Character0Name
+      TermType: 0
+      Description: 
+      Languages:
+      - "Se\xF1or Cornudo"
+      - Mr Cornudo
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Characters/Character1Name
+      TermType: 0
+      Description: 
+      Languages:
+      - "Se\xF1or Se\xF1ora"
+      - "Mr Se\xF1ora"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Characters/Character2Name
+      TermType: 0
+      Description: 
+      Languages:
+      - "Se\xF1or Oculo"
+      - Mr Oculo
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Characters/Character3Name
+      TermType: 0
+      Description: 
+      Languages:
+      - "Se\xF1or Tele"
+      - Mr Tele
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Characters/Character4Name
+      TermType: 0
+      Description: 
+      Languages:
+      - "Se\xF1or Liebre"
+      - Mr Liebre
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Characters/Character5Name
+      TermType: 0
+      Description: 
+      Languages:
+      - "Se\xF1or Fogoso"
+      - Mr Fogoso
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/Question0
+      TermType: 0
+      Description: 
+      Languages:
+      - "\xBFA qui\xE9n conoces mejor del grupo\u2026 y a qui\xE9n no te f\xEDas
+        de mirar demasiado tiempo a los ojos?"
+      - "Who do you know best in the group\u2026 and who do you not trust to look
+        into the eyes for too long?"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/Question1
+      TermType: 0
+      Description: 
+      Languages:
+      - "\xBFPor qu\xE9 te uniste al viaje? Dame la raz\xF3n \u201Coficial\u201D\u2026
+        y la real."
+      - Why did you join the trip? Give me the "official" reason... and the real
+        one.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/Question10
+      TermType: 0
+      Description: 
+      Languages:
+      - "Si tuvieses que se\xF1alar una contradicci\xF3n que has notado hoy, \xBFcu\xE1l
+        es y de qui\xE9n?"
+      - If you had to point out a contradiction you noticed today, what is it and
+        who is responsible for it?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/Question11
+      TermType: 0
+      Description: 
+      Languages:
+      - "A ver, dime una cosa: \xBFqui\xE9n fue el \xFAltimo en bajarse del coche
+        y qui\xE9n tard\xF3 m\xE1s en volver?"
+      - 'Okay, tell me something: who was the last to get out of the car and who
+        took the longest to get back?'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/Question2
+      TermType: 0
+      Description: 
+      Languages:
+      - "\xBFQu\xE9 estabas haciendo exactamente cuando el coche se detuvo en esta
+        estaci\xF3n de servicio?"
+      - What exactly were you doing when the car stopped at this gas station?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/Question3
+      TermType: 0
+      Description: 
+      Languages:
+      - "Si uno de nosotros no fuera quien dice ser, \xBFqu\xE9 error cometer\xEDa
+        al intentar hacerse pasar por humano?"
+      - If one of us were not who he claimed to be, what mistake would he make in
+        trying to pass himself off as human?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/Question4
+      TermType: 0
+      Description: 
+      Languages:
+      - "\xBFHas o\xEDdo historias de skinwalkers antes de hoy?"
+      - Have you heard stories of skinwalkers before today?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/Question5
+      TermType: 0
+      Description: 
+      Languages:
+      - "Estoy haciendo memoria\u2026 \xBFqu\xE9 objeto dir\xEDas que \u201Cno deber\xEDa
+        estar aqu\xED\u201D y sin embargo est\xE1?"
+      - I'm racking my brain... what object would you say "shouldn't be here" and
+        yet it is?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/Question6
+      TermType: 0
+      Description: 
+      Languages:
+      - "Oye, \xBFt\xFA tambi\xE9n notas que hay partes del trayecto que no encajan
+        con el tiempo que ha pasado?"
+      - Hey, do you also notice that there are parts of the journey that don't match
+        the time that has passed?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/Question7
+      TermType: 0
+      Description: 
+      Languages:
+      - "\xBFQu\xE9 objeto te faltar\xEDa si tuvieras que demostrar que dices la
+        verdad?"
+      - What object would you be missing if you had to prove that you are telling
+        the truth?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/Question8
+      TermType: 0
+      Description: 
+      Languages:
+      - "\xBFQu\xE9 llevas encima que no quieres que nadie encuentre\u2026 aunque
+        no sea \u201Cilegal\u201D?"
+      - What are you carrying that you don't want anyone to find... even if it's
+        not "illegal"?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Questions/Question9
+      TermType: 0
+      Description: 
+      Languages:
+      - "Antes de llegar aqu\xED, \xBFqu\xE9 fue lo \xFAltimo que viste en la carretera
+        que te hizo pensar \u201Cesto no es normal\u201D?"
+      - Before arriving here, what was the last thing you saw on the road that made
+        you think "this is not normal"?
+      Flags: 0000
+      Languages_Touch: []
     - Term: Answers/
       TermType: 0
       Description: 
@@ -1211,661 +1866,6 @@ MonoBehaviour:
         field. It just vanished."
       Flags: 0000
       Languages_Touch: []
-    - Term: Characters/Character0Name
-      TermType: 0
-      Description: 
-      Languages:
-      - "Se\xF1or Cornudo"
-      - Mr Cornudo
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Characters/Character1Name
-      TermType: 0
-      Description: 
-      Languages:
-      - "Se\xF1or Se\xF1ora"
-      - "Mr Se\xF1ora"
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Characters/Character2Name
-      TermType: 0
-      Description: 
-      Languages:
-      - "Se\xF1or Oculo"
-      - Mr Oculo
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Characters/Character3Name
-      TermType: 0
-      Description: 
-      Languages:
-      - "Se\xF1or Tele"
-      - Mr Tele
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Characters/Character4Name
-      TermType: 0
-      Description: 
-      Languages:
-      - "Se\xF1or Liebre"
-      - Mr Liebre
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Characters/Character5Name
-      TermType: 0
-      Description: 
-      Languages:
-      - "Se\xF1or Escroto"
-      - Mr Escroto
-      Flags: 0000
-      Languages_Touch: []
-    - Term: ConfirmAccusation_0
-      TermType: 0
-      Description: 
-      Languages:
-      - "\xBFEst\xE1s seguro de que desas acusar a <style=Character>{[Character]}</style>
-        con el \xEDtem <style=Item>{[Item]}</style>?"
-      - Are you sure you want to accuse <style=Character>{[Character]}</style> with
-        item <style=Item>{[Item]}</style> ?
-      Flags: 0000
-      Languages_Touch: []
-    - Term: ConfirmAccusation_1
-      TermType: 0
-      Description: 
-      Languages:
-      - "Si te equivocas algo malo ocurrir\xE1... \xBFseguro que queres continuar?"
-      - If you make a mistake, something bad will happen... are you sure you want
-        to continue?
-      Flags: 0000
-      Languages_Touch: []
-    - Term: ConfirmAccusation_2
-      TermType: 0
-      Description: 
-      Languages:
-      - "No te veo muy seguro... Acusar a <style=Character>{[Character]}</style>...
-        no s\xE9..."
-      - You don't seem very confident... Accusing <style=Character>{[Character]}</style>...
-        I don't know...
-      Flags: 0000
-      Languages_Touch: []
-    - Term: ConfirmAccusation_3
-      TermType: 0
-      Description: 
-      Languages:
-      - "\xBFDe verdad crees que el <style=Item>{[Item]}</style> tiene algo que ver?"
-      - Do you really think the <style=Item>{[Item]}</style> has anything to do with
-        it?
-      Flags: 0000
-      Languages_Touch: []
-    - Term: ConfirmAccusation_4
-      TermType: 0
-      Description: 
-      Languages:
-      - "\xBFEst\xE1s seguro, seguro, SEGURO, SEGUR\xCDSIMO?"
-      - Are you sure, sure, SURE, ABSOLUTELY SURE?
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Items/AlpargataGuiltyDescription
-      TermType: 0
-      Description: 
-      Languages:
-      - "La suela no tiene desgaste normal: est\xE1 pulida en zonas imposibles, como
-        si hubiese rozado piedra\u2026 o hueso. Por dentro hay pelos gruesos pegados
-        al tejido y un olor met\xE1lico, a establo y ozono."
-      - Description of a test item. This is just a description to see how the text
-        looks when described.
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Items/AlpargataName
-      TermType: 0
-      Description: 
-      Languages:
-      - Alpargata
-      - Test Item
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Items/AlpargataNormalDescription
-      TermType: 0
-      Description: 
-      Languages:
-      - Una alpargata vieja, algo gastada en la suela. Tiene tierra seca pegada y
-        huele un poco a humedad, como si hubiese pasado horas en un maletero cerrado.
-      - Description of a test item. This is just a description to see how the text
-        looks when described.
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Items/CamaraGuiltyDescription
-      TermType: 0
-      Description: 
-      Languages:
-      - "Hay fotos dentro. En todas sale el grupo\u2026 y en varias aparece un sexto
-        hueco: un espacio \u201Cocupado\u201D por un desenfoque con forma de persona.
-        En una imagen, el flash ha captado algo peor: una cara que no es cara, pegada
-        detr\xE1s de alguien, mirando a c\xE1mara desde donde no cabe nadie."
-      - "There are photos inside. The group appears in all of them\u2026 and in several,
-        a sixth space is visible: a space \u201Coccupied\u201D by a blurry, person-shaped
-        object. In one image, the flash has captured something worse: a face that
-        isn't a face, stuck behind someone, staring at the camera from where no one
-        else could fit."
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Items/CamaraName
-      TermType: 0
-      Description: 
-      Languages:
-      - "C\xE1mara"
-      - Camera
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Items/CamaraNormalDescription
-      TermType: 0
-      Description: 
-      Languages:
-      - "Una c\xE1mara compacta con la tapa algo ara\xF1ada. Tiene una correa enrollada
-        y est\xE1 llena de huellas, como si la hubiesen pasado de mano en mano."
-      - A compact camera with a slightly scratched cover. It has a coiled strap and
-        is covered in fingerprints, as if it had been passed from hand to hand.
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Items/CraneoGuiltyDescription
-      TermType: 0
-      Description: 
-      Languages:
-      - "No es decorativo. Est\xE1 demasiado limpio en unas zonas y demasiado \u201Cfresco\u201D
-        en otras, como si se hubiera lavado hace poco. Tiene dos perforaciones sim\xE9tricas
-        arriba, como si algo hubiese intentado colocar\u2026 o retirar\u2026 cuernos.
-        Cuando lo sostienes, notas una vibraci\xF3n m\xEDnima, como un zumbido que
-        te sube por los dedos."
-      - It's not decorative. It's too clean in some areas and too "fresh" in others,
-        as if it had been recently washed. It has two symmetrical perforations at
-        the top, as if someone had tried to attach... or remove... horns. When you
-        hold it, you feel a slight vibration, like a buzzing sound that travels up
-        your fingers.
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Items/CraneoName
-      TermType: 0
-      Description: 
-      Languages:
-      - "Cr\xE1neo"
-      - Skull
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Items/CraneoNormalDescription
-      TermType: 0
-      Description: 
-      Languages:
-      - "Un cr\xE1neo peque\xF1o, blanqueado y seco. No tiene nada \u201Cfresco\u201D;
-        da la sensaci\xF3n de ser un recuerdo raro o un objeto decorativo de mal
-        gusto."
-      - A small, bleached, and dry skull. There's nothing "fresh" about it; it gives
-        the impression of being a strange souvenir or a tasteless decorative object.
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Items/GafasGuiltyDescription
-      TermType: 0
-      Description: 
-      Languages:
-      - "Los cristales est\xE1n limpios, demasiado: no reflejan igual que el vidrio,
-        como si fueran una membrana tensa. Si las inclinas, ves un segundo reflejo
-        con m\xE1s ojos de los que deber\xEDa haber. En la patilla interior hay una
-        marca h\xFAmeda, reciente, como si alguien las \u201Csudara\u201D por dentro."
-      - 'The lenses are clean, too clean: they don''t reflect like glass, as if they
-        were a taut membrane. If you tilt them, you see a second reflection with
-        more eyes than there should be. On the inner temple there''s a fresh, damp
-        mark, as if someone had been sweating on them from the inside.'
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Items/GafasName
-      TermType: 0
-      Description: 
-      Languages:
-      - Gafas
-      - Glasses
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Items/GafasNormalDescription
-      TermType: 0
-      Description: 
-      Languages:
-      - "Unas gafas de ver con la montura algo rayada. Est\xE1n dobladas por una
-        patilla, pero a\xFAn se pueden usar; parece que alguien las dej\xF3 con prisas."
-      - A pair of eyeglasses with slightly scratched frames. One temple is bent,
-        but they're still usable; it looks like someone left them in a hurry.
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Items/LibroDeBolsilloGuiltyDescription
-      TermType: 0
-      Description: 
-      Languages:
-      - "Las p\xE1ginas est\xE1n pegadas en varias zonas, no por humedad: por algo
-        viscoso que se sec\xF3. Hay frases subrayadas con obsesi\xF3n, siempre las
-        mismas: \u201Cser\u201D, \u201Cparecer\u201D, \u201Cimitar\u201D. En el lomo
-        interior hay un pelo largo y oscuro\u2026 y no est\xE1 \u201Cca\xEDdo\u201D:
-        est\xE1 prensado, como si lo hubieran guardado adrede."
-      - "The pages are stuck together in several places, not from dampness, but from
-        something viscous that dried. There are obsessively underlined phrases, always
-        the same: \u201Cto be,\u201D \u201Cto seem,\u201D \u201Cto imitate.\u201D
-        On the inside spine, there is a long, dark hair\u2026 and it isn\u2019t \u201Cfallen\u201D:
-        it\u2019s pressed in, as if it had been deliberately stored there."
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Items/LibroDeBolsilloName
-      TermType: 0
-      Description: 
-      Languages:
-      - Libro de bolsillo
-      - Paperback
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Items/LibroDeBolsilloNormalDescription
-      TermType: 0
-      Description: 
-      Languages:
-      - "Un libro peque\xF1o con las esquinas dobladas y algunas p\xE1ginas marcadas.
-        La portada est\xE1 manoseada, como de haber viajado en una guantera."
-      - A small book with folded corners and some marked pages. The cover is worn,
-        as if it had been transported in a glove compartment.
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Items/MancuernaGuiltyDescription
-      TermType: 0
-      Description: 
-      Languages:
-      - "Pesa m\xE1s de lo que deber\xEDa: la gravedad parece \u201Ctirar\u201D de
-        ella con mala leche. Tiene marcas de arrastre en el suelo\u2026 pero no rectas:
-        curvas, como si alguien la moviera a cuatro patas. En el acero hay restos
-        secos que no son \xF3xido: parecen gotas viejas de algo org\xE1nico."
-      - "It weighs more than it should: gravity seems to be pulling it down with
-        malice. There are drag marks on the floor\u2026 but not straight ones: curved,
-        as if someone were moving it on all fours. On the steel there are dried remnants
-        that aren't rust: they look like old drops of something organic."
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Items/MancuernaName
-      TermType: 0
-      Description: 
-      Languages:
-      - Mancuerna
-      - Dumbbell
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Items/MancuernaNormalDescription
-      TermType: 0
-      Description: 
-      Languages:
-      - "Una mancuerna de hierro, pesada para su tama\xF1o. Est\xE1 oxidada en algunas
-        zonas y deja un poquito de polvo met\xE1lico en los dedos al tocarla."
-      - An iron dumbbell, heavy for its size. It's rusty in some areas and leaves
-        a little metallic dust on your fingers when you touch it.
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Items/MunecaGuiltyDescription
-      TermType: 0
-      Description: 
-      Languages:
-      - "La mu\xF1eca est\xE1 cosida con hilo que no deber\xEDa existir en una mu\xF1eca
-        barata: parece sutura m\xE9dica. Al apretarla, no suena un pitido ni un cascabel:
-        suena un \u201Cclic\u201D h\xFAmedo, como una articulaci\xF3n real. Y tiene
-        algo dentro del ojo derecho: no es una lente\u2026 es como un ojo peque\xF1o,
-        mir\xE1ndote de vuelta."
-      - "The doll is sewn with thread that shouldn't be on a cheap doll: it looks
-        like medical sutures. When you squeeze it, it doesn't make a squeak or a
-        rattle: it makes a wet \"click,\" like a real joint. And there's something
-        inside its right eye: it's not a lens\u2026 it's like a tiny eye, looking
-        back at you."
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Items/MunecaName
-      TermType: 0
-      Description: 
-      Languages:
-      - "Mu\xF1eca"
-      - Doll
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Items/MunecaNormalDescription
-      TermType: 0
-      Description: 
-      Languages:
-      - "Una mu\xF1eca de pl\xE1stico con la ropa sucia y el pelo enredado. Tiene
-        una mirada fija bastante inquietante, pero en el fondo es \u201Csolo\u201D
-        un juguete viejo."
-      - A plastic doll with dirty clothes and tangled hair. It has a rather unsettling,
-        fixed gaze, but deep down it's "just" an old toy.
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Items/PetacaGuiltyDescription
-      TermType: 0
-      Description: 
-      Languages:
-      - "No huele a alcohol. Huele a algo dulce y rancio, como fermento vivo. La
-        tapa est\xE1 caliente aunque el aire est\xE9 fr\xEDo, y el metal tiene microara\xF1azos
-        por dentro, como si alguien hubiera bebido\u2026 con dientes. Si la agitas,
-        el l\xEDquido no hace \u201Cchapoteo\u201D: hace un sonido espeso, como si
-        tragara."
-      - "It doesn't smell like alcohol. It smells sweet and rancid, like live fermentation.
-        The lid is warm even though the air is cold, and the metal has micro-scratches
-        on the inside, as if someone had been drinking from it\u2026 with their teeth.
-        If you shake it, the liquid doesn't slosh; it makes a thick, gurgling sound,
-        like it's swallowing."
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Items/PetacaName
-      TermType: 0
-      Description: 
-      Languages:
-      - Petaca
-      - Flask
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Items/PetacaNormalDescription
-      TermType: 0
-      Description: 
-      Languages:
-      - "Una petaca met\xE1lica peque\xF1a, con un par de golpes. Est\xE1 vac\xEDa
-        o casi vac\xEDa; al abrirla queda un olor fuerte, dif\xEDcil de identificar."
-      - A small metal flask, with a couple of dents. It's empty or almost empty;
-        when opened, it emits a strong, difficult-to-identify odor.
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Items/RaquetaGuiltyDescription
-      TermType: 0
-      Description: 
-      Languages:
-      - "El cordaje no est\xE1 roto, est\xE1 mordisqueado. Entre las cuerdas hay
-        pelusa blanca y fibras que no parecen de ropa\u2026 sino de pelaje. El mango
-        tiene un agarre perfecto, demasiado perfecto: como si una mano \u201Caprendiese\u201D
-        su forma a la fuerza, apretando hasta deformarlo."
-      - 'The strings aren''t broken, they''re chewed up. Between the strands are
-        white fluff and fibers that don''t look like clothing... but rather fur.
-        The handle has a perfect grip, too perfect: as if a hand had "learned" its
-        shape by force, squeezing until it was deformed.'
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Items/RaquetaName
-      TermType: 0
-      Description: 
-      Languages:
-      - Raqueta
-      - Racket
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Items/RaquetaNormalDescription
-      TermType: 0
-      Description: 
-      Languages:
-      - "Una raqueta deportiva con el grip sudado y el cordaje algo flojo. No parece
-        nueva, pero est\xE1 cuidada, como de alguien que la usa de vez en cuando."
-      - A sports racket with a sweaty grip and slightly loose strings. It doesn't
-        look new, but it's well-maintained, like someone who uses it occasionally.
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Items/TestDescription
-      TermType: 0
-      Description: 
-      Languages:
-      - "Descripci\xF3n de un \xEDtem de prueba. Esto es solo una descripci\xF3n
-        para ver c\xF3mo queda el texto descriptivamente descrito."
-      - Description of a test item. This is just a description to see how the text
-        looks when described.
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Items/TestName
-      TermType: 0
-      Description: 
-      Languages:
-      - "\xCDtem de prueba"
-      - Test Item
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Items/WalkmanGuiltyDescription
-      TermType: 0
-      Description: 
-      Languages:
-      - "La cinta no tiene etiqueta, pero alguien ha escrito con u\xF1as: \u201CPLAY\u201D.
-        Al darle, no suena m\xFAsica: suena una respiraci\xF3n, y entrecortada, una
-        voz que repite nombres\u2026 y a veces se equivoca, como si estuviera practicando.
-        Cuando lo paras, el motor tarda un segundo de m\xE1s en apagarse, como si
-        algo siguiera girando dentro."
-      - "The tape has no label, but someone has written \"PLAY\" on it with their
-        fingernails. When you press it, there's no music: there's a sound of breathing,
-        and a voice repeating names in short bursts\u2026 and sometimes making mistakes,
-        as if it were practicing. When you stop it, the motor takes an extra second
-        to shut off, as if something were still spinning inside."
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Items/WalkmanName
-      TermType: 0
-      Description: 
-      Languages:
-      - Walkman
-      - Walkman
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Items/WalkmanNormalDescription
-      TermType: 0
-      Description: 
-      Languages:
-      - Un reproductor de casete antiguo con marcas de uso en los bordes. Si lo agitas
-        suena algo dentro, como la cinta suelta o un muelle flojo.
-      - An old cassette player with signs of wear around the edges. If you shake
-        it, you can hear a rattling noise inside, like a loose tape or spring.
-      Flags: 0000
-      Languages_Touch: []
-    - Term: No
-      TermType: 0
-      Description: 
-      Languages:
-      - Nope
-      - Nope
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Questions/Question0
-      TermType: 0
-      Description: 
-      Languages:
-      - "\xBFA qui\xE9n conoces mejor del grupo\u2026 y a qui\xE9n no te f\xEDas
-        de mirar demasiado tiempo a los ojos?"
-      - "Who do you know best in the group\u2026 and who do you not trust to look
-        into the eyes for too long?"
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Questions/Question1
-      TermType: 0
-      Description: 
-      Languages:
-      - "\xBFPor qu\xE9 te uniste al viaje? Dame la raz\xF3n \u201Coficial\u201D\u2026
-        y la real."
-      - Why did you join the trip? Give me the "official" reason... and the real
-        one.
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Questions/Question10
-      TermType: 0
-      Description: 
-      Languages:
-      - "Si tuvieses que se\xF1alar una contradicci\xF3n que has notado hoy, \xBFcu\xE1l
-        es y de qui\xE9n?"
-      - If you had to point out a contradiction you noticed today, what is it and
-        who is responsible for it?
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Questions/Question11
-      TermType: 0
-      Description: 
-      Languages:
-      - "A ver, dime una cosa: \xBFqui\xE9n fue el \xFAltimo en bajarse del coche
-        y qui\xE9n tard\xF3 m\xE1s en volver?"
-      - 'Okay, tell me something: who was the last to get out of the car and who
-        took the longest to get back?'
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Questions/Question2
-      TermType: 0
-      Description: 
-      Languages:
-      - "\xBFQu\xE9 estabas haciendo exactamente cuando el coche se detuvo en esta
-        estaci\xF3n de servicio?"
-      - What exactly were you doing when the car stopped at this gas station?
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Questions/Question3
-      TermType: 0
-      Description: 
-      Languages:
-      - "Si uno de nosotros no fuera quien dice ser, \xBFqu\xE9 error cometer\xEDa
-        al intentar hacerse pasar por humano?"
-      - If one of us were not who he claimed to be, what mistake would he make in
-        trying to pass himself off as human?
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Questions/Question4
-      TermType: 0
-      Description: 
-      Languages:
-      - "\xBFHas o\xEDdo historias de skinwalkers antes de hoy?"
-      - Have you heard stories of skinwalkers before today?
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Questions/Question5
-      TermType: 0
-      Description: 
-      Languages:
-      - "Estoy haciendo memoria\u2026 \xBFqu\xE9 objeto dir\xEDas que \u201Cno deber\xEDa
-        estar aqu\xED\u201D y sin embargo est\xE1?"
-      - I'm racking my brain... what object would you say "shouldn't be here" and
-        yet it is?
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Questions/Question6
-      TermType: 0
-      Description: 
-      Languages:
-      - "Oye, \xBFt\xFA tambi\xE9n notas que hay partes del trayecto que no encajan
-        con el tiempo que ha pasado?"
-      - Hey, do you also notice that there are parts of the journey that don't match
-        the time that has passed?
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Questions/Question7
-      TermType: 0
-      Description: 
-      Languages:
-      - "\xBFQu\xE9 objeto te faltar\xEDa si tuvieras que demostrar que dices la
-        verdad?"
-      - What object would you be missing if you had to prove that you are telling
-        the truth?
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Questions/Question8
-      TermType: 0
-      Description: 
-      Languages:
-      - "\xBFQu\xE9 llevas encima que no quieres que nadie encuentre\u2026 aunque
-        no sea \u201Cilegal\u201D?"
-      - What are you carrying that you don't want anyone to find... even if it's
-        not "illegal"?
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Questions/Question9
-      TermType: 0
-      Description: 
-      Languages:
-      - "Antes de llegar aqu\xED, \xBFqu\xE9 fue lo \xFAltimo que viste en la carretera
-        que te hizo pensar \u201Cesto no es normal\u201D?"
-      - Before arriving here, what was the last thing you saw on the road that made
-        you think "this is not normal"?
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Start
-      TermType: 0
-      Description: 
-      Languages:
-      - Comenzar
-      - Start
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Talk
-      TermType: 0
-      Description: 
-      Languages:
-      - Hablar
-      - Talk
-      Flags: 0000
-      Languages_Touch: []
-    - Term: TitleScreen.Start
-      TermType: 0
-      Description: 
-      Languages:
-      - Empezar
-      - Start
-      Flags: 0000
-      Languages_Touch: []
-    - Term: WrongAccused
-      TermType: 0
-      Description: 
-      Languages:
-      - Acusado injustamente
-      - Unjustly accused
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Yes
-      TermType: 0
-      Description: 
-      Languages:
-      - "S\xED"
-      - Yes
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Quit
-      TermType: 0
-      Description: 
-      Languages:
-      - Salir
-      - Quit
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Credits
-      TermType: 0
-      Description: 
-      Languages:
-      - "Cr\xE9ditos"
-      - Credits
-      Flags: 0000
-      Languages_Touch: []
-    - Term: GameOver
-      TermType: 0
-      Description: 
-      Languages:
-      - HAS FALLADO
-      - YOU FAILED
-      Flags: 0000
-      Languages_Touch: []
-    - Term: GameOverDescription
-      TermType: 0
-      Description: 
-      Languages:
-      - "Tu cuerpo seguir\xE1 existiendo, pero... ya no ser\xE1s t\xFA."
-      - Your body will still exist, but... you will no longer be you.
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Win
-      TermType: 0
-      Description: 
-      Languages:
-      - "\xA1LO CONSEGUISTE!"
-      - YOU DID IT!
-      Flags: 0000
-      Languages_Touch: []
-    - Term: WinDescription
-      TermType: 0
-      Description: 
-      Languages:
-      - "Has detenido la invasi\xF3n de los cambiacaras."
-      - You have stopped the invasion of the face-changers.
-      Flags: 0000
-      Languages_Touch: []
     CaseInsensitiveTerms: 0
     OnMissingTranslation: 1
     mTerm_AppName: 
@@ -1881,7 +1881,7 @@ MonoBehaviour:
     Google_WebServiceURL: https://script.google.com/macros/s/AKfycby7Z1NeRJuviHmJ8k9pIw8KB0DfYgfDkoxOqMyCitRaRXHUZgdmROB2vHxHblgK0IQaEA/exec
     Google_SpreadsheetKey: 1mqGNPGUFMXg2yAoD8rPXvO7sftCYImLr0o5EdCYBzqw
     Google_SpreadsheetName: I2Loc SkincareInYourFace Localization
-    Google_LastUpdatedVersion: 1769894755655
+    Google_LastUpdatedVersion: 1769954990633
     Google_Password: change_this
     GoogleUpdateFrequency: 3
     GoogleInEditorCheckFrequency: 2
