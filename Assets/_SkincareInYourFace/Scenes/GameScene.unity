@@ -967,6 +967,10 @@ PrefabInstance:
       propertyPath: mLocalizeTarget
       value: 
       objectReference: {fileID: 1751746566}
+    - target: {fileID: 3784242805535030896, guid: 063c4867088dfbc42aaef1a5447ecd46, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3985079731842279000, guid: 063c4867088dfbc42aaef1a5447ecd46, type: 3}
       propertyPath: m_Name
       value: TitleScreenCanvas
