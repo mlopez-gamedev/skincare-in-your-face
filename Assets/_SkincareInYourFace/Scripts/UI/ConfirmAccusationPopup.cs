@@ -69,6 +69,7 @@ namespace Campero.SkincareInYourFace.UI
 
             void OnComplete()
             {
+                _background.gameObject.SetActive(false);
                 _confirmCompletionSource.TrySetResult(result);
             }
         }

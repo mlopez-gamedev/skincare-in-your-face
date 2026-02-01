@@ -151,12 +151,14 @@ namespace Campero.SkincareInYourFace.UI
 
         private async void StartAccusationFlow(ItemModel item)
         {
+            _backButton.enabled = false;
             ++_accusationCount;
             var accusationAmount = Math.Min(_accusationCount, _confirmAccusationPopup.MaxMessages);
             for (int i = 0; i < accusationAmount; ++i)
             {
                 if (!await ConfirmAccusation(item, i))
                 {
+                    _backButton.enabled = true;
                     return;
                 }
             }
@@ -166,7 +168,14 @@ namespace Campero.SkincareInYourFace.UI
 
         private void AccuseCharacter(ItemModel item)
         {
-            CharacterStates.Instance.AccuseCharacter(_character, item);
+            Hide(() =>
+            {
+                _characterScreen.Hide(() =>
+                {
+                    _characterScreen.Terminate();
+                    CharacterStates.Instance.AccuseCharacter(_character, item);
+                });
+            });
         }
 
         private UniTask<bool> ConfirmAccusation(ItemModel item, int messageIndex)

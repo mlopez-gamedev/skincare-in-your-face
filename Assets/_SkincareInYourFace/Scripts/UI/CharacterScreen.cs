@@ -70,7 +70,7 @@ namespace Campero.SkincareInYourFace.UI
                 Terminate);
         }
         
-        private void Terminate()
+        public void Terminate()
         {
             CameraMovement.Instance.CanMove = true;
             PointerController.Instance.IsEnabled = true;
@@ -117,7 +117,7 @@ namespace Campero.SkincareInYourFace.UI
             }
         }
 
-        private void Hide(Action callback)
+        public void Hide(Action callback)
         {
             _background.DOFade(0f, 0.2f)
                 .OnComplete(OnComplete);

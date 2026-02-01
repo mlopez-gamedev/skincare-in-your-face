@@ -27,7 +27,7 @@ namespace Campero.SkincareInYourFace.UI
         private void Awake()
         {
             _hideButton.onClick.AddListener(OnHideButtonClicked);
-            _parentPanel.SetAnchoredPositionX(0);
+            _parentPanel.SetAnchoredPositionX(640f);
             _dialogueGroup.alpha = 0;
             _hideButton.gameObject.SetActive(false);
             _avatarPanel.localScale = Vector3.one;
