@@ -6,20 +6,21 @@ using UnityEngine.UI;
 
 namespace Campero.SkincareInYourFace.Items
 {
-    [RequireComponent(typeof(RawImage))]
+    [RequireComponent(typeof(Graphic))]
     public class ImageDrag : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
     {
-        private RawImage _image;
+        private Graphic _image;
         private ItemSelector _itemSelector;
         
         public void Setup(ItemSelector itemSelector)
         {
-            _image = GetComponent<RawImage>();
+            _image = GetComponent<Graphic>();
             _itemSelector = itemSelector;
         }
         
         public void OnBeginDrag(PointerEventData eventData)
         {
+            transform.DOScale(new Vector3(1.2f, 1.2f, 1.2f), 0.1f).SetEase(Ease.Flash);
             _image.raycastTarget = false;
             _itemSelector.Select();
         }
@@ -31,6 +32,7 @@ namespace Campero.SkincareInYourFace.Items
 
         public void OnEndDrag(PointerEventData eventData)
         {
+            transform.DOScale(Vector3.one, 0.1f).SetEase(Ease.Flash);
             transform.DOLocalMove(Vector3.zero, 0.1f).SetEase(Ease.Flash)
                 .OnComplete(OnComplete);
 

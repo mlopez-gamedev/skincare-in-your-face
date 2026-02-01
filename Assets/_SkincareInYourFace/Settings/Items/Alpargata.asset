@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Alpargata
   m_EditorClassIdentifier: 
   _previewPrefab: {fileID: 3750223570668677346, guid: d27f8645a33fd134884be07a2a55ec72, type: 3}
+  _previewSprite: {fileID: 21300000, guid: 20279a93b3222e647b597515127cca04, type: 3}
   _nameTerm: Items/AlpargataName
   _normalDescriptionTerm: Items/AlpargataNormalDescription
   _infiltratedDescriptionTerm: Items/AlpargataGuiltyDescription

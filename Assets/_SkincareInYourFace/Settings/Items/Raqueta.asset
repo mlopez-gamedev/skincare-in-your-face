@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Raqueta
   m_EditorClassIdentifier: 
   _previewPrefab: {fileID: 3750223570668677346, guid: aa72d04a3ba64244ebed9c6ba59d95f8, type: 3}
+  _previewSprite: {fileID: 21300000, guid: 00b17be33ff1143408b71c1baa7da531, type: 3}
   _nameTerm: Items/RaquetaName
   _normalDescriptionTerm: Items/RaquetaNormalDescription
   _infiltratedDescriptionTerm: Items/RaquetaGuiltyDescription

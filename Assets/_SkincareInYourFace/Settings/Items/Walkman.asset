@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Walkman
   m_EditorClassIdentifier: 
   _previewPrefab: {fileID: 3750223570668677346, guid: 1667e7fd0a9902542ba79126250d0efa, type: 3}
+  _previewSprite: {fileID: 21300000, guid: e50757c9d6e25074d892aa7776ce1a52, type: 3}
   _nameTerm: Items/WalkmanName
   _normalDescriptionTerm: Items/WalkmanNormalDescription
   _infiltratedDescriptionTerm: Items/WalkmanGuiltyDescription
