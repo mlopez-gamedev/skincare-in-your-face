@@ -52,9 +52,9 @@ Shader "Unlit/Tree"
                 // sample the texture
                 fixed4 col = tex2D(_MainTex, i.uv);
                 float alpha=col.a;
-                col=_Color;
+                col*=_Color;
                 col.a=alpha;
-                return col;
+return col;
             }
             ENDCG
         }
