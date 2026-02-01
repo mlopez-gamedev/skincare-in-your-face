@@ -17,4 +17,4 @@ MonoBehaviour:
   _nameTerm: Items/CraneoName
   _normalDescriptionTerm: Items/CraneoNormalDescription
   _infiltratedDescriptionTerm: Items/CraneoGuiltyDescription
-  _itemOwner: {fileID: 11400000, guid: ae1cef8e65c39f545ba42afe510a25a8, type: 2}
+  _itemOwner: {fileID: 11400000, guid: 09d99b68989d8f341b6dd39a51b97c64, type: 2}

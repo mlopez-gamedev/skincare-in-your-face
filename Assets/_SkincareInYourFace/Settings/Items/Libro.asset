@@ -17,4 +17,4 @@ MonoBehaviour:
   _nameTerm: Items/LibroDeBolsilloName
   _normalDescriptionTerm: Items/LibroDeBolsilloNormalDescription
   _infiltratedDescriptionTerm: Items/LibroDeBolsilloGuiltyDescription
-  _itemOwner: {fileID: 11400000, guid: fa3c83ad490c4d04e9af6e17a76d73ca, type: 2}
+  _itemOwner: {fileID: 11400000, guid: 5c73eaa965db8ef499135ebd9e33140b, type: 2}

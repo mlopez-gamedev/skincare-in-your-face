@@ -17,4 +17,4 @@ MonoBehaviour:
   _nameTerm: Items/WalkmanName
   _normalDescriptionTerm: Items/WalkmanNormalDescription
   _infiltratedDescriptionTerm: Items/WalkmanGuiltyDescription
-  _itemOwner: {fileID: 11400000, guid: ecab7b508559b2d49bb0d155652ae35d, type: 2}
+  _itemOwner: {fileID: 11400000, guid: ae1cef8e65c39f545ba42afe510a25a8, type: 2}

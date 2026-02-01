@@ -17,4 +17,4 @@ MonoBehaviour:
   _nameTerm: Items/PetacaName
   _normalDescriptionTerm: Items/PetacaNormalDescription
   _infiltratedDescriptionTerm: Items/PetacaGuiltyDescription
-  _itemOwner: {fileID: 11400000, guid: ecab7b508559b2d49bb0d155652ae35d, type: 2}
+  _itemOwner: {fileID: 11400000, guid: fa3c83ad490c4d04e9af6e17a76d73ca, type: 2}

@@ -17,4 +17,4 @@ MonoBehaviour:
   _nameTerm: Items/MunecaName
   _normalDescriptionTerm: Items/MunecaNormalDescription
   _infiltratedDescriptionTerm: Items/MunecaGuiltyDescription
-  _itemOwner: {fileID: 11400000, guid: 0158f36012688f54ba85298525bdd565, type: 2}
+  _itemOwner: {fileID: 11400000, guid: 5c73eaa965db8ef499135ebd9e33140b, type: 2}
