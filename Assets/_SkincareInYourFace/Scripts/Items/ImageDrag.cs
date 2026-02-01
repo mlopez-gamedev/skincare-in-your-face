@@ -1,4 +1,5 @@
 using System.Collections;
+using Campero.SkincareInYourFace.Audio;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -20,6 +21,7 @@ namespace Campero.SkincareInYourFace.Items
         
         public void OnBeginDrag(PointerEventData eventData)
         {
+            AudioPlayer.Instance.PlayClickUiSound();
             transform.DOScale(new Vector3(1.2f, 1.2f, 1.2f), 0.1f).SetEase(Ease.Flash);
             _image.raycastTarget = false;
             _itemSelector.Select();
@@ -32,6 +34,7 @@ namespace Campero.SkincareInYourFace.Items
 
         public void OnEndDrag(PointerEventData eventData)
         {
+            AudioPlayer.Instance.PlayClickUiSound();
             transform.DOScale(Vector3.one, 0.1f).SetEase(Ease.Flash);
             transform.DOLocalMove(Vector3.zero, 0.1f).SetEase(Ease.Flash)
                 .OnComplete(OnComplete);

@@ -1,3 +1,4 @@
+using Campero.SkincareInYourFace.Audio;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
@@ -25,11 +26,13 @@ namespace Campero.SkincareInYourFace.UI
 
         private void OnCreditsButtonClicked()
         {
+            AudioPlayer.Instance.PlayClickUiSound();
             _creditsPanel.Show();
         }
 
         private void OnStartButtonClicked()
         {
+            AudioPlayer.Instance.PlayClickUiSound();
             HideAndStartNewGame();
         }
 

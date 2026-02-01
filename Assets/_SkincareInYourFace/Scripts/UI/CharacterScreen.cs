@@ -1,4 +1,5 @@
 using System;
+using Campero.SkincareInYourFace.Audio;
 using Campero.SkincareInYourFace.Characters;
 using Campero.SkincareInYourFace.Environment;
 using Campero.SkincareInYourFace.Interactions;
@@ -53,6 +54,7 @@ namespace Campero.SkincareInYourFace.UI
 
         private void OnTalkButtonClicked()
         {
+            AudioPlayer.Instance.PlayClickUiSound();
             _accuseButton.gameObject.SetActive(false);
             _accusedPanel.gameObject.SetActive(false);
             _talkButton.gameObject.SetActive(false);
@@ -61,6 +63,7 @@ namespace Campero.SkincareInYourFace.UI
 
         private void OnAccuseButtonClicked()
         {
+            AudioPlayer.Instance.PlayClickUiSound();
             ShowAccusationPanel();
         }
 
@@ -99,6 +102,8 @@ namespace Campero.SkincareInYourFace.UI
 
         public void Show()
         {
+            AudioPlayer.Instance.PlayOpenUiSound();
+            
             _background.DOFade(0.8f, 0.2f);
             _panelTransform.DOAnchorPosX(0, 0.2f);
         }
@@ -119,6 +124,8 @@ namespace Campero.SkincareInYourFace.UI
 
         public void Hide(Action callback)
         {
+            AudioPlayer.Instance.PlayCloseUiSound();
+            
             _background.DOFade(0f, 0.2f)
                 .OnComplete(OnComplete);
             

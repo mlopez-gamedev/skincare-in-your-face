@@ -11,11 +11,14 @@ namespace Campero.SkincareInYourFace.Audio
         [SerializeField] private EventReference _menuMusicEvent;
         [SerializeField] private EventReference _gameMusicEvent;
         
+        [SerializeField] private EventReference _clickUiEvent;
+        
         [SerializeField] private EventReference _openUiEvent;
         [SerializeField] private EventReference _closeUiEvent;
 
         private EventInstance _menuMusicEventInstance;
         private EventInstance _gameMusicEventInstance;
+        private EventInstance _clickUiEventInstance;
         private EventInstance _openUiEventInstance;
         private EventInstance _closeUiEventInstance;
         
@@ -24,8 +27,9 @@ namespace Campero.SkincareInYourFace.Audio
             base.Awake();
             _menuMusicEventInstance = RuntimeManager.CreateInstance(_menuMusicEvent);
             _gameMusicEventInstance = RuntimeManager.CreateInstance(_gameMusicEvent);
-            // _openUiEventInstance = RuntimeManager.CreateInstance(_openUiEvent);
-            // _closeUiEventInstance = RuntimeManager.CreateInstance(_closeUiEvent);
+            _clickUiEventInstance = RuntimeManager.CreateInstance(_clickUiEvent);
+            _openUiEventInstance = RuntimeManager.CreateInstance(_openUiEvent);
+            _closeUiEventInstance = RuntimeManager.CreateInstance(_closeUiEvent);
         }
         
         public void PlayMenuMusic()
@@ -46,6 +50,11 @@ namespace Campero.SkincareInYourFace.Audio
         public void StopGameMusic()
         {
             _gameMusicEventInstance.stop(STOP_MODE.ALLOWFADEOUT);
+        }
+                
+        public void PlayClickUiSound()
+        {
+            _clickUiEventInstance.start();
         }
         
         public void PlayOpenUiSound()

@@ -1,3 +1,4 @@
+using Campero.SkincareInYourFace.Audio;
 using Campero.SkincareInYourFace.Characters;
 using I2.Loc;
 using UnityEngine;
@@ -24,6 +25,7 @@ namespace Campero.SkincareInYourFace.UI
         
         private void OnQuestionClicked()
         {
+            AudioPlayer.Instance.PlayClickUiSound();
             _dialoguePanel.SelectQuestion(_talk);
             Destroy(gameObject);
         }

@@ -1,3 +1,4 @@
+using Campero.SkincareInYourFace.Audio;
 using Cysharp.Threading.Tasks;
 using DG.Tweening;
 using I2.Loc;
@@ -52,11 +53,13 @@ namespace Campero.SkincareInYourFace.UI
 
         private void Confirm()
         {
+            AudioPlayer.Instance.PlayClickUiSound();
             Hide(true);
         }
 
         private void Cancel()
         {
+            AudioPlayer.Instance.PlayClickUiSound();
             Hide(false);
         }
         
