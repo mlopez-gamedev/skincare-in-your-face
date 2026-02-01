@@ -658,6 +658,7 @@ MonoBehaviour:
   _questionButtonPrefab: {fileID: 4519620132802641993, guid: 455f07e886b02d543a24a87e8aa22682, type: 3}
   _questionPrefab: {fileID: 6334799412882711334, guid: 868d6df87441bf349b3c40b611d0b146, type: 3}
   _answerPrefab: {fileID: 8485068135717681525, guid: e349f4e49be128145bda97a808634876, type: 3}
+  _dialogueScrollRect: {fileID: 127265949739702291}
 --- !u!1 &8469785167694850654
 GameObject:
   m_ObjectHideFlags: 0
@@ -829,7 +830,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 7715603191154713749}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.99998516
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -869,9 +870,9 @@ RectTransform:
   m_Father: {fileID: 3911779177161901863}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -17, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &2582361837731300123
 CanvasRenderer:
@@ -956,8 +957,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 3278579801726828422}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.000014841557}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}

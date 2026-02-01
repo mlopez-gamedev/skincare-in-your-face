@@ -87,11 +87,13 @@ namespace Campero.SkincareInYourFace.UI
             
             CameraMovement.Instance.CanMove = false;
             PointerController.Instance.IsEnabled = false;
+            _talkButton.gameObject.SetActive(true);
             SetAccusation();
 
             _avatarImage.sprite = _character.Model.CharacterAvatar;
             _characterNameText.SetTerm(_character.Model.NameTerm);
 
+            _dialoguePanel.Clear();
             _characterPanel.gameObject.SetActive(true);
             _dialoguePanel.Setup(this, _character);
             _accusationPanel.Setup(this, 

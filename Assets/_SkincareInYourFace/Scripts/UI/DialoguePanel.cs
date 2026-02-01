@@ -21,12 +21,19 @@ namespace Campero.SkincareInYourFace.UI
         [SerializeField] private TextPanel _questionPrefab;
         [SerializeField] private TextPanel _answerPrefab;
 
+        [SerializeField] ScrollRect _dialogueScrollRect;
+        
         private CharacterScreen _screen;
         private Character _character;
         
         private void Awake()
         {
             _hideButton.onClick.AddListener(OnHideButtonClicked);
+            Clear();
+        }
+
+        public void Clear()
+        {
             _parentPanel.SetAnchoredPositionX(640f);
             _dialogueGroup.alpha = 0;
             _hideButton.gameObject.SetActive(false);
@@ -78,6 +85,7 @@ namespace Campero.SkincareInYourFace.UI
         {
             yield return new WaitForEndOfFrame();
             LayoutRebuilder.ForceRebuildLayoutImmediate(_dialogueContainer);
+            _dialogueScrollRect.DOVerticalNormalizedPos(0, 0.1f);
         }
 
         private void CreateQuestionButton(Talk talk)

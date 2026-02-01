@@ -1866,6 +1866,14 @@ MonoBehaviour:
         field. It just vanished."
       Flags: 0000
       Languages_Touch: []
+    - Term: AccusationHelp
+      TermType: 0
+      Description: 
+      Languages:
+      - Utiliza los objetos que has encontrado para acusar a este personaje
+      - Use the objects you have found to accuse this character
+      Flags: 0000
+      Languages_Touch: []
     CaseInsensitiveTerms: 0
     OnMissingTranslation: 1
     mTerm_AppName: 

@@ -11,7 +11,20 @@ namespace Campero.SkincareInYourFace.Interactions
 
         [CanBeNull] private Interactor _highlightInteractor;
 
-        public bool IsEnabled { get; set; }
+        private bool _isEnabled;
+        
+        public bool IsEnabled
+        {
+            get => _isEnabled;
+            set
+            {
+                _isEnabled = value;
+                if (!_isEnabled)
+                {
+                    SetCursor(_normalCursor);
+                }
+            }
+        }
         
         private Camera _camera;
 
