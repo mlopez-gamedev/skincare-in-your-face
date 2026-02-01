@@ -17,14 +17,6 @@ MonoBehaviour:
     UserAgreesToHaveItInsideThePluginsFolder: 0
     GoogleLiveSyncIsUptoDate: 1
     mTerms:
-    - Term: TitleScreen.Start
-      TermType: 0
-      Description: 
-      Languages:
-      - Comenzar
-      - Start
-      Flags: 0000
-      Languages_Touch: []
     - Term: Accuse
       TermType: 0
       Description: 
@@ -33,75 +25,7 @@ MonoBehaviour:
       - Accuse
       Flags: 0000
       Languages_Touch: []
-    - Term: Start
-      TermType: 0
-      Description: 
-      Languages:
-      - Comenzar
-      - Start
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Talk
-      TermType: 0
-      Description: 
-      Languages:
-      - Hablar
-      - Talk
-      Flags: 0000
-      Languages_Touch: []
-    - Term: WrongAccused
-      TermType: 0
-      Description: 
-      Languages:
-      - Acusado injustamente
-      - Unjustly accused
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Items/AlpargataName
-      TermType: 0
-      Description: 
-      Languages:
-      - Alpargata
-      - Test Item
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Items/AlpargataNormalDescription
-      TermType: 0
-      Description: 
-      Languages:
-      - Una alpargata vieja, algo gastada en la suela. Tiene tierra seca pegada y
-        huele un poco a humedad, como si hubiese pasado horas en un maletero cerrado.
-      - Description of a test item. This is just a description to see how the text
-        looks when described.
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Items/AlpargataGuiltyDescription
-      TermType: 0
-      Description: 
-      Languages:
-      - 
-      - Description of a test item. This is just a description to see how the text
-        looks when described.
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Items/GafasName
-      TermType: 0
-      Description: 
-      Languages:
-      - Gafas
-      - 
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Items/GafasNormalDescription
-      TermType: 0
-      Description: 
-      Languages:
-      - "Unas gafas de ver con la montura algo rayada. Est\xE1n dobladas por una
-        patilla, pero a\xFAn se pueden usar; parece que alguien las dej\xF3 con prisas."
-      - 
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Items/GafasGuiltyDescription
+    - Term: Answers/
       TermType: 0
       Description: 
       Languages:
@@ -109,224 +33,1182 @@ MonoBehaviour:
       - 
       Flags: 0000
       Languages_Touch: []
-    - Term: Items/RaquetaName
+    - Term: Answers/Q0_Answer_0
       TermType: 0
       Description: 
       Languages:
-      - Raqueta
-      - 
+      - "Conozco mejor a Se\xF1or Se\xF1ora. No porque hable m\xE1s\u2026 sino porque
+        se le escapa menos. Eso dice mucho.\n\xBFA qui\xE9n no miro a los ojos? A
+        Se\xF1or Oculo. Ir\xF3nico, ya lo s\xE9. Pero hay miradas que no son ventanas:
+        son pozos. Y yo ya he visto demasiadas cosas reflejadas en superficies que
+        no deber\xEDan reflejar nada."
+      - "I know Mr. and Mrs. better. Not because he talks more\u2026 but because
+        he lets less slip. That says a lot.\nWhose eyes do I avoid? Mr. Eye. Ironic,
+        I know. But some gazes aren't windows: they're wells. And I've already seen
+        too many things reflected in surfaces that shouldn't reflect anything."
       Flags: 0000
       Languages_Touch: []
-    - Term: Items/RaquetaNormalDescription
+    - Term: Answers/Q0_Answer_1
       TermType: 0
       Description: 
       Languages:
-      - "Una raqueta deportiva con el grip sudado y el cordaje algo flojo. No parece
-        nueva, pero est\xE1 cuidada, como de alguien que la usa de vez en cuando."
-      - 
+      - "Conozco mejor a Se\xF1or Tele. No porque hable mucho, sino porque cuando
+        miente\u2026 lo hace para proteger a alguien, no para salirse con la suya.
+        Eso se nota.\n\xBFA qui\xE9n no miro demasiado tiempo a los ojos? A Se\xF1or
+        Oculo. Es raro: no es intimidaci\xF3n. Es\u2026 como si al sostenerle la
+        mirada te estuvieras comprometiendo a algo sin haber le\xEDdo la letra peque\xF1a."
+      - "I know Mr. Tele better. Not because he talks a lot, but because when he
+        lies\u2026 he does it to protect someone, not to get his own way. You can
+        tell.\nWho do I not look in the eyes for very long? Mr. Oculo. It's strange:
+        it's not intimidation. It's\u2026 as if by holding his gaze you're committing
+        to something without having read the fine print."
       Flags: 0000
       Languages_Touch: []
-    - Term: Items/RaquetaGuiltyDescription
+    - Term: Answers/Q0_Answer_2
       TermType: 0
       Description: 
       Languages:
-      - 
-      - 
+      - "\u201CConozco mejor a Se\xF1or Tele. Es el \xFAnico que habla como si estuviera
+        narrando algo para otra persona\u2026 y eso delata m\xE1s de lo que cree.\n\xBFA
+        qui\xE9n no miro demasiado tiempo a los ojos? A Se\xF1or Cornudo. Porque
+        no aparta la mirada cuando deber\xEDa. Y eso no es valent\xEDa: es costumbre."
+      - "\u201CI know Mr. Tele better. He\u2019s the only one who talks as if he\u2019s
+        narrating something for someone else\u2026 and that gives him away more than
+        he thinks.\nWho do I not look in the eyes for very long? Mr. Cuckold. Because
+        he doesn\u2019t look away when he should. And that\u2019s not bravery: it\u2019s
+        habit.\u201D"
       Flags: 0000
       Languages_Touch: []
-    - Term: Items/WalkmanName
+    - Term: Answers/Q0_Answer_3
       TermType: 0
       Description: 
       Languages:
-      - Walkman
-      - 
+      - "Conozco mejor a Se\xF1or Se\xF1ora. Porque no habla para sonar bien: habla
+        para no romperse. Eso lo reconozco.\n\xBFY a qui\xE9n no miro mucho a los
+        ojos? A Se\xF1or Liebre. No s\xE9 explicarlo\u2026 con \xE9l es como si la
+        mirada fuera un \u2018s\xED\u2019 sin querer. Como si, si te engancha un
+        segundo de m\xE1s, luego te cueste recordar qui\xE9n empez\xF3 la conversaci\xF3n."
+      - "I know Mr. and Mrs. better. Because he doesn't speak to sound good: he speaks
+        to avoid breaking down. I admit that.\n\nAnd who do I not look in the eye
+        much? Mr. Hare. I can't explain it\u2026 with him, it's like a look is an
+        unintentional 'yes.' Like if you hold his gaze for even a second too long,
+        you'll have trouble remembering who started the conversation."
       Flags: 0000
       Languages_Touch: []
-    - Term: Items/WalkmanNormalDescription
+    - Term: Answers/Q0_Answer_4
       TermType: 0
       Description: 
       Languages:
-      - Un reproductor de casete antiguo con marcas de uso en los bordes. Si lo agitas
-        suena algo dentro, como la cinta suelta o un muelle flojo.
-      - 
+      - "Conozco mejor a Se\xF1or Escroto. Es de los m\xEDos: dice poco, pero cuando
+        habla es para aterrizar las cosas.\n\xBFA qui\xE9n no miro mucho a los ojos?
+        A Se\xF1or Cornudo. No porque imponga\u2026 sino porque cuando le sostienes
+        la mirada parece que te est\xE1 midiendo, como si fueras peso en una barra."
+      - "I know Mr. Scrotum better. He's one of us: he doesn't say much, but when
+        he does, he really brings things down to earth.\nWho do I avoid looking in
+        the eye much? Mr. Cuckold. Not because he's intimidating\u2026 but because
+        when you hold his gaze, it's like he's measuring you, as if you were a weight
+        on a barbell."
       Flags: 0000
       Languages_Touch: []
-    - Term: Items/WalkmanGuiltyDescription
+    - Term: Answers/Q0_Answer_5
       TermType: 0
       Description: 
       Languages:
-      - 
-      - 
+      - "Conozco mejor a Se\xF1or Liebre. Es f\xE1cil de leer: si est\xE1 tenso,
+        se le nota en el cuerpo; si est\xE1 tranquilo, tambi\xE9n. No hay mucho teatro
+        ah\xED.\n\xBFA qui\xE9n no me f\xEDo de mirar demasiado a los ojos? A Se\xF1or
+        Se\xF1ora. No porque mienta\u2026 sino porque parece que siempre est\xE1
+        midiendo qu\xE9 parte de la verdad puede soltar sin que se le caiga todo
+        encima."
+      - "I know Mr. Hare better. He's easy to read: if he's tense, you can see it
+        in his body; if he's calm, you can see that too. There's not much acting
+        involved.\nWho do I not trust enough to look in the eye? Mr. Madam. Not because
+        he lies\u2026 but because he always seems to be measuring how much of the
+        truth he can let slip without it all coming crashing down on him."
       Flags: 0000
       Languages_Touch: []
-    - Term: Items/PetacaName
+    - Term: Answers/Q10_Answer_0
       TermType: 0
       Description: 
       Languages:
-      - Petaca
-      - 
+      - "Se\xF1or Tele dijo que no hab\xEDa salido del coche hasta que vosotros volvisteis\u2026
+        pero yo escuch\xE9 pasos alrededor del maletero antes de que nadie abriera
+        la puerta de la estaci\xF3n.\nY no, no eran mis pasos. Yo camino\u2026 distinto.\nO
+        miente, o alguien camin\xF3 con sus pasos."
+      - "Mr. Tele said he hadn't left the car until you returned\u2026 but I heard
+        footsteps around the trunk before anyone opened the station door.\n\nAnd
+        no, those weren't my footsteps. I walk\u2026 differently.\n\nEither he's
+        lying, or someone else walked in his footsteps."
       Flags: 0000
       Languages_Touch: []
-    - Term: Items/PetacaNormalDescription
+    - Term: Answers/Q10_Answer_1
       TermType: 0
       Description: 
       Languages:
-      - "Una petaca met\xE1lica peque\xF1a, con un par de golpes. Est\xE1 vac\xEDa
-        o casi vac\xEDa; al abrirla queda un olor fuerte, dif\xEDcil de identificar."
-      - 
+      - "Se\xF1or Escroto dijo que hab\xEDa ido todo el camino con la ventanilla
+        cerrada porque \u2018le molesta el aire\u2019. Pero yo recuerdo perfectamente
+        c\xF3mo se quej\xF3 del olor a gasolina con la ventanilla bajada.\nO mi memoria
+        est\xE1 fallando\u2026 o su historia se est\xE1 ajustando sobre la marcha."
+      - 'Mr. Scrotum said he drove the whole way with the window closed because "the
+        air bothers him." But I clearly remember him complaining about the smell
+        of gasoline with the window down.
+
+
+        Either my memory is failing me...
+        or his story is being adjusted as he goes along.'
       Flags: 0000
       Languages_Touch: []
-    - Term: Items/PetacaGuiltyDescription
+    - Term: Answers/Q10_Answer_2
       TermType: 0
       Description: 
       Languages:
-      - 
-      - 
+      - "Se\xF1or Se\xF1ora dijo que no hab\xEDa tocado su bolso en toda la parada.\nPero
+        yo le vi\u2014y esto lo vi bien\u2014meter la mano y sacar algo peque\xF1o,
+        r\xE1pido. Podr\xEDa ser la mu\xF1eca, podr\xEDa ser una nota\u2026 lo escondi\xF3
+        en el libro como quien guarda un billete.\nPuede ser inocente. O puede ser
+        control de da\xF1os."
+      - "Sir/Madam, you said you hadn't touched your purse the entire time we were
+        at the bus stop.\n\nBut I saw you\u2014and I saw this clearly\u2014reach
+        in and pull out something small, quickly. It could have been your wrist,
+        it could have been a note\u2026 you tucked it into your book like someone
+        stashing a bill.\nIt could be innocent. Or it could be damage control."
       Flags: 0000
       Languages_Touch: []
-    - Term: Items/CamaraName
+    - Term: Answers/Q10_Answer_3
       TermType: 0
       Description: 
       Languages:
-      - "C\xE1mara"
-      - 
+      - "Se\xF1or Escroto dice que no le gusta la m\xFAsica, que le distrae.\nPero
+        yo le vi mover el pie. Dos veces. En el mismo estribillo.\nEso no lo haces
+        si no est\xE1s escuchando. O lo haces\u2026 si est\xE1s intentando parecer
+        alguien que escucha."
+      - 'Mr. Scrotum says he doesn''t like music, that it distracts him.
+
+
+        But
+        I saw him tap his foot. Twice. During the same chorus.
+
+        You don''t
+        do that if you''re not listening. Or you do it... if you''re trying to look
+        like you''re listening.'
       Flags: 0000
       Languages_Touch: []
-    - Term: Items/CamaraNormalDescription
+    - Term: Answers/Q10_Answer_4
       TermType: 0
       Description: 
       Languages:
-      - "Una c\xE1mara compacta con la tapa algo ara\xF1ada. Tiene una correa enrollada
-        y est\xE1 llena de huellas, como si la hubiesen pasado de mano en mano."
-      - 
+      - "Se\xF1or Tele dijo que no se quit\xF3 el Walkman en todo el tramo largo\u2026
+        pero yo le o\xED hablar claro durante una canci\xF3n. Y no fue un \u2018tarareo\u2019,
+        fue una frase entera.\nO se lo quit\xF3, o alguien estaba hablando con su
+        voz. Ninguna me gusta."
+      - "Mr. Tele said he didn't take off his Walkman the entire time\u2026 but I
+        heard him speaking clearly during one song. And it wasn't just humming, it
+        was a whole sentence.\n\nEither he took it off, or someone was talking in
+        his voice. I don't like either explanation."
       Flags: 0000
       Languages_Touch: []
-    - Term: Items/CamaraGuiltyDescription
+    - Term: Answers/Q10_Answer_5
       TermType: 0
       Description: 
       Languages:
-      - 
-      - 
+      - "Se\xF1or Cornudo habl\xF3 de \u2018un olor\u2019 en el coche antes de parar\u2026
+        pero luego dijo que no hab\xEDa estado atento al trayecto, que iba a lo suyo.\n\xBFEn
+        qu\xE9 quedamos? O est\xE1s atento a olores y detalles, o vas desconectado.
+        Las dos a la vez suenan a historia retocada."
+      - 'Mr. Cuckold mentioned a "smell" in the car before stopping... but then said
+        he hadn''t been paying attention to the drive, that he was just minding his
+        own business.
+
+        So which is it? Either you''re paying attention to
+        smells and details, or you''re completely disconnected. Both sounds like
+        a fabricated story.'
       Flags: 0000
       Languages_Touch: []
-    - Term: Items/CraneoName
+    - Term: Answers/Q11_Answer_0
       TermType: 0
       Description: 
       Languages:
-      - "Cr\xE1neo"
-      - 
+      - "\xDAltimo en bajarse: Se\xF1or Escroto. Se qued\xF3 un segundo de m\xE1s,
+        como si estuviera contando cabezas incluso antes de saber que hab\xEDa que
+        contarlas.\nEl que m\xE1s tard\xF3 en volver\u2026 Se\xF1or Oculo. Y no por
+        lento: por preciso.\nCuando alguien tarda por precisi\xF3n, es que est\xE1
+        haciendo algo que no quiere improvisar."
+      - "Last to get off: Mr. Scrotum. He lingered a second too long, as if he were
+        counting heads even before he knew he had to count them.\nThe one who took
+        the longest to return\u2026 Mr. Eyeball. And not because he was slow: because
+        he was precise.\nWhen someone takes their time because of precision, it means
+        they're doing something they don't want to improvise."
       Flags: 0000
       Languages_Touch: []
-    - Term: Items/CraneoNormalDescription
+    - Term: Answers/Q11_Answer_1
       TermType: 0
       Description: 
       Languages:
-      - "Un cr\xE1neo peque\xF1o, blanqueado y seco. No tiene nada \u201Cfresco\u201D;
-        da la sensaci\xF3n de ser un recuerdo raro o un objeto decorativo de mal
-        gusto."
-      - 
+      - "El \xFAltimo en bajarse fue Se\xF1or Cornudo. Se qued\xF3 un segundo inm\xF3vil,
+        como si estuviera escuchando algo dentro del coche antes de moverse.\nEl
+        que m\xE1s tard\xF3 en volver\u2026 Se\xF1or Tele. No porque se entretuviera,
+        sino porque volvi\xF3 mirando hacia atr\xE1s. Como si temiera que algo lo
+        siguiera desde la puerta."
+      - 'The last one to get out was Mr. Cuckold. He stood motionless for a second,
+        as if he were listening to something inside the car, before moving.
+
+        The
+        one who took the longest to return was Mr. TV. Not because he was lingering,
+        but because he kept looking back. As if he were afraid something was following
+        him from the doorway.'
       Flags: 0000
       Languages_Touch: []
-    - Term: Items/CraneoGuiltyDescription
+    - Term: Answers/Q11_Answer_2
       TermType: 0
       Description: 
       Languages:
-      - 
-      - 
+      - "\xDAltimo en bajarse: Se\xF1or Escroto. Estaba mirando el retrovisor como
+        si esperara ver a alguien sentado detr\xE1s.\nY el que m\xE1s tard\xF3 en
+        volver\u2026 Se\xF1or Cornudo. No tard\xF3 por despiste: tard\xF3 por decisi\xF3n.
+        Como si hubiera ido a comprobar algo que no quer\xEDa que descubriesemos."
+      - "Last to get off: Mr. Scrotum. He was staring in the rearview mirror as if
+        he expected to see someone sitting behind him.\n\nAnd the one who took the
+        longest to return\u2026 Mr. Cuckold. He wasn't late because he forgot: he
+        was late by choice. As if he'd gone to check something he didn't want us
+        to find out."
       Flags: 0000
       Languages_Touch: []
-    - Term: Items/MancuernaName
+    - Term: Answers/Q11_Answer_3
       TermType: 0
       Description: 
       Languages:
-      - Mancuerna
-      - 
+      - "El \xFAltimo en bajarse fue Se\xF1or Se\xF1ora. Se qued\xF3 un segundo con
+        la mano en el bolso, como si contara algo sin mirarlo.\nEl que m\xE1s tard\xF3
+        en volver\u2026 Se\xF1or Oculo. Y me dio mala espina porque volvi\xF3 con
+        la cara de quien ya ha visto una escena\u2026 y est\xE1 decidiendo qu\xE9
+        versi\xF3n contar."
+      - 'The last one to get off was Mr. and Mrs. He stood there for a second with
+        his hand in his bag, as if he were saying something without looking at it.
+
+        The
+        one who took the longest to return was Mr. Oculo. And he gave me a bad feeling
+        because he came back with the face of someone who''s already seen a scene...
+        and is deciding which version to tell.'
       Flags: 0000
       Languages_Touch: []
-    - Term: Items/MancuernaNormalDescription
+    - Term: Answers/Q11_Answer_4
       TermType: 0
       Description: 
       Languages:
-      - "Una mancuerna de hierro, pesada para su tama\xF1o. Est\xE1 oxidada en algunas
-        zonas y deja un poquito de polvo met\xE1lico en los dedos al tocarla."
-      - 
+      - "El \xFAltimo en bajarse fue Se\xF1or Oculo. Se qued\xF3 mirando por el cristal
+        como si estuviera buscando un \xE1ngulo.\nEl que m\xE1s tard\xF3 en volver\u2026
+        Se\xF1or Cornudo. Volvi\xF3 con calma, pero no era calma normal. Era la calma
+        de alguien que ya hab\xEDa decidido qu\xE9 iba a decir."
+      - "The last one to get out was Mr. Eyeball. He stared out the window as if
+        searching for an angle.\nThe one who took the longest to return\u2026 Mr.
+        Cuckold. He came back calmly, but it wasn't normal calm. It was the calm
+        of someone who had already decided what he was going to say."
       Flags: 0000
       Languages_Touch: []
-    - Term: Items/MancuernaGuiltyDescription
+    - Term: Answers/Q11_Answer_5
       TermType: 0
       Description: 
       Languages:
-      - 
-      - 
+      - "El \xFAltimo en bajarse fue Se\xF1or Tele. Se qued\xF3 trasteando con el
+        Walkman como si le diera miedo que se quedara en silencio.\nEl que m\xE1s
+        tard\xF3 en volver\u2026 Se\xF1or Oculo. Y no porque se perdiera: porque
+        volvi\xF3 con esa cara de \u2018ya tengo una versi\xF3n\u2019."
+      - "The last one to get off was Mr. TV. He stayed fiddling with his Walkman
+        as if he were afraid it would go silent.\nThe one who took the longest to
+        return\u2026 Mr. Eyecup. And not because he got lost: because he came back
+        with that \u2018I\u2019ve got a version now\u2019 look on his face."
       Flags: 0000
       Languages_Touch: []
-    - Term: Items/LibroDeBolsilloName
+    - Term: Answers/Q1_Answer_0
       TermType: 0
       Description: 
       Languages:
-      - Libro de bolsillo
-      - 
+      - "Oficial: necesitaba salir de la ciudad, aire, carretera, reset.\nReal: ven\xEDa
+        siguiendo un rastro. No de gasolina. No de huellas. De ausencia."
+      - 'Official: I needed to get out of the city, fresh air, open road, a reset.
+
+        Real:
+        I was following a trail. Not of gasoline. Not of footprints. Of absence.'
       Flags: 0000
       Languages_Touch: []
-    - Term: Items/LibroDeBolsilloNormalDescription
+    - Term: Answers/Q1_Answer_1
       TermType: 0
       Description: 
       Languages:
-      - "Un libro peque\xF1o con las esquinas dobladas y algunas p\xE1ginas marcadas.
-        La portada est\xE1 manoseada, como de haber viajado en una guantera."
-      - 
+      - "Oficial: necesitaba despejarme, cambiar de aires.\nReal: me sub\xED porque
+        no pod\xEDa quedarme sola con mis pensamientos. Y porque\u2026 a veces, cuando
+        llevas un secreto en el bolso, necesitas movimiento para que no pese tanto.\nAdem\xE1s,
+        me prometieron que habr\xEDa tiempo para leer. Mentira bonita."
+      - "Official: I needed to clear my head, get some fresh air.\nReal: I got on
+        because I couldn't stay alone with my thoughts. And because\u2026 sometimes,
+        when you're carrying a secret in your bag, you need movement so it doesn't
+        weigh you down so much.\nBesides, they promised me there would be time to
+        read. A pretty lie."
       Flags: 0000
       Languages_Touch: []
-    - Term: Items/LibroDeBolsilloGuiltyDescription
+    - Term: Answers/Q1_Answer_2
       TermType: 0
       Description: 
       Languages:
-      - 
-      - 
+      - "La raz\xF3n oficial, necesitaba material. Fotos, v\xEDdeo, recuerdos. Me
+        apetec\xEDa documentar una escapada.\nLa real, iba siguiendo un patr\xF3n.
+        Carreteras secundarias, estaciones de servicio aisladas, gente cansada\u2026
+        Es un tipo de escenario que se repite en ciertos\u2026 incidentes.\nY porque,
+        si algo sale mal, prefiero estar detr\xE1s de una lente. Pone distancia."
+      - "The official reason: I needed material. Photos, video, memories. I felt
+        like documenting a getaway.\nThe real reason followed a pattern. Back roads,
+        isolated gas stations, tired people\u2026 It's a type of scenario that repeats
+        itself in certain\u2026 incidents.\nAnd because, if something goes wrong,
+        I prefer to be behind a lens. It creates distance."
       Flags: 0000
       Languages_Touch: []
-    - Term: Items/MunecaName
+    - Term: Answers/Q1_Answer_3
       TermType: 0
       Description: 
       Languages:
-      - "Mu\xF1eca"
-      - 
+      - "Lo que le dije al grupo fue simple: \u2018me ven\xEDa bien acompa\xF1aros,
+        tengo que estar en el mismo sitio que vosotros al final del trayecto\u2019.\nLo
+        que no dije: yo no me sub\xED por el destino, me sub\xED por el sonido. En
+        casa empec\xE9 a o\xEDr cosas donde no las hab\xEDa: un estribillo en el
+        grifo, una voz en el ventilador, un golpe de bater\xEDa en la nevera.\nEn
+        el coche, con el Walkman, al menos puedo poner una cinta y saber qu\xE9 parte
+        es m\xFAsica\u2026 y qu\xE9 parte soy yo perdiendo el control."
+      - "What I told the group was simple: \u201CIt would be good for me to join
+        you; I have to be in the same place as you at the end of the journey.\u201D\n\nWhat
+        I didn\u2019t say: I didn\u2019t get on board for the destination, I got
+        on board for the sound. At home, I started hearing things that weren\u2019t
+        there: a chorus in the tap, a voice in the fan, a drumbeat in the fridge.\n\nIn
+        the car, with my Walkman, at least I can put on a tape and know what part
+        is music\u2026 and what part is me losing control."
       Flags: 0000
       Languages_Touch: []
-    - Term: Items/MunecaNormalDescription
+    - Term: Answers/Q1_Answer_4
       TermType: 0
       Description: 
       Languages:
-      - "Una mu\xF1eca de pl\xE1stico con la ropa sucia y el pelo enredado. Tiene
-        una mirada fija bastante inquietante, pero en el fondo es \u201Csolo\u201D
-        un juguete viejo."
-      - 
+      - "Me apunt\xE9 porque el plan ten\xEDa sentido: coche lleno, ruta corta, parar,
+        llegar. Eso es lo que dije.\nLa verdad: \xFAltimamente no aguanto estar quieto.
+        Si paro, pienso. Si pienso, me caliento. As\xED que prefiero moverme, entrenar,
+        distraer el cuerpo para que la cabeza no mande.\nY s\xED, traje la mancuerna
+        por eso. No es postureo: es\u2026 gesti\xF3n de da\xF1os."
+      - "I signed up because the plan made sense: car full, short route, stop, arrive.
+        That's what I said.\n\nThe truth is: lately I can't stand being still. If
+        I stop, I think. If I think, I get worked up. So I prefer to move, train,
+        distract my body so my mind doesn't take over.\n\nAnd yes, that's why I brought
+        the dumbbell. It's not for show: it's\u2026 damage control."
       Flags: 0000
       Languages_Touch: []
-    - Term: Items/MunecaGuiltyDescription
+    - Term: Answers/Q1_Answer_5
       TermType: 0
       Description: 
       Languages:
-      - 
-      - 
+      - "Me invitaron y dije que s\xED. Esa es la versi\xF3n socialmente aceptable.\nLa
+        otra: me ven\xEDa bien estar rodeado de gente para no hacer una tonter\xEDa.
+        Cuando est\xE1s solo, algunas ideas suenan razonables. En grupo, se te pasan.\nY
+        s\xED, llevo la petaca por eso: no para hacerme el gracioso\u2026 para no
+        irme del todo."
+      - "They invited me, and I said yes. That's the socially acceptable version.\n\nThe
+        other one: it was good for me to be surrounded by people so I wouldn't do
+        something stupid. When you're alone, some ideas sound reasonable. In a group,
+        they just slip your mind.\n\nAnd yes, that's why I'm carrying the hip flask:
+        not to be funny\u2026 but so I don't completely disappear."
       Flags: 0000
       Languages_Touch: []
-    - Term: Items/TestDescription
+    - Term: Answers/Q2_Answer_0
       TermType: 0
       Description: 
       Languages:
-      - "Descripci\xF3n de un \xEDtem de prueba. Esto es solo una descripci\xF3n
-        para ver c\xF3mo queda el texto descriptivamente descrito."
-      - Description of a test item. This is just a description to see how the text
-        looks when described.
+      - "Yo\u2026 me desanud\xE9 del asiento trasero.\nEstaba tocando el cr\xE1neo
+        con la yema de los dedos, como quien comprueba si un reloj sigue vivo. Y
+        escuchando: el coche, cuando se para, hace un silencio que no es silencio\u2026
+        es una boca cerr\xE1ndose."
+      - "I\u2026 untied myself from the back seat.\n\nI was touching my skull with
+        my fingertips, like someone checking if a clock is still working. And listening:
+        when the car stops, there's a silence that isn't silence\u2026 it's a mouth
+        closing."
       Flags: 0000
       Languages_Touch: []
-    - Term: Items/TestName
+    - Term: Answers/Q2_Answer_1
       TermType: 0
       Description: 
       Languages:
-      - "\xCDtem de prueba"
-      - Test Item
+      - "Estaba con el libro de bolsillo abierto sobre las rodillas, pasando p\xE1ginas
+        sin leer de verdad. Cuando me pongo nerviosa hago eso: hago como que avanzo.\nY
+        la mu\xF1eca\u2026 la ten\xEDa en la mano, apretada. Como si fuera un ancla.
+        No me mires as\xED: cada uno tiene sus man\xEDas."
+      - "I was holding the paperback open on my knees, flipping through pages without
+        really reading. When I get nervous, I do that: I pretend to make progress.\n\nAnd
+        my wrist\u2026 I was clutching it tightly in my hand. Like it was an anchor.
+        Don't look at me like that: everyone has their quirks."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q2_Answer_2
+      TermType: 0
+      Description: 
+      Languages:
+      - "Estaba limpiando las gafas. No por man\xEDa: por necesidad. Cuando el cristal
+        est\xE1 sucio, el cerebro inventa bordes que no existen.\nY ten\xEDa la c\xE1mara
+        preparada, sin grabar. Me qued\xE9 quieto escuchando el motor morir\u2026
+        porque ese instante, justo antes de que todos reaccion\xE9is, es cuando la
+        verdad suele asomar."
+      - "I was cleaning my glasses. Not out of habit: out of necessity. When the
+        lenses are dirty, the brain imagines edges that aren't there.\n\nAnd I had
+        my camera ready, not recording. I stood still, listening to the engine die\u2026
+        because that instant, just before everyone reacts, is when the truth usually
+        emerges."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q2_Answer_3
+      TermType: 0
+      Description: 
+      Languages:
+      - "Ten\xEDa el Walkman puesto, con una cinta vieja. De esas que ya no suenan
+        limpias, suenan\u2026 vividas.\nY justo cuando el coche se par\xF3, la cinta
+        se comi\xF3 un segundo de canci\xF3n. Como si mordiera.\nMe lo quit\xE9 de
+        golpe, como si el aparato me hubiera susurrado algo que no quer\xEDa o\xEDr."
+      - 'I had my Walkman playing, with an old tape. One of those that doesn''t sound
+        clean anymore, it sounds... lived-in.
+
+
+        And just as the car stopped,
+        the tape cut off a second of the song. Like it was biting into something.
+
+        I
+        yanked it out, as if the device had whispered something I didn''t want to
+        hear.'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q2_Answer_4
+      TermType: 0
+      Description: 
+      Languages:
+      - "Estaba apretando el mango de la raqueta. La llevaba en el regazo, como quien
+        sujeta algo familiar.\nY con la otra mano hac\xEDa repeticiones lentas con
+        la mancuerna, sin levantarla mucho, solo para no quedarme congelado. Cuando
+        el coche se par\xF3, par\xE9 yo tambi\xE9n. De golpe. Eso no me pasa."
+      - 'I was gripping the handle of the racket. I held it in my lap, like someone
+        holding something familiar.
+
+
+        And with my other hand, I did slow
+        repetitions with the dumbbell, not lifting it very high, just so I wouldn''t
+        freeze up. When the car stopped, I stopped too. Suddenly. That doesn''t happen
+        to me.'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q2_Answer_5
+      TermType: 0
+      Description: 
+      Languages:
+      - "Miraba el retrovisor. No por paranoia, por costumbre.\nY estaba palpando
+        la petaca en el bolsillo, como quien comprueba que lleva las llaves. No la
+        saqu\xE9. Ni beb\xED. Solo\u2026 comprob\xE9 que estaba."
+      - "I was looking in the rearview mirror. Not out of paranoia, just out of habit.\n\nAnd
+        I was feeling for the flask in my pocket, like someone checking they have
+        their keys. I didn't take it out. I didn't drink. I just\u2026 checked it
+        was there."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q3_Answer_0
+      TermType: 0
+      Description: 
+      Languages:
+      - "Querr\xEDa hacerlo demasiado bien.\nUn humano no est\xE1 siempre en el tono
+        correcto, ni responde a la velocidad correcta, ni mira donde \u2018toca\u2019.\nEl
+        impostor no sabr\xE1 fallar con naturalidad. Y, sobre todo, no entender\xE1
+        una cosa: los humanos se contradicen\u2026 y no lo notan."
+      - "I'd want to do it too well.\nA human isn't always in the right tone, doesn't
+        always respond at the right speed, and doesn't always look where they're
+        supposed to.\nThe imposter won't know how to make mistakes naturally. And,
+        above all, he won't understand one thing: humans contradict themselves\u2026
+        and they don't even notice."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q3_Answer_1
+      TermType: 0
+      Description: 
+      Languages:
+      - "Se olvidar\xEDa de lo in\xFAtil.\nUn humano guarda cosas sin sentido: tickets
+        viejos, migas en el asiento, frases que no llevan a ninguna parte. Un impostor
+        intentar\xEDa ser eficiente. Coherente. Demasiado limpio.\nY cuando le preguntes
+        por un recuerdo peque\xF1o\u2014una tonter\xEDa\u2014te dar\xE1 una respuesta
+        perfecta\u2026 que no huele a verdad."
+      - "He'd forget the useless.\n\nA human keeps meaningless things: old tickets,
+        crumbs on the seat, sentences that lead nowhere. An imposter would try to
+        be efficient. Coherent. Too tidy.\n\nAnd when you ask him about a small memory\u2014something
+        trivial\u2014he'll give you a perfect answer\u2026 that doesn't smell true."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q3_Answer_2
+      TermType: 0
+      Description: 
+      Languages:
+      - "Se equivocar\xEDa en el ritmo.\nLos humanos dudan con microgestos, titubean,
+        se contradicen sin que les importe. Un impostor imita la forma, pero no el
+        tiempo.\nY fallar\xEDa en lo m\xE1s tonto: en c\xF3mo alguien sujeta un objeto
+        \u2018propio\u2019. Si no te pertenecen tus cosas, se te nota en las manos."
+      - 'They''d get the rhythm wrong.
+
+        Humans hesitate with micro-gestures,
+        waver, contradict themselves without a second thought. An imposter mimics
+        form, but not timing.
+
+
+        And they''d fail at the most basic thing:
+        how someone holds an object that''s ''theirs''. If your things don''t belong
+        to you, it shows in your hands.'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q3_Answer_3
+      TermType: 0
+      Description: 
+      Languages:
+      - "Intentar\xEDa parecer coherente todo el rato. Y eso canta.\nUna persona
+        normal mete la pata: se contradice, se corrige, se pone nerviosa por tonter\xEDas
+        y a veces suelta una frase fuera de lugar.\nEl que est\xE1 fingiendo suele
+        ir \u2018demasiado correcto\u2019: responde r\xE1pido, no duda, no se le
+        escapa nada personal y evita detalles peque\xF1os que no puede comprobar
+        (por ejemplo: qu\xE9 canci\xF3n sonaba, qui\xE9n habl\xF3 primero o qu\xE9
+        asiento ocupaba)."
+      - 'He''d try to appear consistent the whole time. And that''s obvious.
+
+        A
+        normal person makes mistakes: they contradict themselves, correct themselves,
+        get flustered over trivial things, and sometimes blurt out an inappropriate
+        remark. Someone who''s pretending is usually ''too proper'': they respond
+        quickly, don''t hesitate, don''t let anything personal slip, and avoid small
+        details they can''t verify (for example: what song was playing, who spoke
+        first, or what seat they were sitting in).'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q3_Answer_4
+      TermType: 0
+      Description: 
+      Languages:
+      - "Se notar\xEDa en el cuerpo.\nLa gente de verdad tiene h\xE1bitos: c\xF3mo
+        se sienta, c\xF3mo se agacha, c\xF3mo reacciona a un susto. Un impostor puede
+        clavar las frases, pero el cuerpo va tarde.\nY otra cosa: alguien que finge
+        suele evitar cansarse. Nadie que est\xE9 actuando quiere sudar de verdad."
+      - 'It would show in their body.
+
+        Real people have habits: how they
+        sit, how they bend over, how they react to a fright. An imposter might nail
+        the lines, but their body is slow to react.
+
+
+        And another thing:
+        someone who''s faking it usually avoids getting tired. Nobody who''s acting
+        wants to actually sweat.'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q3_Answer_5
+      TermType: 0
+      Description: 
+      Languages:
+      - "Se pasar\xEDa de listo.\nIntentar\xEDa responder \u2018bien\u2019 en vez
+        de responder \u2018normal\u2019. Dir\xEDa lo correcto, lo convincente, lo
+        que encaja\u2026 y evitar\xEDa las cosas que hacemos todos: vacilar, cambiar
+        de tema, quedarse en blanco, decir \u2018no s\xE9\u2019 sin verg\xFCenza.\nEl
+        que finge quiere control. Y hoy, el control canta."
+      - 'He''d try to be too clever.
+
+
+        He''d try to answer "fine" instead
+        of "normal." He''d say the right thing, the convincing thing, the thing that
+        fits... and he''d avoid the things we all do: hesitate, change the subject,
+        draw a blank, shamelessly say "I don''t know."
+
+        The one who pretends
+        wants control. And today, control is obvious.'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q4_Answer_0
+      TermType: 0
+      Description: 
+      Languages:
+      - "S\xED. Y la mayor\xEDa est\xE1n mal contadas a prop\xF3sito.\nTe dicen \u2018cambia
+        de piel\u2019 para que busques costuras. Te dicen \u2018imita voces\u2019
+        para que escuches acentos.\nPero lo peligroso no es lo que copia: es lo que
+        borra. Un skinwalker convincente no se pone una m\xE1scara\u2026 te quita
+        la tuya y hace que te parezca normal."
+      - "Yes. And most of them are deliberately misrepresented.\nThey tell you to
+        \"change your skin\" so you look for seams. They tell you to \"imitate voices\"
+        so you listen for accents.\n\nBut the dangerous thing isn't what they copy:
+        it's what they erase. A convincing skinwalker doesn't put on a mask\u2026
+        they take yours off and make it seem normal."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q4_Answer_1
+      TermType: 0
+      Description: 
+      Languages:
+      - "S\xED. Y siempre me parecieron cuentos para asustar alrededor de una fogata.\nPero
+        tambi\xE9n he le\xEDdo versiones viejas, las que no suenan a pel\xEDcula.
+        Ah\xED no hablan tanto de \u2018monstruos\u2019 como de confusi\xF3n. De
+        no saber cu\xE1ndo empez\xF3 el enga\xF1o.\nEso es lo que me est\xE1 molestando
+        hoy: que no s\xE9 en qu\xE9 minuto exacto dejamos de estar\u2026 normales."
+      - 'Yes. And I always thought they were just scary stories to tell around a
+        campfire.
+
+
+        But I''ve also read older versions, the ones that don''t
+        sound like movies. They don''t talk so much about ''monsters'' as about confusion.
+        About not knowing when the deception began.
+
+
+        That''s what''s bothering
+        me today: that I don''t know at what exact moment we stopped being... normal.'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q4_Answer_2
+      TermType: 0
+      Description: 
+      Languages:
+      - "Claro. En foros, en documentales malos, en conversaciones de madrugada.\nPero
+        tambi\xE9n en testimonios que no buscan likes. La constante no es \u2018se
+        transforman\u2019. La constante es: te convencen. Te colocan recuerdos como
+        quien coloca fotos en un marco.\nY t\xFA firmas debajo sin leer."
+      - 'Sure. In forums, in bad documentaries, in late-night conversations.
+
+
+        But
+        also in testimonials that aren''t seeking likes. The constant isn''t ''they
+        transform.'' The constant is: they convince you. They place memories in your
+        mind like someone putting photos in a frame.
+
+
+        And you sign below
+        without reading.'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q4_Answer_3
+      TermType: 0
+      Description: 
+      Languages:
+      - "S\xED, pero siempre contadas por gente que quer\xEDa hacerse la interesante.\nA
+        m\xED me daba igual\u2026 hasta hoy.\nHoy lo que me da miedo no es \u2018que
+        copie voces\u2019. Lo que me da miedo es que copie tu nostalgia. Que te d\xE9
+        un recuerdo falso y t\xFA lo abraces porque te consuela."
+      - "Yes, but always told by people who wanted to sound interesting.\n\nI didn't
+        care\u2026 until today.\nWhat scares me today isn't that it will 'copy voices.'
+        What scares me is that it will copy your nostalgia. That it will give you
+        a false memory and you'll embrace it because it comforts you."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q4_Answer_4
+      TermType: 0
+      Description: 
+      Languages:
+      - "S\xED, en v\xEDdeos y en charlas de bar. Siempre lo mismo: \u2018imitan\u2019,
+        \u2018enga\xF1an\u2019, \u2018se ponen tu cara\u2019.\nYo no s\xE9 de mitos.
+        Lo que s\xED s\xE9 es que, si esto va de enga\xF1ar, lo l\xF3gico es que
+        no lo haga a lo bruto. Lo har\xE1 con detalles peque\xF1os. Con cosas que
+        nadie discute."
+      - 'Yes, in videos and in bar conversations. It''s always the same: ''they imitate,''
+        ''they deceive,'' ''they impersonate you.''
+
+
+        I don''t know about
+        myths. What I do know is that, if this is about deception, it''s logical
+        that they won''t do it blatantly. They''ll do it with small details. With
+        things that no one questions.'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q4_Answer_5
+      TermType: 0
+      Description: 
+      Languages:
+      - "S\xED. Historias y tonter\xEDas. La gente confunde \u2018miedo\u2019 con
+        \u2018mitolog\xEDa\u2019 y lo mete todo en el mismo saco.\nPero te dir\xE9
+        una cosa: aunque no existieran, el concepto funciona porque toca un nervio
+        real. El miedo a que alguien est\xE9 contigo\u2026 y t\xFA seas el \xFAltimo
+        en enterarte de qui\xE9n es."
+      - "Yes. Stories and nonsense. People confuse 'fear' with 'mythology' and lump
+        them all together.\n\nBut let me tell you something: even if they didn't
+        exist, the concept works because it strikes a real nerve. The fear of someone
+        being with you\u2026 and you being the last to find out who it is."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q5_Answer_0
+      TermType: 0
+      Description: 
+      Languages:
+      - "La alpargata.\nUna sola. Suelta. Como si el par no existiera\u2026 o como
+        si el otro pie hubiese decidido quedarse en otro sitio.\nY no me digas que
+        \u2018se cay\xF3 de una bolsa\u2019. No huele a armario. Huele a tierra vieja.
+        A caminata sin sombra."
+      - "The espadrille.\nJust one. Lonely. As if the pair didn't exist\u2026 or
+        as if the other foot had decided to stay somewhere else.\n\nAnd don't tell
+        me it 'fell out of a bag.' It doesn't smell like a wardrobe. It smells like
+        old earth. Like a walk without shade."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q5_Answer_1
+      TermType: 0
+      Description: 
+      Languages:
+      - "La mu\xF1eca.\nY no, no porque sea \u2018rara\u2019. Es m\xEDa. La conozco.
+        Pero\u2026 hoy la he visto en dos sitios distintos con muy poco tiempo entre
+        medias.\nComo si alguien la hubiera movido para ver si yo me daba cuenta.
+        O como si hubiera querido que yo me acordara de tenerla conmigo, aunque no
+        lo estuviera."
+      - "The doll.\n\nAnd no, not because it's 'weird'. It's mine. I know it. But\u2026
+        today I saw it in two different places with very little time in between.\n\nAs
+        if someone had moved it to see if I'd notice. Or as if they wanted me to
+        remember having it with me, even though I wasn't."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q5_Answer_2
+      TermType: 0
+      Description: 
+      Languages:
+      - "La c\xE1mara. La m\xEDa.\nPorque jurar\xEDa que la guard\xE9 en la mochila
+        y, sin embargo, la encontr\xE9 en el asiento como si alguien la hubiera dejado
+        ah\xED para que la viera.\nY si no es la m\xEDa\u2026 entonces es peor: significa
+        que alguien sabe exactamente qu\xE9 modelo llevo y c\xF3mo la agarro."
+      - "My camera. Because I could have sworn I put it in my backpack, and yet I
+        found it on the seat as if someone had left it there for me to see.\n\nAnd
+        if it's not mine\u2026 then it's worse: it means someone knows exactly what
+        model I carry and how I hold it."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q5_Answer_3
+      TermType: 0
+      Description: 
+      Languages:
+      - "Una cinta que no es m\xEDa.\nNo me mires as\xED: yo s\xE9 cu\xE1les son
+        mis cintas. Las etiquetas, las esquinas dobladas, el \u2018clic\u2019 al
+        meterlas.\nPero hay una\u2026 sin etiqueta. Y juro que antes no estaba ah\xED.\nY
+        si alguien la ha puesto, es porque quer\xEDa que yo le diera al play."
+      - 'A tape that isn''t mine.
+
+
+        Don''t look at me like that: I know which
+        tapes are mine. The labels, the folded corners, the click when you put them
+        in.
+
+
+        But there''s one... without a label. And I swear it wasn''t
+        there before.
+
+
+        And if someone put it there, it''s because they wanted
+        me to press play.'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q5_Answer_4
+      TermType: 0
+      Description: 
+      Languages:
+      - "La mancuerna.\nEs m\xEDa, vale, pero\u2026 jurar\xEDa que la dej\xE9 en
+        el maletero al salir y luego apareci\xF3 otra vez en el asiento, como si
+        nunca la hubiera movido.\nO estoy despistado, o alguien la recoloca para
+        ver si reacciono. Y si es eso\u2026 mala se\xF1al."
+      - "The dumbbell.\nIt's mine, okay, but\u2026 I could swear I left it in the
+        trunk when I left, and then it reappeared on the seat, as if I'd never moved
+        it.\nEither I'm absentminded, or someone's putting it back to see if I'll
+        notice. And if that's the case\u2026 a bad sign."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q5_Answer_5
+      TermType: 0
+      Description: 
+      Languages:
+      - "La petaca.\nNo porque sea rara. Porque apareci\xF3 donde no la dejo. Yo
+        la guardo siempre en el bolsillo interior, a la izquierda. Rutina.\nY al
+        bajar del coche la not\xE9 en el derecho. O me la movieron\u2026 o alguien
+        quiere que yo dude de m\xED. Las dos opciones son malas."
+      - "The hip flask.\n\nNot because it's unusual. Because it appeared where I
+        don't usually keep it. I always keep it in my inside left pocket. Routine.\n\nAnd
+        when I got out of the car, I noticed it in my right pocket. Either someone
+        moved it\u2026 or someone wants me to doubt myself. Both options are bad."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q6_Answer_0
+      TermType: 0
+      Description: 
+      Languages:
+      - "S\xED. Hay tramos en los que recuerdo conversaciones\u2026 pero no recuerdo
+        el paisaje.\nY hay tramos en los que recuerdo el paisaje\u2026 pero no recuerdo
+        qui\xE9n iba hablando.\nEso no es cansancio. Eso es\u2026 edici\xF3n. Como
+        si alguien hubiese cortado fotogramas del viaje y los hubiese pegado mal."
+      - "Yes. There are stretches where I remember conversations\u2026 but I don't
+        remember the scenery.\n\nAnd there are stretches where I remember the scenery\u2026
+        but I don't remember who was talking.\nThat's not tiredness. That's\u2026
+        editing. As if someone cut frames from the trip and spliced \u200B\u200Bthem
+        together badly."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q6_Answer_1
+      TermType: 0
+      Description: 
+      Languages:
+      - "S\xED. Hay un tramo en el que jurar\xEDa que estuvimos hablando durante
+        media hora\u2026 y luego miro el reloj y han pasado siete minutos.\nY hay
+        otro en el que deber\xEDa recordar algo\u2014una canci\xF3n, una parada,
+        un cartel\u2014y tengo la mente\u2026 como cuando intentas recordar una palabra
+        y solo te sale el hueco.\nEso me inquieta m\xE1s que cualquier historia de
+        skinwalkers."
+      - "Yes. There's a stretch where I could swear we were talking for half an hour\u2026
+        and then I look at my watch and seven minutes have passed.\n\nAnd there's
+        another where I should remember something\u2014a song, a bus stop, a sign\u2014and
+        my mind is\u2026 like when you try to remember a word and all you can come
+        up with is a blank space.\nThat worries me more than any story about skinwalkers."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q6_Answer_2
+      TermType: 0
+      Description: 
+      Languages:
+      - "S\xED. Y lo not\xE9 de una forma muy simple: el contador de fotos.\nHay
+        un salto. No enorme. Pero hay un tramo en el que deber\xEDa haber 12 o 13
+        fotos\u2026 y hay 2. Y no recuerdo haber borrado nada.\nEso solo pasa por
+        dos razones: o estoy fallando yo\u2026 o alguien est\xE1 editando el viaje
+        en tiempo real."
+      - "Yes. And I noticed it in a very simple way: the photo counter.\nThere's
+        a jump. Not a huge one. But there's a section where there should be 12 or
+        13 photos\u2026 and there are only 2. And I don't remember deleting anything.\nThat
+        only happens for two reasons: either I'm doing something wrong\u2026 or someone
+        is editing the trip in real time."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q6_Answer_3
+      TermType: 0
+      Description: 
+      Languages:
+      - "S\xED. Te lo digo por algo muy tonto: la duraci\xF3n de la cinta.\nUna cara
+        dura treinta minutos. Y yo la empec\xE9 antes de la \xFAltima salida\u2026
+        y deber\xEDa haber terminado hace rato.\nPero cuando mir\xE9\u2026 iba por
+        la mitad. Como si alguien hubiera rebobinado el mundo sin avisar."
+      - "Yes. I'm telling you this because of something really silly: the length
+        of the tape.\nIt's thirty minutes long. And I started watching it before
+        the last exit\u2026 and I should have finished ages ago.\n\nBut when I checked\u2026
+        I was only halfway through. Like someone had rewound the world without warning."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q6_Answer_4
+      TermType: 0
+      Description: 
+      Languages:
+      - "S\xED. Por el cuerpo, otra vez.\nHay momentos en los que deber\xEDa estar
+        cansado y estoy fresco. Y otros en los que me duele el antebrazo como si
+        llevara una hora apretando el grip de la raqueta.\nEso no cuadra con una
+        ruta normal. El cuerpo no se inventa fatiga as\xED porque s\xED."
+      - 'Yes. It''s my body again.
+
+        There are times when I should be tired
+        but I''m fresh. And other times when my forearm aches as if I''d been gripping
+        the racket for an hour.
+
+        That doesn''t fit with a normal route. The
+        body doesn''t just invent fatigue like that.'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q6_Answer_5
+      TermType: 0
+      Description: 
+      Languages:
+      - "S\xED. Lo not\xE9 por conversaciones que se repitieron.\nNo \u2018parecidas\u2019:
+        la misma frase, el mismo remate, como si alguien hubiera pulsado replay.
+        Y lo peor es que nadie reaccion\xF3, como si fuera lo normal.\nEso no es
+        cansancio. Eso es\u2026 algo raro."
+      - "Yes. I noticed it because of the repeated conversations.\n\nNot just similar:
+        the same phrase, the same punchline, as if someone had pressed replay. And
+        the worst part is that no one reacted, as if it were normal.\nThat's not
+        tiredness. That's\u2026 something strange."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q7_Answer_0
+      TermType: 0
+      Description: 
+      Languages:
+      - "Mi cr\xE1neo.\nNo por lo que es, sino por lo que pesa. No me refiero al
+        peso f\xEDsico. Me refiero a que, cuando lo sostengo, me ordena la memoria.\nSin
+        \xE9l, podr\xEDa jurarte cosas que siento verdaderas\u2026 y ser\xEDan mentira.
+        Y eso es lo peor."
+      - "My skull.\n\nNot for what it is, but for what it weighs. I don't mean physical
+        weight. I mean that, when I hold it, it brings order to my memory.\n\nWithout
+        it, I could swear to things I feel to be true\u2026 and they would be lies.
+        And that's the worst part."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q7_Answer_1
+      TermType: 0
+      Description: 
+      Languages:
+      - "El libro de bolsillo.\nPorque tiene marcas: una esquina doblada, una mancha,
+        un subrayado que hice sin querer. Si alguien me lo cambiara por otro igual,
+        yo lo notar\xEDa.\nY si yo lo notara\u2026 significar\xEDa que mi memoria
+        todav\xEDa funciona. Ahora mismo eso ser\xEDa la \xFAnica prueba que me importa."
+      - "The paperback.\n\nBecause it has marks: a folded corner, a stain, an underline
+        I made by accident. If someone swapped it with another one just like it,
+        I'd notice.\n\nAnd if I noticed\u2026 it would mean my memory still works.
+        Right now, that would be the only proof that matters to me."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q7_Answer_2
+      TermType: 0
+      Description: 
+      Languages:
+      - "Mis gafas.\nSin ellas no veo bien y, lo m\xE1s importante, no puedo confirmar
+        detalles. Si pierdo eso, me convierto en alguien que \u2018cree\u2019 en
+        vez de alguien que \u2018sabe\u2019.\nY hoy\u2026 creer es un lujo peligroso."
+      - "My glasses.\n\nWithout them, I can't see properly, and more importantly,
+        I can't confirm details. If I lose them, I become someone who 'believes'
+        instead of someone who 'knows'.\n\nAnd today\u2026 believing is a dangerous
+        luxury."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q7_Answer_3
+      TermType: 0
+      Description: 
+      Languages:
+      - 'El Walkman.
+
+        Porque no es solo un cacharro: es mi forma de demostrar
+        que lo que digo tiene un ritmo, un orden.
+
+        Si me lo quitas, me quedo
+        con el ruido de fondo. Y el ruido de fondo es donde se esconde lo que miente.'
+      - 'The Walkman.
+
+
+        Because it''s not just a gadget: it''s my way of
+        showing that what I say has a rhythm, an order.
+
+        If you take it away,
+        I''m left with background noise. And background noise is where lies hide.'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q7_Answer_4
+      TermType: 0
+      Description: 
+      Languages:
+      - "La raqueta.\nNo por sentimentalismo: porque tiene una marca en el marco
+        y el cordaje est\xE1 tensado a mi gusto. Si me la cambias por otra, aunque
+        sea igual, lo noto al primer agarre.\nSi hoy \u2018mi raqueta\u2019 no fuera
+        mi raqueta\u2026 entonces ya no s\xE9 qu\xE9 es m\xEDo."
+      - 'The racket.
+
+        Not for sentimental reasons: because it has a mark
+        on the frame and the strings are tensioned just the way I like them. If you
+        swap it for another one, even if it''s the same, I''ll notice the difference
+        the first time I pick it up.
+
+
+        If today ''my racket'' weren''t my
+        racket... then I wouldn''t know what was mine anymore.'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q7_Answer_5
+      TermType: 0
+      Description: 
+      Languages:
+      - "Mi petaca, siempre mi petaca.\nPorque es lo \xFAnico que tengo que s\xE9
+        exactamente c\xF3mo pesa, c\xF3mo suena al moverla, c\xF3mo rasca la chapa.
+        Si me dieran otra igual, la notar\xEDa.\nY hoy necesito una cosa que sea
+        m\xEDa sin discusi\xF3n."
+      - 'My hip flask, always my hip flask.
+
+
+        Because it''s the only thing
+        I own whose weight I know exactly, the sound it makes when I move it, the
+        scraping of the metal. If someone gave me another one just like it, I''d
+        notice the difference.
+
+
+        And today I need something that''s mine,
+        no question about it.'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q8_Answer_0
+      TermType: 0
+      Description: 
+      Languages:
+      - "Un trozo de cuerda con un nudo espec\xEDfico. No es nada\u2026 hasta que
+        sabes lo que significa.\nY tambi\xE9n llevo polvo en las u\xF1as. No es sangre,
+        tranquilos. Es\u2026 ceniza antigua.\nSi alguien lo ve, empezar\xE1 a hacer
+        preguntas que no quiero contestar porque las respuestas abren puertas."
+      - 'A piece of rope with a specific knot. It''s nothing... until you know what
+        it means.
+
+
+        And I also have dust under my fingernails. It''s not
+        blood, don''t worry. It''s... ancient ash.
+
+
+        If someone sees it,
+        they''ll start asking questions I don''t want to answer because the answers
+        open doors.'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q8_Answer_1
+      TermType: 0
+      Description: 
+      Languages:
+      - "Dentro del libro hay una nota. No es un mapa ni un conjuro ni nada emocionante.
+        Es una frase escrita por alguien que ya no est\xE1 en mi vida.\nY tengo la
+        mu\xF1eca porque era un regalo\u2026\nNo es ilegal. Es peor: es \xEDntimo."
+      - "Inside the book there's a note. It's not a map or a spell or anything exciting.
+        It's a sentence written by someone who's no longer in my life.\n\nAnd I have
+        the doll because it was a gift\u2026 It's not illegal. It's worse: it's intimate."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q8_Answer_2
+      TermType: 0
+      Description: 
+      Languages:
+      - "Una tarjeta de memoria aparte.\nNo tiene imagenes picantes ni nada de eso.
+        Son im\xE1genes de otra vez. De otro sitio. De gente que jurar\xEDa que no
+        estaba all\xED\u2026 y estaba.\nSi la encontr\xE1is, vais a empezar a comparar.
+        Y comparar es justo lo que hace que esto\u2026 se vuelva real."
+      - "A separate memory card.\n\nIt doesn't have any racy pictures or anything
+        like that. They're pictures from another time. From another place. Of people
+        I'd swear weren't there\u2026 but were.\n\nIf you find it, you're going to
+        start comparing. And comparing is exactly what makes this\u2026 real."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q8_Answer_3
+      TermType: 0
+      Description: 
+      Languages:
+      - "En la tapa del Walkman, por dentro, hay una foto peque\xF1a doblada. No
+        es nada criminal.\nPero es de alguien al que yo\u2026 no deber\xEDa seguir
+        echando de menos.\nY si alguien la ve, va a entenderme demasiado r\xE1pido.
+        Y eso me pone nervioso."
+      - "Inside the Walkman cover, there's a small, folded photo. It's nothing criminal.\n\nBut
+        it's of someone I\u2026 shouldn't still miss.\n\nAnd if someone sees it,
+        they'll understand me too quickly. And that makes me nervous."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q8_Answer_4
+      TermType: 0
+      Description: 
+      Languages:
+      - "Una lista de tiempos y repeticiones que apunto en una nota. Suena rid\xEDculo,
+        pero me obsesiono.\nY llevo una venda vieja en la mochila, de una lesi\xF3n
+        que no deber\xEDa seguir doliendo.\nNo es ilegal. Es vergonzoso: significa
+        que sigo compitiendo con cosas que ya pasaron."
+      - 'A list of times and reps that I jot down on a note. It sounds ridiculous,
+        but I''m obsessed.
+
+
+        And I carry an old bandage in my backpack, from
+        an injury that shouldn''t still hurt.
+
+        It''s not illegal. It''s embarrassing:
+        it means I''m still competing with things that are already in the past.'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q8_Answer_5
+      TermType: 0
+      Description: 
+      Languages:
+      - "Lo que hay dentro.\nNo te voy a decir qu\xE9 es, pero no es para compartir.
+        Y no es por \u2018prohibido\u2019, es por lo que significa: es una muleta.\nSi
+        alguien me la quita o me la juzga, me quedo\u2026 demasiado expuesto. Y no
+        me apetece."
+      - 'What''s inside.
+
+
+        I''m not going to tell you what it is, but it''s
+        not for sharing. And it''s not because it''s ''forbidden,'' it''s because
+        of what it means: it''s a crutch.
+
+
+        If someone takes it away from
+        me or judges me for it, I''ll be... too exposed. And I don''t want that.'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q9_Answer_0
+      TermType: 0
+      Description: 
+      Languages:
+      - "Un ciervo. O algo que quer\xEDa que yo pensara que era un ciervo.\nEstaba
+        quieto, mir\xE1ndonos\u2026 y ten\xEDa esa calma de quien ya te ha visto
+        llegar antes.\nLuego parpade\xE9 y no estaba. Pero el olor se qued\xF3. Ese
+        olor\u2026 como a pelo mojado y hueso caliente."
+      - "A deer. Or something it wanted me to think was a deer.\n\nIt stood still,
+        watching us\u2026 and had that calmness of someone who's seen you coming
+        before.\n\nThen I blinked and it was gone. But the scent lingered. That scent\u2026
+        like wet fur and warm bone."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q9_Answer_1
+      TermType: 0
+      Description: 
+      Languages:
+      - "Un cartel. De estos cutres, de carretera secundaria. Lo vi dos veces.\nLa
+        misma pintura desconchada, el mismo golpe en la esquina\u2026 y lo vi como
+        si hubi\xE9ramos dado una vuelta enorme, pero sin haber girado.\nNo s\xE9
+        explicar por qu\xE9, pero me dio la sensaci\xF3n de que la carretera estaba\u2026
+        repiti\xE9ndose."
+      - "A sign. One of those cheap ones, from a back road. I saw it twice.\nThe
+        same chipped paint, the same dent in the corner\u2026 and it looked like
+        we'd made a huge detour, but without actually turning.\nI can't explain why,
+        but I got the feeling that the road was\u2026 repeating itself."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q9_Answer_2
+      TermType: 0
+      Description: 
+      Languages:
+      - "Un destello. Como un reflejo de un flash\u2026 pero yo no dispar\xE9.\nMir\xE9
+        por el retrovisor y vi, durante un segundo, una figura al borde del arc\xE9n
+        que parec\xEDa estar\u2026 posando. Quiet\xEDsima.\nCuando parpade\xE9 ya
+        no estaba. Pero mi mano se fue a la c\xE1mara por instinto. Eso no me pasa
+        con sombras normales."
+      - "A flash. Like the reflection of a flash\u2026 but I didn't take the picture.\nI
+        glanced in the rearview mirror and saw, for a split second, a figure at the
+        edge of the shoulder that seemed to be\u2026 posing. Perfectly still.\nWhen
+        I blinked, it was gone. But my hand instinctively reached for the camera.
+        That doesn't happen to me with ordinary shadows."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q9_Answer_3
+      TermType: 0
+      Description: 
+      Languages:
+      - "Un coche parado en el arc\xE9n con las luces de emergencia.\nPero\u2026
+        no vi a nadie alrededor. Y cuando pasamos, el coche estaba limpio, demasiado
+        limpio, como reci\xE9n puesto ah\xED.\nY en mi cinta, justo entonces, se
+        col\xF3 un susurro debajo de la m\xFAsica. No una palabra. Un aliento.\nPar\xE9
+        la cinta. No quise comprobarlo."
+      - "A car stopped on the shoulder with its hazard lights on.\n\nBut\u2026 I
+        didn't see anyone around. And when we drove past, the car was clean, too
+        clean, like it had just been parked there.\n\nAnd on my tape, right then,
+        a whisper slipped in beneath the music. Not a word. A breath.\n\nI stopped
+        the tape. I didn't want to check."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q9_Answer_4
+      TermType: 0
+      Description: 
+      Languages:
+      - "Un tipo corriendo por el arc\xE9n. Sin ropa reflectante, sin m\xF3vil, sin
+        nada. Solo corriendo.\nIba a un ritmo imposible\u2026 y lo raro es que no
+        parec\xEDa cansado.\nMir\xE9 dos segundos y, cuando volv\xED a mirar, ya
+        no estaba. Ni delante ni detr\xE1s. Como si se lo hubiera tragado el borde
+        de la carretera."
+      - "A guy was running along the shoulder of the road. No reflective gear, no
+        phone, nothing. Just running.\nHe was going at an impossible pace\u2026 and
+        the strange thing is, he didn't seem tired. I looked for two seconds, and
+        when I looked again, he was gone. Not in front of me, not behind me. As if
+        he'd been swallowed up by the side of the road."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Answers/Q9_Answer_5
+      TermType: 0
+      Description: 
+      Languages:
+      - "Un perro. O algo parecido a un perro.\nCruz\xF3 la carretera y no mir\xF3
+        ni una vez al coche. Ni se asust\xF3. Ni corri\xF3. Fue\u2026 tranquilo.
+        Demasiado.\nY cuando lo perd\xED de vista un segundo, no estaba. No hab\xEDa
+        cuneta, no hab\xEDa campo. Solo desapareci\xF3."
+      - "A dog. Or something like a dog.\n\nIt crossed the road and didn't even glance
+        at the car. It wasn't scared. It didn't run. It was\u2026 calm. Too calm.\n\nAnd
+        when I lost sight of it for a second, it was gone. There was no ditch, no
+        field. It just vanished."
       Flags: 0000
       Languages_Touch: []
     - Term: Characters/Character0Name
@@ -377,13 +1259,416 @@ MonoBehaviour:
       - Mr Escroto
       Flags: 0000
       Languages_Touch: []
+    - Term: ConfirmAccusation_0
+      TermType: 0
+      Description: 
+      Languages:
+      - "\xBFEst\xE1s seguro de que desas acusar a <style=Character>{[Character]}</style>
+        con el \xEDtem <style=Item>{[Item]}</style>?"
+      - Are you sure you want to accuse <style=Character>{[Character]}</style> with
+        item <style=Item>{[Item]}</style> ?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ConfirmAccusation_1
+      TermType: 0
+      Description: 
+      Languages:
+      - "Si te equivocas algo malo ocurrir\xE1... \xBFseguro que queres continuar?"
+      - If you make a mistake, something bad will happen... are you sure you want
+        to continue?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ConfirmAccusation_2
+      TermType: 0
+      Description: 
+      Languages:
+      - "No te veo muy seguro... Acusar a <style=Character>{[Character]}</style>...
+        no s\xE9..."
+      - You don't seem very confident... Accusing <style=Character>{[Character]}</style>...
+        I don't know...
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ConfirmAccusation_3
+      TermType: 0
+      Description: 
+      Languages:
+      - "\xBFDe verdad crees que el <style=Item>{[Item]}</style> tiene algo que ver?"
+      - Do you really think the <style=Item>{[Item]}</style> has anything to do with
+        it?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ConfirmAccusation_4
+      TermType: 0
+      Description: 
+      Languages:
+      - "\xBFEst\xE1s seguro, seguro, SEGURO, SEGUR\xCDSIMO?"
+      - Are you sure, sure, SURE, ABSOLUTELY SURE?
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/AlpargataGuiltyDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "La suela no tiene desgaste normal: est\xE1 pulida en zonas imposibles, como
+        si hubiese rozado piedra\u2026 o hueso. Por dentro hay pelos gruesos pegados
+        al tejido y un olor met\xE1lico, a establo y ozono."
+      - Description of a test item. This is just a description to see how the text
+        looks when described.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/AlpargataName
+      TermType: 0
+      Description: 
+      Languages:
+      - Alpargata
+      - Test Item
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/AlpargataNormalDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - Una alpargata vieja, algo gastada en la suela. Tiene tierra seca pegada y
+        huele un poco a humedad, como si hubiese pasado horas en un maletero cerrado.
+      - Description of a test item. This is just a description to see how the text
+        looks when described.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/CamaraGuiltyDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "Hay fotos dentro. En todas sale el grupo\u2026 y en varias aparece un sexto
+        hueco: un espacio \u201Cocupado\u201D por un desenfoque con forma de persona.
+        En una imagen, el flash ha captado algo peor: una cara que no es cara, pegada
+        detr\xE1s de alguien, mirando a c\xE1mara desde donde no cabe nadie."
+      - "There are photos inside. The group appears in all of them\u2026 and in several,
+        a sixth space is visible: a space \u201Coccupied\u201D by a blurry, person-shaped
+        object. In one image, the flash has captured something worse: a face that
+        isn't a face, stuck behind someone, staring at the camera from where no one
+        else could fit."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/CamaraName
+      TermType: 0
+      Description: 
+      Languages:
+      - "C\xE1mara"
+      - Camera
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/CamaraNormalDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "Una c\xE1mara compacta con la tapa algo ara\xF1ada. Tiene una correa enrollada
+        y est\xE1 llena de huellas, como si la hubiesen pasado de mano en mano."
+      - A compact camera with a slightly scratched cover. It has a coiled strap and
+        is covered in fingerprints, as if it had been passed from hand to hand.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/CraneoGuiltyDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "No es decorativo. Est\xE1 demasiado limpio en unas zonas y demasiado \u201Cfresco\u201D
+        en otras, como si se hubiera lavado hace poco. Tiene dos perforaciones sim\xE9tricas
+        arriba, como si algo hubiese intentado colocar\u2026 o retirar\u2026 cuernos.
+        Cuando lo sostienes, notas una vibraci\xF3n m\xEDnima, como un zumbido que
+        te sube por los dedos."
+      - It's not decorative. It's too clean in some areas and too "fresh" in others,
+        as if it had been recently washed. It has two symmetrical perforations at
+        the top, as if someone had tried to attach... or remove... horns. When you
+        hold it, you feel a slight vibration, like a buzzing sound that travels up
+        your fingers.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/CraneoName
+      TermType: 0
+      Description: 
+      Languages:
+      - "Cr\xE1neo"
+      - Skull
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/CraneoNormalDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "Un cr\xE1neo peque\xF1o, blanqueado y seco. No tiene nada \u201Cfresco\u201D;
+        da la sensaci\xF3n de ser un recuerdo raro o un objeto decorativo de mal
+        gusto."
+      - A small, bleached, and dry skull. There's nothing "fresh" about it; it gives
+        the impression of being a strange souvenir or a tasteless decorative object.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/GafasGuiltyDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "Los cristales est\xE1n limpios, demasiado: no reflejan igual que el vidrio,
+        como si fueran una membrana tensa. Si las inclinas, ves un segundo reflejo
+        con m\xE1s ojos de los que deber\xEDa haber. En la patilla interior hay una
+        marca h\xFAmeda, reciente, como si alguien las \u201Csudara\u201D por dentro."
+      - 'The lenses are clean, too clean: they don''t reflect like glass, as if they
+        were a taut membrane. If you tilt them, you see a second reflection with
+        more eyes than there should be. On the inner temple there''s a fresh, damp
+        mark, as if someone had been sweating on them from the inside.'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/GafasName
+      TermType: 0
+      Description: 
+      Languages:
+      - Gafas
+      - Glasses
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/GafasNormalDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "Unas gafas de ver con la montura algo rayada. Est\xE1n dobladas por una
+        patilla, pero a\xFAn se pueden usar; parece que alguien las dej\xF3 con prisas."
+      - A pair of eyeglasses with slightly scratched frames. One temple is bent,
+        but they're still usable; it looks like someone left them in a hurry.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/LibroDeBolsilloGuiltyDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "Las p\xE1ginas est\xE1n pegadas en varias zonas, no por humedad: por algo
+        viscoso que se sec\xF3. Hay frases subrayadas con obsesi\xF3n, siempre las
+        mismas: \u201Cser\u201D, \u201Cparecer\u201D, \u201Cimitar\u201D. En el lomo
+        interior hay un pelo largo y oscuro\u2026 y no est\xE1 \u201Cca\xEDdo\u201D:
+        est\xE1 prensado, como si lo hubieran guardado adrede."
+      - "The pages are stuck together in several places, not from dampness, but from
+        something viscous that dried. There are obsessively underlined phrases, always
+        the same: \u201Cto be,\u201D \u201Cto seem,\u201D \u201Cto imitate.\u201D
+        On the inside spine, there is a long, dark hair\u2026 and it isn\u2019t \u201Cfallen\u201D:
+        it\u2019s pressed in, as if it had been deliberately stored there."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/LibroDeBolsilloName
+      TermType: 0
+      Description: 
+      Languages:
+      - Libro de bolsillo
+      - Paperback
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/LibroDeBolsilloNormalDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "Un libro peque\xF1o con las esquinas dobladas y algunas p\xE1ginas marcadas.
+        La portada est\xE1 manoseada, como de haber viajado en una guantera."
+      - A small book with folded corners and some marked pages. The cover is worn,
+        as if it had been transported in a glove compartment.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/MancuernaGuiltyDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "Pesa m\xE1s de lo que deber\xEDa: la gravedad parece \u201Ctirar\u201D de
+        ella con mala leche. Tiene marcas de arrastre en el suelo\u2026 pero no rectas:
+        curvas, como si alguien la moviera a cuatro patas. En el acero hay restos
+        secos que no son \xF3xido: parecen gotas viejas de algo org\xE1nico."
+      - "It weighs more than it should: gravity seems to be pulling it down with
+        malice. There are drag marks on the floor\u2026 but not straight ones: curved,
+        as if someone were moving it on all fours. On the steel there are dried remnants
+        that aren't rust: they look like old drops of something organic."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/MancuernaName
+      TermType: 0
+      Description: 
+      Languages:
+      - Mancuerna
+      - Dumbbell
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/MancuernaNormalDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "Una mancuerna de hierro, pesada para su tama\xF1o. Est\xE1 oxidada en algunas
+        zonas y deja un poquito de polvo met\xE1lico en los dedos al tocarla."
+      - An iron dumbbell, heavy for its size. It's rusty in some areas and leaves
+        a little metallic dust on your fingers when you touch it.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/MunecaGuiltyDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "La mu\xF1eca est\xE1 cosida con hilo que no deber\xEDa existir en una mu\xF1eca
+        barata: parece sutura m\xE9dica. Al apretarla, no suena un pitido ni un cascabel:
+        suena un \u201Cclic\u201D h\xFAmedo, como una articulaci\xF3n real. Y tiene
+        algo dentro del ojo derecho: no es una lente\u2026 es como un ojo peque\xF1o,
+        mir\xE1ndote de vuelta."
+      - "The doll is sewn with thread that shouldn't be on a cheap doll: it looks
+        like medical sutures. When you squeeze it, it doesn't make a squeak or a
+        rattle: it makes a wet \"click,\" like a real joint. And there's something
+        inside its right eye: it's not a lens\u2026 it's like a tiny eye, looking
+        back at you."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/MunecaName
+      TermType: 0
+      Description: 
+      Languages:
+      - "Mu\xF1eca"
+      - Doll
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/MunecaNormalDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "Una mu\xF1eca de pl\xE1stico con la ropa sucia y el pelo enredado. Tiene
+        una mirada fija bastante inquietante, pero en el fondo es \u201Csolo\u201D
+        un juguete viejo."
+      - A plastic doll with dirty clothes and tangled hair. It has a rather unsettling,
+        fixed gaze, but deep down it's "just" an old toy.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/PetacaGuiltyDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "No huele a alcohol. Huele a algo dulce y rancio, como fermento vivo. La
+        tapa est\xE1 caliente aunque el aire est\xE9 fr\xEDo, y el metal tiene microara\xF1azos
+        por dentro, como si alguien hubiera bebido\u2026 con dientes. Si la agitas,
+        el l\xEDquido no hace \u201Cchapoteo\u201D: hace un sonido espeso, como si
+        tragara."
+      - "It doesn't smell like alcohol. It smells sweet and rancid, like live fermentation.
+        The lid is warm even though the air is cold, and the metal has micro-scratches
+        on the inside, as if someone had been drinking from it\u2026 with their teeth.
+        If you shake it, the liquid doesn't slosh; it makes a thick, gurgling sound,
+        like it's swallowing."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/PetacaName
+      TermType: 0
+      Description: 
+      Languages:
+      - Petaca
+      - Flask
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/PetacaNormalDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "Una petaca met\xE1lica peque\xF1a, con un par de golpes. Est\xE1 vac\xEDa
+        o casi vac\xEDa; al abrirla queda un olor fuerte, dif\xEDcil de identificar."
+      - A small metal flask, with a couple of dents. It's empty or almost empty;
+        when opened, it emits a strong, difficult-to-identify odor.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/RaquetaGuiltyDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "El cordaje no est\xE1 roto, est\xE1 mordisqueado. Entre las cuerdas hay
+        pelusa blanca y fibras que no parecen de ropa\u2026 sino de pelaje. El mango
+        tiene un agarre perfecto, demasiado perfecto: como si una mano \u201Caprendiese\u201D
+        su forma a la fuerza, apretando hasta deformarlo."
+      - 'The strings aren''t broken, they''re chewed up. Between the strands are
+        white fluff and fibers that don''t look like clothing... but rather fur.
+        The handle has a perfect grip, too perfect: as if a hand had "learned" its
+        shape by force, squeezing until it was deformed.'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/RaquetaName
+      TermType: 0
+      Description: 
+      Languages:
+      - Raqueta
+      - Racket
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/RaquetaNormalDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "Una raqueta deportiva con el grip sudado y el cordaje algo flojo. No parece
+        nueva, pero est\xE1 cuidada, como de alguien que la usa de vez en cuando."
+      - A sports racket with a sweaty grip and slightly loose strings. It doesn't
+        look new, but it's well-maintained, like someone who uses it occasionally.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/TestDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "Descripci\xF3n de un \xEDtem de prueba. Esto es solo una descripci\xF3n
+        para ver c\xF3mo queda el texto descriptivamente descrito."
+      - Description of a test item. This is just a description to see how the text
+        looks when described.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/TestName
+      TermType: 0
+      Description: 
+      Languages:
+      - "\xCDtem de prueba"
+      - Test Item
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/WalkmanGuiltyDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - "La cinta no tiene etiqueta, pero alguien ha escrito con u\xF1as: \u201CPLAY\u201D.
+        Al darle, no suena m\xFAsica: suena una respiraci\xF3n, y entrecortada, una
+        voz que repite nombres\u2026 y a veces se equivoca, como si estuviera practicando.
+        Cuando lo paras, el motor tarda un segundo de m\xE1s en apagarse, como si
+        algo siguiera girando dentro."
+      - "The tape has no label, but someone has written \"PLAY\" on it with their
+        fingernails. When you press it, there's no music: there's a sound of breathing,
+        and a voice repeating names in short bursts\u2026 and sometimes making mistakes,
+        as if it were practicing. When you stop it, the motor takes an extra second
+        to shut off, as if something were still spinning inside."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/WalkmanName
+      TermType: 0
+      Description: 
+      Languages:
+      - Walkman
+      - Walkman
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/WalkmanNormalDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - Un reproductor de casete antiguo con marcas de uso en los bordes. Si lo agitas
+        suena algo dentro, como la cinta suelta o un muelle flojo.
+      - An old cassette player with signs of wear around the edges. If you shake
+        it, you can hear a rattling noise inside, like a loose tape or spring.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: No
+      TermType: 0
+      Description: 
+      Languages:
+      - Nope
+      - Nope
+      Flags: 0000
+      Languages_Touch: []
     - Term: Questions/Question0
       TermType: 0
       Description: 
       Languages:
       - "\xBFA qui\xE9n conoces mejor del grupo\u2026 y a qui\xE9n no te f\xEDas
         de mirar demasiado tiempo a los ojos?"
-      - Question2
+      - "Who do you know best in the group\u2026 and who do you not trust to look
+        into the eyes for too long?"
       Flags: 0000
       Languages_Touch: []
     - Term: Questions/Question1
@@ -392,78 +1677,8 @@ MonoBehaviour:
       Languages:
       - "\xBFPor qu\xE9 te uniste al viaje? Dame la raz\xF3n \u201Coficial\u201D\u2026
         y la real."
-      - Question3
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Questions/Question2
-      TermType: 0
-      Description: 
-      Languages:
-      - "\xBFQu\xE9 estabas haciendo exactamente cuando el coche se detuvo en esta
-        estaci\xF3n de servicio?"
-      - Question4
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Questions/Question3
-      TermType: 0
-      Description: 
-      Languages:
-      - "Si uno de nosotros no fuera quien dice ser, \xBFqu\xE9 error cometer\xEDa
-        al intentar hacerse pasar por humano?"
-      - Question5
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Questions/Question4
-      TermType: 0
-      Description: 
-      Languages:
-      - "\xBFHas o\xEDdo historias de skinwalkers antes de hoy?"
-      - Question6
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Questions/Question5
-      TermType: 0
-      Description: 
-      Languages:
-      - "Estoy haciendo memoria\u2026 \xBFqu\xE9 objeto dir\xEDas que \u201Cno deber\xEDa
-        estar aqu\xED\u201D y sin embargo est\xE1?"
-      - Question7
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Questions/Question6
-      TermType: 0
-      Description: 
-      Languages:
-      - "Oye, \xBFt\xFA tambi\xE9n notas que hay partes del trayecto que no encajan
-        con el tiempo que ha pasado?"
-      - Question8
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Questions/Question7
-      TermType: 0
-      Description: 
-      Languages:
-      - "\xBFQu\xE9 objeto te faltar\xEDa si tuvieras que demostrar que dices la
-        verdad?"
-      - Question9
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Questions/Question8
-      TermType: 0
-      Description: 
-      Languages:
-      - "\xBFQu\xE9 llevas encima que no quieres que nadie encuentre\u2026 aunque
-        no sea \u201Cilegal\u201D?"
-      - Question10
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Questions/Question9
-      TermType: 0
-      Description: 
-      Languages:
-      - "Antes de llegar aqu\xED, \xBFqu\xE9 fue lo \xFAltimo que viste en la carretera
-        que te hizo pensar \u201Cesto no es normal\u201D?"
-      - Question11
+      - Why did you join the trip? Give me the "official" reason... and the real
+        one.
       Flags: 0000
       Languages_Touch: []
     - Term: Questions/Question10
@@ -472,7 +1687,8 @@ MonoBehaviour:
       Languages:
       - "Si tuvieses que se\xF1alar una contradicci\xF3n que has notado hoy, \xBFcu\xE1l
         es y de qui\xE9n?"
-      - Question12
+      - If you had to point out a contradiction you noticed today, what is it and
+        who is responsible for it?
       Flags: 0000
       Languages_Touch: []
     - Term: Questions/Question11
@@ -481,583 +1697,125 @@ MonoBehaviour:
       Languages:
       - "A ver, dime una cosa: \xBFqui\xE9n fue el \xFAltimo en bajarse del coche
         y qui\xE9n tard\xF3 m\xE1s en volver?"
-      - Question13
+      - 'Okay, tell me something: who was the last to get out of the car and who
+        took the longest to get back?'
       Flags: 0000
       Languages_Touch: []
-    - Term: Answers/Q0_Answer_0
+    - Term: Questions/Question2
       TermType: 0
       Description: 
       Languages:
-      - P 0 Respuesta 1
-      - Q 0 Answer 2
+      - "\xBFQu\xE9 estabas haciendo exactamente cuando el coche se detuvo en esta
+        estaci\xF3n de servicio?"
+      - What exactly were you doing when the car stopped at this gas station?
       Flags: 0000
       Languages_Touch: []
-    - Term: Answers/Q0_Answer_1
+    - Term: Questions/Question3
       TermType: 0
       Description: 
       Languages:
-      - P 0 Respuesta 2
-      - Q 0 Answer 3
+      - "Si uno de nosotros no fuera quien dice ser, \xBFqu\xE9 error cometer\xEDa
+        al intentar hacerse pasar por humano?"
+      - If one of us were not who he claimed to be, what mistake would he make in
+        trying to pass himself off as human?
       Flags: 0000
       Languages_Touch: []
-    - Term: Answers/Q0_Answer_2
+    - Term: Questions/Question4
       TermType: 0
       Description: 
       Languages:
-      - P 0 Respuesta 3
-      - Q 0 Answer 4
+      - "\xBFHas o\xEDdo historias de skinwalkers antes de hoy?"
+      - Have you heard stories of skinwalkers before today?
       Flags: 0000
       Languages_Touch: []
-    - Term: Answers/Q0_Answer_3
+    - Term: Questions/Question5
       TermType: 0
       Description: 
       Languages:
-      - P 0 Respuesta 4
-      - Q 0 Answer 5
+      - "Estoy haciendo memoria\u2026 \xBFqu\xE9 objeto dir\xEDas que \u201Cno deber\xEDa
+        estar aqu\xED\u201D y sin embargo est\xE1?"
+      - I'm racking my brain... what object would you say "shouldn't be here" and
+        yet it is?
       Flags: 0000
       Languages_Touch: []
-    - Term: Answers/Q0_Answer_4
+    - Term: Questions/Question6
       TermType: 0
       Description: 
       Languages:
-      - P 0 Respuesta 5
-      - Q 0 Answer 6
+      - "Oye, \xBFt\xFA tambi\xE9n notas que hay partes del trayecto que no encajan
+        con el tiempo que ha pasado?"
+      - Hey, do you also notice that there are parts of the journey that don't match
+        the time that has passed?
       Flags: 0000
       Languages_Touch: []
-    - Term: Answers/Q0_Answer_5
+    - Term: Questions/Question7
       TermType: 0
       Description: 
       Languages:
-      - P 0 Respuesta 6
-      - Q 0 Answer 7
+      - "\xBFQu\xE9 objeto te faltar\xEDa si tuvieras que demostrar que dices la
+        verdad?"
+      - What object would you be missing if you had to prove that you are telling
+        the truth?
       Flags: 0000
       Languages_Touch: []
-    - Term: Answers/Q1_Answer_0
+    - Term: Questions/Question8
       TermType: 0
       Description: 
       Languages:
-      - P 1 Respuesta 1
-      - Q 1 Answer 2
+      - "\xBFQu\xE9 llevas encima que no quieres que nadie encuentre\u2026 aunque
+        no sea \u201Cilegal\u201D?"
+      - What are you carrying that you don't want anyone to find... even if it's
+        not "illegal"?
       Flags: 0000
       Languages_Touch: []
-    - Term: Answers/Q1_Answer_1
+    - Term: Questions/Question9
       TermType: 0
       Description: 
       Languages:
-      - P 1 Respuesta 2
-      - Q 1 Answer 3
+      - "Antes de llegar aqu\xED, \xBFqu\xE9 fue lo \xFAltimo que viste en la carretera
+        que te hizo pensar \u201Cesto no es normal\u201D?"
+      - Before arriving here, what was the last thing you saw on the road that made
+        you think "this is not normal"?
       Flags: 0000
       Languages_Touch: []
-    - Term: Answers/Q1_Answer_2
+    - Term: Start
       TermType: 0
       Description: 
       Languages:
-      - P 1 Respuesta 3
-      - Q 1 Answer 4
+      - Comenzar
+      - Start
       Flags: 0000
       Languages_Touch: []
-    - Term: Answers/Q1_Answer_3
+    - Term: Talk
       TermType: 0
       Description: 
       Languages:
-      - P 1 Respuesta 4
-      - Q 1 Answer 5
+      - Hablar
+      - Talk
       Flags: 0000
       Languages_Touch: []
-    - Term: Answers/Q1_Answer_4
+    - Term: TitleScreen.Start
       TermType: 0
       Description: 
       Languages:
-      - P 1 Respuesta 5
-      - Q 1 Answer 6
+      - Comenzar
+      - Start
       Flags: 0000
       Languages_Touch: []
-    - Term: Answers/Q1_Answer_5
+    - Term: WrongAccused
       TermType: 0
       Description: 
       Languages:
-      - P 1 Respuesta 6
-      - Q 1 Answer 7
+      - Acusado injustamente
+      - Unjustly accused
       Flags: 0000
       Languages_Touch: []
-    - Term: Answers/Q2_Answer_0
+    - Term: Yes
       TermType: 0
       Description: 
       Languages:
-      - P 2 Respuesta 1
-      - Q 2 Answer 2
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q2_Answer_1
-      TermType: 0
-      Description: 
-      Languages:
-      - P 2 Respuesta 2
-      - Q 2 Answer 3
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q2_Answer_2
-      TermType: 0
-      Description: 
-      Languages:
-      - P 2 Respuesta 3
-      - Q 2 Answer 4
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q2_Answer_3
-      TermType: 0
-      Description: 
-      Languages:
-      - P 2 Respuesta 4
-      - Q 2 Answer 5
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q2_Answer_4
-      TermType: 0
-      Description: 
-      Languages:
-      - P 2 Respuesta 5
-      - Q 2 Answer 6
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q2_Answer_5
-      TermType: 0
-      Description: 
-      Languages:
-      - P 2 Respuesta 6
-      - Q 2 Answer 7
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q3_Answer_0
-      TermType: 0
-      Description: 
-      Languages:
-      - P 3 Respuesta 1
-      - Q 3 Answer 2
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q3_Answer_1
-      TermType: 0
-      Description: 
-      Languages:
-      - P 3 Respuesta 2
-      - Q 3 Answer 3
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q3_Answer_2
-      TermType: 0
-      Description: 
-      Languages:
-      - P 3 Respuesta 3
-      - Q 3 Answer 4
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q3_Answer_3
-      TermType: 0
-      Description: 
-      Languages:
-      - P 3 Respuesta 4
-      - Q 3 Answer 5
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q3_Answer_4
-      TermType: 0
-      Description: 
-      Languages:
-      - P 3 Respuesta 5
-      - Q 3 Answer 6
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q3_Answer_5
-      TermType: 0
-      Description: 
-      Languages:
-      - P 3 Respuesta 6
-      - Q 3 Answer 7
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q4_Answer_0
-      TermType: 0
-      Description: 
-      Languages:
-      - P 4 Respuesta 1
-      - Q 4 Answer 2
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q4_Answer_1
-      TermType: 0
-      Description: 
-      Languages:
-      - P 4 Respuesta 2
-      - Q 4 Answer 3
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q4_Answer_2
-      TermType: 0
-      Description: 
-      Languages:
-      - P 4 Respuesta 3
-      - Q 4 Answer 4
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q4_Answer_3
-      TermType: 0
-      Description: 
-      Languages:
-      - P 4 Respuesta 4
-      - Q 4 Answer 5
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q4_Answer_4
-      TermType: 0
-      Description: 
-      Languages:
-      - P 4 Respuesta 5
-      - Q 4 Answer 6
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q4_Answer_5
-      TermType: 0
-      Description: 
-      Languages:
-      - P 4 Respuesta 6
-      - Q 4 Answer 7
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q5_Answer_0
-      TermType: 0
-      Description: 
-      Languages:
-      - P 5 Respuesta 1
-      - Q 5 Answer 2
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q5_Answer_1
-      TermType: 0
-      Description: 
-      Languages:
-      - P 5 Respuesta 2
-      - Q 5 Answer 3
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q5_Answer_2
-      TermType: 0
-      Description: 
-      Languages:
-      - P 5 Respuesta 3
-      - Q 5 Answer 4
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q5_Answer_3
-      TermType: 0
-      Description: 
-      Languages:
-      - P 5 Respuesta 4
-      - Q 5 Answer 5
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q5_Answer_4
-      TermType: 0
-      Description: 
-      Languages:
-      - P 5 Respuesta 5
-      - Q 5 Answer 6
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q5_Answer_5
-      TermType: 0
-      Description: 
-      Languages:
-      - P 5 Respuesta 6
-      - Q 5 Answer 7
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q6_Answer_0
-      TermType: 0
-      Description: 
-      Languages:
-      - P 6 Respuesta 1
-      - Q 6 Answer 2
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q6_Answer_1
-      TermType: 0
-      Description: 
-      Languages:
-      - P 6 Respuesta 2
-      - Q 6 Answer 3
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q6_Answer_2
-      TermType: 0
-      Description: 
-      Languages:
-      - P 6 Respuesta 3
-      - Q 6 Answer 4
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q6_Answer_3
-      TermType: 0
-      Description: 
-      Languages:
-      - P 6 Respuesta 4
-      - Q 6 Answer 5
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q6_Answer_4
-      TermType: 0
-      Description: 
-      Languages:
-      - P 6 Respuesta 5
-      - Q 6 Answer 6
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q6_Answer_5
-      TermType: 0
-      Description: 
-      Languages:
-      - P 6 Respuesta 6
-      - Q 6 Answer 7
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q7_Answer_0
-      TermType: 0
-      Description: 
-      Languages:
-      - P 7 Respuesta 1
-      - Q 7 Answer 2
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q7_Answer_1
-      TermType: 0
-      Description: 
-      Languages:
-      - P 7 Respuesta 2
-      - Q 7 Answer 3
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q7_Answer_2
-      TermType: 0
-      Description: 
-      Languages:
-      - P 7 Respuesta 3
-      - Q 7 Answer 4
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q7_Answer_3
-      TermType: 0
-      Description: 
-      Languages:
-      - P 7 Respuesta 4
-      - Q 7 Answer 5
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q7_Answer_4
-      TermType: 0
-      Description: 
-      Languages:
-      - P 7 Respuesta 5
-      - Q 7 Answer 6
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q7_Answer_5
-      TermType: 0
-      Description: 
-      Languages:
-      - P 7 Respuesta 6
-      - Q 7 Answer 7
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q8_Answer_0
-      TermType: 0
-      Description: 
-      Languages:
-      - P 8 Respuesta 1
-      - Q 8 Answer 2
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q8_Answer_1
-      TermType: 0
-      Description: 
-      Languages:
-      - P 8 Respuesta 2
-      - Q 8 Answer 3
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q8_Answer_2
-      TermType: 0
-      Description: 
-      Languages:
-      - P 8 Respuesta 3
-      - Q 8 Answer 4
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q8_Answer_3
-      TermType: 0
-      Description: 
-      Languages:
-      - P 8 Respuesta 4
-      - Q 8 Answer 5
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q8_Answer_4
-      TermType: 0
-      Description: 
-      Languages:
-      - P 8 Respuesta 5
-      - Q 8 Answer 6
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q8_Answer_5
-      TermType: 0
-      Description: 
-      Languages:
-      - P 8 Respuesta 6
-      - Q 8 Answer 7
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q9_Answer_0
-      TermType: 0
-      Description: 
-      Languages:
-      - P 9 Respuesta 1
-      - Q 9 Answer 2
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q9_Answer_1
-      TermType: 0
-      Description: 
-      Languages:
-      - P 9 Respuesta 2
-      - Q 9 Answer 3
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q9_Answer_2
-      TermType: 0
-      Description: 
-      Languages:
-      - P 9 Respuesta 3
-      - Q 9 Answer 4
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q9_Answer_3
-      TermType: 0
-      Description: 
-      Languages:
-      - P 9 Respuesta 4
-      - Q 9 Answer 5
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q9_Answer_4
-      TermType: 0
-      Description: 
-      Languages:
-      - P 9 Respuesta 5
-      - Q 9 Answer 6
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q9_Answer_5
-      TermType: 0
-      Description: 
-      Languages:
-      - P 9 Respuesta 6
-      - Q 9 Answer 7
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q10_Answer_0
-      TermType: 0
-      Description: 
-      Languages:
-      - P 10 Respuesta 1
-      - Q 10 Answer 2
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q10_Answer_1
-      TermType: 0
-      Description: 
-      Languages:
-      - P 10 Respuesta 2
-      - Q 10 Answer 3
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q10_Answer_2
-      TermType: 0
-      Description: 
-      Languages:
-      - P 10 Respuesta 3
-      - Q 10 Answer 4
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q10_Answer_3
-      TermType: 0
-      Description: 
-      Languages:
-      - P 10 Respuesta 4
-      - Q 10 Answer 5
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q10_Answer_4
-      TermType: 0
-      Description: 
-      Languages:
-      - P 10 Respuesta 5
-      - Q 10 Answer 6
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q10_Answer_5
-      TermType: 0
-      Description: 
-      Languages:
-      - P 10 Respuesta 6
-      - Q 10 Answer 7
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q11_Answer_0
-      TermType: 0
-      Description: 
-      Languages:
-      - P 11 Respuesta 1
-      - Q 11 Answer 2
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q11_Answer_1
-      TermType: 0
-      Description: 
-      Languages:
-      - P 11 Respuesta 2
-      - Q 11 Answer 3
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q11_Answer_2
-      TermType: 0
-      Description: 
-      Languages:
-      - P 11 Respuesta 3
-      - Q 11 Answer 4
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q11_Answer_3
-      TermType: 0
-      Description: 
-      Languages:
-      - P 11 Respuesta 4
-      - Q 11 Answer 5
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q11_Answer_4
-      TermType: 0
-      Description: 
-      Languages:
-      - P 11 Respuesta 5
-      - Q 11 Answer 6
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Answers/Q11_Answer_5
-      TermType: 0
-      Description: 
-      Languages:
-      - P 11 Respuesta 6
-      - Q 11 Answer 7
+      - "S\xED"
+      - Yes
       Flags: 0000
       Languages_Touch: []
     CaseInsensitiveTerms: 0
@@ -1075,7 +1833,7 @@ MonoBehaviour:
     Google_WebServiceURL: https://script.google.com/macros/s/AKfycby7Z1NeRJuviHmJ8k9pIw8KB0DfYgfDkoxOqMyCitRaRXHUZgdmROB2vHxHblgK0IQaEA/exec
     Google_SpreadsheetKey: 1mqGNPGUFMXg2yAoD8rPXvO7sftCYImLr0o5EdCYBzqw
     Google_SpreadsheetName: I2Loc SkincareInYourFace Localization
-    Google_LastUpdatedVersion: 1769874484560
+    Google_LastUpdatedVersion: 1769894755655
     Google_Password: change_this
     GoogleUpdateFrequency: 3
     GoogleInEditorCheckFrequency: 2

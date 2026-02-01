@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 167bb756625749a9aeb16283c1274bc0, type: 3}
+  m_Name: Muneca
+  m_EditorClassIdentifier: 
+  _previewPrefab: {fileID: 3750223570668677346, guid: d7b843948ad58674998e33311c7c1924, type: 3}
+  _nameTerm: Items/MunecaName
+  _normalDescriptionTerm: Items/MunecaNormalDescription
+  _infiltratedDescriptionTerm: Items/MunecaGuiltyDescription
+  _itemOwner: {fileID: 11400000, guid: 0158f36012688f54ba85298525bdd565, type: 2}

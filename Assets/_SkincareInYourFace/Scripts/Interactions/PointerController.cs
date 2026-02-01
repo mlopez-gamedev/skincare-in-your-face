@@ -68,14 +68,12 @@ namespace Campero.SkincareInYourFace.Interactions
 
         private void AddHighlight()
         {
-            Debug.Log($"Adding highlight to {_highlightInteractor.transform.parent.name}");
             _highlightInteractor.SetHighlight(true);
             SetCursor(_highlightInteractor.HighlightCursor);
         }
         
         private void RemoveHighlight()
         {
-            Debug.Log($"Removing highlight to {_highlightInteractor.transform.parent.name}");
             _highlightInteractor.SetHighlight(false);
             SetCursor(_normalCursor);
         }

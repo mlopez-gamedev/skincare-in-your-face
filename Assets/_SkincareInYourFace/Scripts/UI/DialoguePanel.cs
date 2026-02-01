@@ -1,6 +1,9 @@
+using System;
 using System.Collections;
 using Campero.SkincareInYourFace.Characters;
 using DG.Tweening;
+using I2.Loc;
+using MiguelGameDev;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -33,7 +36,8 @@ namespace Campero.SkincareInYourFace.UI
 
         private void OnHideButtonClicked()
         {
-            Hide();
+            Hide(
+                _screen.BackFromDialoguePanel);
         }
 
         public void Setup(CharacterScreen screen, Character character)
@@ -41,13 +45,8 @@ namespace Campero.SkincareInYourFace.UI
             _screen = screen;
             _character = character;
             
-            foreach (Transform child in _dialogueContainer) {
-                Destroy(child.gameObject);
-            }
-            
-            foreach (Transform child in _questionsContainer) {
-                Destroy(child.gameObject);
-            }
+            _dialogueContainer.DestroyAllChildren();
+            _questionsContainer.DestroyAllChildren();
             
             foreach (var talk in _character.Log)
             {
@@ -101,7 +100,7 @@ namespace Campero.SkincareInYourFace.UI
             }
         }
 
-        private void Hide()
+        public void Hide(Action callback)
         {
             _hideButton.gameObject.SetActive(false);
             _avatarPanel.DOScale(1f, 0.2f);
@@ -111,7 +110,7 @@ namespace Campero.SkincareInYourFace.UI
             void OnComplete()
             {
                 _dialogueGroup.alpha = 0;
-                _screen.BackFromDialoguePanel();
+                callback.Invoke();
             }
         }
 

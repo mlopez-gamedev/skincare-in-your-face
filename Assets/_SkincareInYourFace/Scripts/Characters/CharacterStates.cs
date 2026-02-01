@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Campero.SkincareInYourFace.Items;
 using MiguelGameDev;
 using UnityEngine;
 using UnityEngine.Assertions;
@@ -25,14 +26,20 @@ namespace Campero.SkincareInYourFace.Characters
             _infiltrateCharacter = infiltrateCharacter;
         }
         
-        public void AccuseCharacter(Character character)
+        public void AccuseCharacter(Character character, ItemModel item)
         {
             Assert.IsFalse(_accusedCharacters.Contains(character));
             Assert.IsNotNull(_infiltrateCharacter, "There is no infiltrate character.");
             
             if (character == _infiltrateCharacter)
             {
-                _gameManager.Win();
+                if (item.ItemOwner == _infiltrateCharacter.Model)
+                {
+                    _gameManager.Win();
+                    return;
+                }
+                
+                _gameManager.Lose();
                 return;
             }
             _accusedCharacters.Add(character);

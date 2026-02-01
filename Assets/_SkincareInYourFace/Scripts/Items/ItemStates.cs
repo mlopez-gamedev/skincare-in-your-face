@@ -7,6 +7,11 @@ namespace Campero.SkincareInYourFace.Items
     {
         private List<ItemModel> _viewedItems = new List<ItemModel>();
 
+        public ItemModel[] GetViewedItems()
+        {
+            return _viewedItems.ToArray();
+        }
+
         public void ViewItem(ItemModel item)
         {
             if (_viewedItems.Contains(item))

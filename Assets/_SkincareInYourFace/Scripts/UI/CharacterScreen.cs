@@ -2,6 +2,7 @@ using Campero.SkincareInYourFace.Characters;
 using Campero.SkincareInYourFace.Environment;
 using Campero.SkincareInYourFace.Interactions;
 using DG.Tweening;
+using I2.Loc;
 using MiguelGameDev;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -19,7 +20,11 @@ namespace Campero.SkincareInYourFace.UI
         [SerializeField] private Button _talkButton;
         [SerializeField] private Button _accuseButton;
         [SerializeField] private RectTransform _accusedPanel;
+        [SerializeField] private AccusationPanel _accusationPanel;
 
+        [SerializeField] private Image _avatarImage;
+        [SerializeField] private Localize _characterNameText;
+        
         private CharacterStates _characterStates;
         private Character _character;
         
@@ -55,7 +60,7 @@ namespace Campero.SkincareInYourFace.UI
 
         private void OnAccuseButtonClicked()
         {
-            _characterStates.AccuseCharacter(_character);
+            ShowAccusationPanel();
         }
 
         private void OnButtonHide(BaseEventData _)
@@ -73,7 +78,13 @@ namespace Campero.SkincareInYourFace.UI
             SetAccusation();
             
             _characterPanel.gameObject.SetActive(true);
+
+            _avatarImage.sprite = _character.Model.CharacterAvatar;
+            _characterNameText.SetTerm(_character.Model.NameTerm);
+            
             _dialoguePanel.Setup(this, _character);
+            _accusationPanel.Setup(this, 
+                _avatarImage.GetComponent<RectTransform>(), _character);
             
             _background.DOFade(0.8f, 0.2f);
             _panelTransform.DOAnchorPosX(0, 0.2f);
@@ -112,6 +123,17 @@ namespace Campero.SkincareInYourFace.UI
         {
             SetAccusation();
             _talkButton.gameObject.SetActive(true);
+        }
+        
+        private void ShowAccusationPanel()
+        {
+            _accusationPanel.PrepareShow();
+            _dialoguePanel.Hide(_accusationPanel.Show);
+        }
+        
+        public void BackFromAccusationPanel()
+        {
+            _dialoguePanel.Show();
         }
     }
 }
