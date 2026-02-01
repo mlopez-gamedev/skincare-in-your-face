@@ -881,10 +881,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemScreen
       objectReference: {fileID: 0}
-    - target: {fileID: 6028978920776797500, guid: 33f1ab3078b3da44ca7dea0c916d146d, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6405937169601710199, guid: 33f1ab3078b3da44ca7dea0c916d146d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -965,10 +961,6 @@ PrefabInstance:
       propertyPath: mLocalizeTarget
       value: 
       objectReference: {fileID: 1751746566}
-    - target: {fileID: 3784242805535030896, guid: 063c4867088dfbc42aaef1a5447ecd46, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3985079731842279000, guid: 063c4867088dfbc42aaef1a5447ecd46, type: 3}
       propertyPath: m_Name
       value: TitleScreenCanvas
