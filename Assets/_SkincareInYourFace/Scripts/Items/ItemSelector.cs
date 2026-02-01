@@ -13,7 +13,7 @@ namespace Campero.SkincareInYourFace.Items
         [SerializeField] private ImageDrag _imageDrag;
 
         private AccusationPanel _accusationPanel;
-        private ItemPreviewCamera _itemPreviewCamera;
+        //private ItemPreviewCamera _itemPreviewCamera;
         private ItemModel _item;
         
         public void Init(AccusationPanel accusationPanel, ItemModel item)
@@ -31,10 +31,10 @@ namespace Campero.SkincareInYourFace.Items
             _previewPanel.rotation = Quaternion.identity;
         }
 
-        private void OnDestroy()
-        {
-            _itemPreviewCamera.Clear();
-        }
+        // private void OnDestroy()
+        // {
+        //     _itemPreviewCamera.Clear();
+        // }
 
         public void Select()
         {

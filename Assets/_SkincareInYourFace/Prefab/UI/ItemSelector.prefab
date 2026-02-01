@@ -173,7 +173,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _previewPanel: {fileID: 6526145606135777790}
   _previewImage: {fileID: 8622574355044771582}
-  _imageDrag: {fileID: 8867604482657811963}
+  _imageDrag: {fileID: 4797940979358792460}
 --- !u!1 &7752488064223671084
 GameObject:
   m_ObjectHideFlags: 0

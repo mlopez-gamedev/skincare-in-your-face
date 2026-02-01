@@ -13,7 +13,7 @@ namespace Campero.SkincareInYourFace
     public class GameLoader : MonoBehaviour
     {
         [SerializeField] private VideoPlayer _videoPlayer;
-        [SerializeField] private RawImage _videoImage;
+        [SerializeField] private CanvasGroup _videoImage;
         
         public async UniTask StartGame()
         {
