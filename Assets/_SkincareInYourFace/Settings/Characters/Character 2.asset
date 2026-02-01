@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Character 2
   m_EditorClassIdentifier: 
   _nameTerm: Characters/Character2Name
-  _characterAvatar: {fileID: 0}
+  _characterAvatar: {fileID: 21300000, guid: 0c8ce3759e2f0734f8a26b92625b1cb1, type: 3}
   _characterPrefab: {fileID: 2286516644506046386, guid: 04abe08a5b3df55408852c6abb9b9741, type: 3}
   _characterDialogue: {fileID: 11400000, guid: 86791cd94b7018c44b188985ac7c974a, type: 2}
