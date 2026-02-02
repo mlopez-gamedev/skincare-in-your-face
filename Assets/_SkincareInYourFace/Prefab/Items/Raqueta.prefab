@@ -68,7 +68,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54ca9ed5e50f405eac16b656952bb77e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _model: {fileID: 11400000, guid: 4f0082c9ffd8d894785161d399d577c2, type: 2}
+  _model: {fileID: 11400000, guid: f363b57de67dc9045bcd75f1f5475b16, type: 2}
   _cursor: {fileID: 11400000, guid: 2a36edc8281df8844b9610c73635a3ee, type: 2}
   _renderer: {fileID: 0}
   _highlightMaterial: {fileID: 2100000, guid: 9a191b1e13768b6459d9ed6c1e085d39, type: 2}

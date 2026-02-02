@@ -138,7 +138,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1652181642922387984, guid: aa72d04a3ba64244ebed9c6ba59d95f8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.19
       objectReference: {fileID: 0}
     - target: {fileID: 1652181642922387984, guid: aa72d04a3ba64244ebed9c6ba59d95f8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -621,7 +621,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1652181642922387984, guid: f190a0e2e5598c747979cc50e6334fa1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.27
+      value: 1.21
       objectReference: {fileID: 0}
     - target: {fileID: 1652181642922387984, guid: f190a0e2e5598c747979cc50e6334fa1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -833,7 +833,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1652181642922387984, guid: d27f8645a33fd134884be07a2a55ec72, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 1652181642922387984, guid: d27f8645a33fd134884be07a2a55ec72, type: 3}
       propertyPath: m_LocalPosition.z
@@ -927,6 +927,18 @@ PrefabInstance:
     - target: {fileID: 3750223570668677346, guid: 6adddf9553db6794491903ec3adc7edb, type: 3}
       propertyPath: m_Name
       value: Camara
+      objectReference: {fileID: 0}
+    - target: {fileID: 4970370857143790965, guid: 6adddf9553db6794491903ec3adc7edb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 4970370857143790965, guid: 6adddf9553db6794491903ec3adc7edb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4970370857143790965, guid: 6adddf9553db6794491903ec3adc7edb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.16
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1178,15 +1190,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1652181642922387984, guid: d7b843948ad58674998e33311c7c1924, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.53
+      value: 2.989
       objectReference: {fileID: 0}
     - target: {fileID: 1652181642922387984, guid: d7b843948ad58674998e33311c7c1924, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0
+      value: 0.482
       objectReference: {fileID: 0}
     - target: {fileID: 1652181642922387984, guid: d7b843948ad58674998e33311c7c1924, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.58
+      value: -0.726
       objectReference: {fileID: 0}
     - target: {fileID: 1652181642922387984, guid: d7b843948ad58674998e33311c7c1924, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1219,6 +1231,14 @@ PrefabInstance:
     - target: {fileID: 3750223570668677346, guid: d7b843948ad58674998e33311c7c1924, type: 3}
       propertyPath: m_Name
       value: Muneca
+      objectReference: {fileID: 0}
+    - target: {fileID: 8280832238869174525, guid: d7b843948ad58674998e33311c7c1924, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8280832238869174525, guid: d7b843948ad58674998e33311c7c1924, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1302,7 +1322,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1652181642922387984, guid: e1f189bb9331d1d4897d2cdde6e624d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.14
+      value: 0.37
       objectReference: {fileID: 0}
     - target: {fileID: 1652181642922387984, guid: e1f189bb9331d1d4897d2cdde6e624d7, type: 3}
       propertyPath: m_LocalPosition.z
