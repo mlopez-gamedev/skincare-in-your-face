@@ -70,8 +70,7 @@ namespace Campero.SkincareInYourFace.UI
         private void OnButtonHide(BaseEventData _)
         {
             AudioPlayer.Instance.PlayCloseUiSound();
-            Hide(
-                Terminate);
+            Hide(Terminate);
         }
         
         public void Terminate()
@@ -103,10 +102,11 @@ namespace Campero.SkincareInYourFace.UI
             Show();
         }
 
-        public void Show()
+        private void Show()
         {
             AudioPlayer.Instance.PlayOpenUiSound();
             
+            _characterPanel.gameObject.SetActive(true);
             _background.DOFade(0.8f, 0.2f);
             _panelTransform.DOAnchorPosX(0, 0.2f);
         }

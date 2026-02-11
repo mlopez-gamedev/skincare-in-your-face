@@ -42,8 +42,7 @@ namespace Campero.SkincareInYourFace.UI
 
         private void OnHideButtonClicked()
         {
-            Hide(
-                _screen.BackFromDialoguePanel);
+            Hide(_screen.BackFromDialoguePanel);
         }
 
         public void Setup(CharacterScreen screen, Character character)

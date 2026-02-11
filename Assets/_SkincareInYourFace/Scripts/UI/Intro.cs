@@ -94,7 +94,6 @@ namespace Campero.SkincareInYourFace.UI
 
             void OnSeekCompleted(VideoPlayer _)
             {
-                Debug.Log("OnSeekCompleted");
                 introTaskCompletionSource.TrySetResult();
             }
         }

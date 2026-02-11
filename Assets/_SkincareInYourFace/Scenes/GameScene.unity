@@ -1457,10 +1457,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 190290192537439895, guid: af2abec8a35917e46a8e1262fa7aece4, type: 3}
-      propertyPath: m_text
-      value: "Arrastra un objeto al personaje para usarlo como prueba en tu acusaci\xF3n"
-      objectReference: {fileID: 0}
     - target: {fileID: 702097749639043924, guid: af2abec8a35917e46a8e1262fa7aece4, type: 3}
       propertyPath: mLocalizeTarget
       value: 
@@ -1473,22 +1469,6 @@ PrefabInstance:
       propertyPath: mLocalizeTarget
       value: 
       objectReference: {fileID: 97883984}
-    - target: {fileID: 1244398689859975018, guid: af2abec8a35917e46a8e1262fa7aece4, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -0.00006900347
-      objectReference: {fileID: 0}
-    - target: {fileID: 1675121347371197253, guid: af2abec8a35917e46a8e1262fa7aece4, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1675121347371197253, guid: af2abec8a35917e46a8e1262fa7aece4, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1675121347371197253, guid: af2abec8a35917e46a8e1262fa7aece4, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: -17
-      objectReference: {fileID: 0}
     - target: {fileID: 1854615895332772577, guid: af2abec8a35917e46a8e1262fa7aece4, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1573,38 +1553,14 @@ PrefabInstance:
       propertyPath: mLocalizeTarget
       value: 
       objectReference: {fileID: 1751746566}
-    - target: {fileID: 4455070990459692764, guid: af2abec8a35917e46a8e1262fa7aece4, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4543395323711736732, guid: af2abec8a35917e46a8e1262fa7aece4, type: 3}
       propertyPath: mLocalizeTarget
       value: 
       objectReference: {fileID: 1751746566}
-    - target: {fileID: 6288361543916515651, guid: af2abec8a35917e46a8e1262fa7aece4, type: 3}
-      propertyPath: m_text
-      value: Hablar
-      objectReference: {fileID: 0}
     - target: {fileID: 7108660021943230984, guid: af2abec8a35917e46a8e1262fa7aece4, type: 3}
       propertyPath: mLocalizeTarget
       value: 
       objectReference: {fileID: 2002057869}
-    - target: {fileID: 7900904338013232659, guid: af2abec8a35917e46a8e1262fa7aece4, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7900904338013232659, guid: af2abec8a35917e46a8e1262fa7aece4, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0.99999374
-      objectReference: {fileID: 0}
-    - target: {fileID: 7900904338013232659, guid: af2abec8a35917e46a8e1262fa7aece4, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8368118038765529126, guid: af2abec8a35917e46a8e1262fa7aece4, type: 3}
-      propertyPath: m_text
-      value: Acusar
-      objectReference: {fileID: 0}
     - target: {fileID: 8415445088182227054, guid: af2abec8a35917e46a8e1262fa7aece4, type: 3}
       propertyPath: m_Name
       value: CharacterScreenCanvas
