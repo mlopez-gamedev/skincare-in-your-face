@@ -1,4 +1,5 @@
 using System.Threading.Tasks;
+using Campero.SkincareInYourFace.Audio;
 using Cysharp.Threading.Tasks;
 using DG.Tweening;
 using MiguelGameDev;
@@ -102,13 +103,17 @@ namespace Campero.SkincareInYourFace.UI
         {
             if (_introPlayed)
             {
+                AudioPlayer.Instance.PlayClickUiSound();
                 HideIntroScreen();
             }
-
-            _videoImage.DOFade(0, 0.5f).OnComplete(() =>
+            else if (_videoPlayer.time < _videoPlayer.clip.length)
             {
-                _videoPlayer.time = _videoPlayer.clip.length;
-            });
+                AudioPlayer.Instance.PlayClickUiSound();
+                _videoImage.DOFade(0, 0.5f).OnComplete(() =>
+                {
+                    _videoPlayer.time = _videoPlayer.clip.length;
+                });
+            }
         }
 
         private void HideIntroScreen()

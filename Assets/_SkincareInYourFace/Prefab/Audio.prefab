@@ -46,17 +46,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _menuMusicEvent:
     Guid:
-      Data1: -270837901
-      Data2: 1280169517
-      Data3: 1415460737
-      Data4: -1413279257
+      Data1: -550068353
+      Data2: 1118948575
+      Data3: -980134005
+      Data4: 128788484
     Path: event:/Audio/main_menu
   _gameMusicEvent:
     Guid:
-      Data1: 1491184694
-      Data2: 1300891098
-      Data3: 156460462
-      Data4: -1461539390
+      Data1: -1396002733
+      Data2: 1188078533
+      Data3: -1044319560
+      Data4: -435649932
     Path: event:/Audio/gameplay
   _clickUiEvent:
     Guid:
@@ -74,8 +74,36 @@ MonoBehaviour:
     Path: event:/UI/objeto_on
   _closeUiEvent:
     Guid:
-      Data1: 1218438272
-      Data2: 1132176086
-      Data3: 10495872
-      Data4: -1426735293
+      Data1: 1835526590
+      Data2: 1335851315
+      Data3: -794186836
+      Data4: 799630842
     Path: event:/UI/objeto_off
+  _talkEvent:
+    Guid:
+      Data1: 1858770982
+      Data2: 1141145162
+      Data3: 945866910
+      Data4: 1504873758
+    Path: event:/SFX/preguntar
+  _accuseEvent:
+    Guid:
+      Data1: -1039904008
+      Data2: 1299531178
+      Data3: 573969335
+      Data4: 116328233
+    Path: event:/SFX/acusar
+  _lampBlinkRunEvent:
+    Guid:
+      Data1: 1843570426
+      Data2: 1225985300
+      Data3: 1067777975
+      Data4: -1905216074
+    Path: event:/SFX/lampblinkrun
+  _lampBlinkShortEvent:
+    Guid:
+      Data1: -455477741
+      Data2: 1117105860
+      Data3: -1917740160
+      Data4: -804181546
+    Path: event:/SFX/lampblinkshort

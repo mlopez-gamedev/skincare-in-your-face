@@ -14,6 +14,12 @@ namespace Campero.SkincareInYourFace
     public class GameLoader : MonoBehaviour
     {
         [SerializeField] private Intro _intro;
+        [SerializeField] private Animator _signAnimator;
+
+        private void Awake()
+        {
+            _signAnimator.enabled = false;
+        }
         
         public async UniTask StartGame()
         {
@@ -22,6 +28,7 @@ namespace Campero.SkincareInYourFace
             CharacterFactory.Instance.GenerateCharacters();
             CameraMovement.Instance.CanMove = true;
             PointerController.Instance.IsEnabled = true;
+            _signAnimator.enabled = true;
             AudioPlayer.Instance.PlayGameMusic();
         }
         

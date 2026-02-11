@@ -73,7 +73,7 @@ namespace Campero.SkincareInYourFace.Characters
 
         public void SetHighlight(bool highlight)
         {
-            Debug.Log($"{name} highlight: {highlight}");
+            //Debug.Log($"{name} highlight: {highlight}");
             if (highlight)
             {
                 _renderer.materials = new[]

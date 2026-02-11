@@ -15,12 +15,22 @@ namespace Campero.SkincareInYourFace.Audio
         
         [SerializeField] private EventReference _openUiEvent;
         [SerializeField] private EventReference _closeUiEvent;
+        
+        [SerializeField] private EventReference _talkEvent;
+        [SerializeField] private EventReference _accuseEvent;
 
+        [SerializeField] private EventReference _lampBlinkRunEvent;
+        [SerializeField] private EventReference _lampBlinkShortEvent;
+        
         private EventInstance _menuMusicEventInstance;
         private EventInstance _gameMusicEventInstance;
         private EventInstance _clickUiEventInstance;
         private EventInstance _openUiEventInstance;
         private EventInstance _closeUiEventInstance;
+        private EventInstance _talkEventInstance;
+        private EventInstance _accuseEventInstance;
+        private EventInstance _lampBlinkRunEventInstance;
+        private EventInstance _lampBlinkShortEventInstance;
         
         protected override void Awake()
         {
@@ -30,6 +40,10 @@ namespace Campero.SkincareInYourFace.Audio
             _clickUiEventInstance = RuntimeManager.CreateInstance(_clickUiEvent);
             _openUiEventInstance = RuntimeManager.CreateInstance(_openUiEvent);
             _closeUiEventInstance = RuntimeManager.CreateInstance(_closeUiEvent);
+            _talkEventInstance = RuntimeManager.CreateInstance(_talkEvent);
+            _accuseEventInstance = RuntimeManager.CreateInstance(_accuseEvent);
+            _lampBlinkRunEventInstance = RuntimeManager.CreateInstance(_lampBlinkRunEvent);
+            _lampBlinkShortEventInstance = RuntimeManager.CreateInstance(_lampBlinkShortEvent);
         }
         
         public void PlayMenuMusic()
@@ -65,6 +79,26 @@ namespace Campero.SkincareInYourFace.Audio
         public void PlayCloseUiSound()
         {
             _closeUiEventInstance.start();
+        }
+        
+        public void PlayTalkSound()
+        {
+            _talkEventInstance.start();
+        }
+        
+        public void PlayAccuseSound()
+        {
+            _accuseEventInstance.start();
+        }
+
+        public void PlayLampBlinkRunSound()
+        {
+            _lampBlinkRunEventInstance.start();
+        }
+
+        public void PlayLampBlinkShortSound()
+        {
+            _lampBlinkShortEventInstance.start();
         }
     }
 }
