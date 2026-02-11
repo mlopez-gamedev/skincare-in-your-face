@@ -1,3 +1,4 @@
+using System.IO;
 using System.Threading.Tasks;
 using Campero.SkincareInYourFace.Audio;
 using Cysharp.Threading.Tasks;
@@ -12,6 +13,8 @@ namespace Campero.SkincareInYourFace.UI
 {
     public class Intro : MonoBehaviour
     {
+        private const float VIDEO_LENGTH = 23f;
+        
         [SerializeField] private VideoPlayer _videoPlayer;
         [SerializeField] private RawImage _videoImage;
         [SerializeField] private CanvasGroup _canvasGroup;
@@ -87,6 +90,7 @@ namespace Campero.SkincareInYourFace.UI
         {
             var introTaskCompletionSource = new UniTaskCompletionSource();
             
+            _videoPlayer.url = Path.Combine(Application.streamingAssetsPath, "Intro.mp4");
             _videoPlayer.loopPointReached += OnSeekCompleted;
             _videoPlayer.Play();
 
@@ -105,12 +109,12 @@ namespace Campero.SkincareInYourFace.UI
                 AudioPlayer.Instance.PlayClickUiSound();
                 HideIntroScreen();
             }
-            else if (_videoPlayer.time < _videoPlayer.clip.length)
+            else if (_videoPlayer.time < VIDEO_LENGTH)
             {
                 AudioPlayer.Instance.PlayClickUiSound();
                 _videoImage.DOFade(0, 0.5f).OnComplete(() =>
                 {
-                    _videoPlayer.time = _videoPlayer.clip.length;
+                    _videoPlayer.time = VIDEO_LENGTH;
                 });
             }
         }

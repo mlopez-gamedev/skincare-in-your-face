@@ -32,10 +32,7 @@ namespace Campero.SkincareInYourFace.Interactions
         {
             base.Awake();
             _camera = Camera.main;
-            Cursor.SetCursor(
-                _normalCursor.Texture,
-                _normalCursor.Hotspot,
-                CursorMode.Auto);
+            SetCursor(_normalCursor);
         }
 
         private void Update()

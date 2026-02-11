@@ -3,7 +3,6 @@ using Campero.SkincareInYourFace.Audio;
 using Campero.SkincareInYourFace.UI;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 namespace Campero.SkincareInYourFace
 {
