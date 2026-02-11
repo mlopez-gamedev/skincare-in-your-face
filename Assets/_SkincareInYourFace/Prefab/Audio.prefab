@@ -46,17 +46,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _menuMusicEvent:
     Guid:
-      Data1: -550068353
-      Data2: 1118948575
-      Data3: -980134005
-      Data4: 128788484
+      Data1: -270837901
+      Data2: 1280169517
+      Data3: 1415460737
+      Data4: -1413279257
     Path: event:/Audio/main_menu
   _gameMusicEvent:
     Guid:
-      Data1: -1396002733
-      Data2: 1188078533
-      Data3: -1044319560
-      Data4: -435649932
+      Data1: 1491184694
+      Data2: 1300891098
+      Data3: 156460462
+      Data4: -1461539390
     Path: event:/Audio/gameplay
   _clickUiEvent:
     Guid:
@@ -74,10 +74,10 @@ MonoBehaviour:
     Path: event:/UI/objeto_on
   _closeUiEvent:
     Guid:
-      Data1: 1835526590
-      Data2: 1335851315
-      Data3: -794186836
-      Data4: 799630842
+      Data1: 1218438272
+      Data2: 1132176086
+      Data3: 10495872
+      Data4: -1426735293
     Path: event:/UI/objeto_off
   _talkEvent:
     Guid:
@@ -107,3 +107,17 @@ MonoBehaviour:
       Data3: -1917740160
       Data4: -804181546
     Path: event:/SFX/lampblinkshort
+  _loseEvent:
+    Guid:
+      Data1: -295996683
+      Data2: 1155108305
+      Data3: 1399755961
+      Data4: 259266694
+    Path: event:/SFX/growl
+  _winEvent:
+    Guid:
+      Data1: 1835526590
+      Data2: 1335851315
+      Data3: -794186836
+      Data4: 799630842
+    Path: event:/SFX/car_horn

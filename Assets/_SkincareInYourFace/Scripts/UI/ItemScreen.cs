@@ -8,6 +8,7 @@ using DG.Tweening;
 using I2.Loc;
 using MiguelGameDev;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
 
@@ -17,6 +18,7 @@ namespace Campero.SkincareInYourFace.UI
     {
         [SerializeField] private CanvasGroup _panel;
         [SerializeField] private Button _hideButton;
+        [SerializeField] private EventTrigger _hideTrigger;
         [SerializeField] private Localize _nameText;
         [SerializeField] private Localize _descriptionText;
         //[SerializeField] private Transform _itemPreviewCamera;
@@ -38,7 +40,18 @@ namespace Campero.SkincareInYourFace.UI
             _panel.gameObject.SetActive(false);
             //_itemPreviewCamera.gameObject.SetActive(false);
             
+            var entry = new EventTrigger.Entry();
+            entry.eventID = EventTriggerType.PointerClick;
+            entry.callback = new EventTrigger.TriggerEvent();
+            entry.callback.AddListener(OnHideClick);
+            _hideTrigger.triggers.Add(entry);
+            
             _hideButton.onClick.AddListener(Hide);
+        }
+
+        private void OnHideClick(BaseEventData _)
+        {
+            Hide();
         }
 
         [Sirenix.OdinInspector.Button]

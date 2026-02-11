@@ -22,6 +22,9 @@ namespace Campero.SkincareInYourFace.Audio
         [SerializeField] private EventReference _lampBlinkRunEvent;
         [SerializeField] private EventReference _lampBlinkShortEvent;
         
+        [SerializeField] private EventReference _loseEvent;
+        [SerializeField] private EventReference _winEvent;
+        
         private EventInstance _menuMusicEventInstance;
         private EventInstance _gameMusicEventInstance;
         private EventInstance _clickUiEventInstance;
@@ -31,6 +34,8 @@ namespace Campero.SkincareInYourFace.Audio
         private EventInstance _accuseEventInstance;
         private EventInstance _lampBlinkRunEventInstance;
         private EventInstance _lampBlinkShortEventInstance;
+        private EventInstance _loseEventInstance;
+        private EventInstance _winEventInstance;
         
         protected override void Awake()
         {
@@ -44,10 +49,13 @@ namespace Campero.SkincareInYourFace.Audio
             _accuseEventInstance = RuntimeManager.CreateInstance(_accuseEvent);
             _lampBlinkRunEventInstance = RuntimeManager.CreateInstance(_lampBlinkRunEvent);
             _lampBlinkShortEventInstance = RuntimeManager.CreateInstance(_lampBlinkShortEvent);
+            _loseEventInstance = RuntimeManager.CreateInstance(_loseEvent);
+            _winEventInstance = RuntimeManager.CreateInstance(_winEvent);
         }
         
         public void PlayMenuMusic()
         {
+            Debug.Log("Playing Menu Music");
             _menuMusicEventInstance.start();
         }
         
@@ -99,6 +107,16 @@ namespace Campero.SkincareInYourFace.Audio
         public void PlayLampBlinkShortSound()
         {
             _lampBlinkShortEventInstance.start();
+        }
+
+        public void PlayLoseSound()
+        {
+            _loseEventInstance.start();
+        }
+        
+        public void PlayWinSound()
+        {
+            _winEventInstance.start();
         }
     }
 }
