@@ -55,7 +55,6 @@ namespace Campero.SkincareInYourFace.Audio
         
         public void PlayMenuMusic()
         {
-            Debug.Log("Playing Menu Music");
             _menuMusicEventInstance.start();
         }
         

@@ -375,6 +375,17 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &430497650 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6769863973560542417, guid: 33f1ab3078b3da44ca7dea0c916d146d, type: 3}
+  m_PrefabInstance: {fileID: 2427866533394579315}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &462496281
 GameObject:
   m_ObjectHideFlags: 0
@@ -898,17 +909,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d620f9114a1586a4a89a3be3233f34ca, type: 3}
---- !u!114 &1121035223 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7270545060737370369, guid: 33f1ab3078b3da44ca7dea0c916d146d, type: 3}
-  m_PrefabInstance: {fileID: 2427866533394579315}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1159633608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1087,7 +1087,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTarget: {fileID: 1121035223}
+  mTarget: {fileID: 430497650}
   mAlignment_RTL: 514
   mAlignment_LTR: 514
   mAlignmentWasRTL: 0
@@ -2190,6 +2190,10 @@ PrefabInstance:
       propertyPath: _loseScreen
       value: 
       objectReference: {fileID: 2009907936}
+    - target: {fileID: 1336584250121045982, guid: e53352b355795734992230610feccaee, type: 3}
+      propertyPath: _signAnimator
+      value: 
+      objectReference: {fileID: 216847384}
     - target: {fileID: 4084600888698850353, guid: e53352b355795734992230610feccaee, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

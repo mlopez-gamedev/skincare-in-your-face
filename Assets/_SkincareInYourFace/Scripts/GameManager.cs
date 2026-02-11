@@ -12,7 +12,6 @@ namespace Campero.SkincareInYourFace
 
         private void Start()
         {
-            Debug.Log("Starting Game");
             AudioPlayer.Instance.PlayMenuMusic();
         }
         
