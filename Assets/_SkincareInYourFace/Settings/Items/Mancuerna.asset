@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 167bb756625749a9aeb16283c1274bc0, type: 3}
   m_Name: Mancuerna
   m_EditorClassIdentifier: 
-  _previewPrefab: {fileID: 3750223570668677346, guid: d7b843948ad58674998e33311c7c1924, type: 3}
+  _previewPrefab: {fileID: 3750223570668677346, guid: e1f189bb9331d1d4897d2cdde6e624d7, type: 3}
   _previewSprite: {fileID: 21300000, guid: 250fccbbb566f5646b9ad9f5c74c670d, type: 3}
   _nameTerm: Items/MancuernaName
   _normalDescriptionTerm: Items/MancuernaNormalDescription

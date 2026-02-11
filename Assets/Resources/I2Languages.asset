@@ -15,14 +15,14 @@ MonoBehaviour:
   mSource:
     UserAgreesToHaveItOnTheScene: 0
     UserAgreesToHaveItInsideThePluginsFolder: 0
-    GoogleLiveSyncIsUptoDate: 1
+    GoogleLiveSyncIsUptoDate: 0
     mTerms:
     - Term: AccusationHelp
       TermType: 0
       Description: 
       Languages:
-      - Utiliza los objetos que has encontrado para acusar a este personaje
-      - Use the objects you have found to accuse this character
+      - "Arrastra un objeto al personaje para usarlo como prueba en tu acusaci\xF3n"
+      - Drag an object to the character to use it as evidence in your accusation
       Flags: 0000
       Languages_Touch: []
     - Term: Accuse
@@ -1344,8 +1344,9 @@ MonoBehaviour:
       - "La suela no tiene desgaste normal: est\xE1 pulida en zonas imposibles, como
         si hubiese rozado piedra\u2026 o hueso. Por dentro hay pelos gruesos pegados
         al tejido y un olor met\xE1lico, a establo y ozono."
-      - Description of a test item. This is just a description to see how the text
-        looks when described.
+      - "The sole shows no normal wear: it's polished in impossible places, as if
+        it had rubbed against stone\u2026 or bone. Inside, thick hairs are stuck
+        to the fabric, and there's a metallic smell, like a stable and ozone."
       Flags: 0000
       Languages_Touch: []
     - Term: Items/AlpargataName
@@ -1353,7 +1354,7 @@ MonoBehaviour:
       Description: 
       Languages:
       - Alpargata
-      - Test Item
+      - Espadrille
       Flags: 0000
       Languages_Touch: []
     - Term: Items/AlpargataNormalDescription
@@ -1362,8 +1363,8 @@ MonoBehaviour:
       Languages:
       - Una alpargata vieja, algo gastada en la suela. Tiene tierra seca pegada y
         huele un poco a humedad, como si hubiese pasado horas en un maletero cerrado.
-      - Description of a test item. This is just a description to see how the text
-        looks when described.
+      - An old espadrille, somewhat worn on the sole. It has dried dirt stuck to
+        it and smells a little musty, as if it had spent hours in a closed car trunk.
       Flags: 0000
       Languages_Touch: []
     - Term: Items/CamaraGuiltyDescription
@@ -1872,6 +1873,49 @@ MonoBehaviour:
       Languages:
       - "S\xED"
       - Yes
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PressToSkip
+      TermType: 0
+      Description: 
+      Languages:
+      - Haz click para continuar
+      - Click to continue
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Intro
+      TermType: 0
+      Description: 
+      Languages:
+      - "Acabas de salir del ba\xF1o de la gasolinera. No es la mejor zona para bajarse
+        del coche: carteles de cambiapieles advierten a los viajeros de que eviten
+        la zona, pero no hac\xE9is caso.\n\nAl volver te encuentras con tus seis
+        amigos. Espera... \xBFseis? Deb\xEDan ser cinco. Sus rostros, sus cuerpos,
+        parecen deformes, pero a la vez te resultan extra\xF1amente familiares.\n\nTe
+        das cuenta de que tu memoria falla.\n\n\xBFCon qui\xE9n entraste en el coche?
+        \xBFQui\xE9nes son realmente tus amigos? \xBFQui\xE9n es el impostor?\n\nExamina
+        atentamente la escena, busca pistas y habla con las criaturas para averiguar
+        la verdad.\n"
+      - 'You''ve just left the gas station restroom. It''s not the best place to
+        get out of the car: skinchanger signs warn travelers to avoid the area, but
+        you ignore them.
+
+
+        When you return, you find yourself with your six
+        friends. Wait... six? There should have been five. Their faces, their bodies,
+        seem deformed, yet strangely familiar.
+
+
+        You realize your memory
+        is failing you.
+
+
+        Who did you get in the car with? Who are your real
+        friends? Who is the imposter?
+
+
+        Carefully examine the scene, look
+        for clues, and talk to the creatures to uncover the truth.'
       Flags: 0000
       Languages_Touch: []
     CaseInsensitiveTerms: 0

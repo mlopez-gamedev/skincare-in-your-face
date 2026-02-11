@@ -2,6 +2,7 @@ using Campero.SkincareInYourFace.Audio;
 using Campero.SkincareInYourFace.Characters;
 using Campero.SkincareInYourFace.Environment;
 using Campero.SkincareInYourFace.Interactions;
+using Campero.SkincareInYourFace.UI;
 using Cysharp.Threading.Tasks;
 using DG.Tweening;
 using UnityEngine;
@@ -12,44 +13,17 @@ namespace Campero.SkincareInYourFace
 {
     public class GameLoader : MonoBehaviour
     {
-        [SerializeField] private VideoPlayer _videoPlayer;
-        [SerializeField] private CanvasGroup _videoImage;
+        [SerializeField] private Intro _intro;
         
         public async UniTask StartGame()
         {
             AudioPlayer.Instance.StopMenuMusic();
-            await PlayIntro();
+            await _intro.Play();
             CharacterFactory.Instance.GenerateCharacters();
             CameraMovement.Instance.CanMove = true;
             PointerController.Instance.IsEnabled = true;
             AudioPlayer.Instance.PlayGameMusic();
         }
-
-        private async UniTask PlayIntro()
-        {
-            _videoImage.gameObject.SetActive(true);
-            _videoPlayer.gameObject.SetActive(true);
-            _videoImage.DOFade(1f, 0.2f);
-            await PlayVideoIntro();
-            await _videoImage.DOFade(0, 0.5f).AsyncWaitForCompletion();
-            _videoImage.gameObject.SetActive(false);
-            _videoPlayer.gameObject.SetActive(false);
-        }
-
-        private UniTask PlayVideoIntro()
-        {
-            var introTaskCompletionSource = new UniTaskCompletionSource();
-            
-            _videoPlayer.loopPointReached += OnSeekCompleted;
-            _videoPlayer.Play();
-
-            return introTaskCompletionSource.Task;
-
-            void OnSeekCompleted(VideoPlayer _)
-            {
-                Debug.Log("OnSeekCompleted");
-                introTaskCompletionSource.TrySetResult();
-            }
-        }
+        
     }
 }
