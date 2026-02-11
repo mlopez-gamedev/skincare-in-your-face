@@ -20,7 +20,12 @@ namespace Campero.SkincareInYourFace.UI
             _gameManager = GameManager.Instance;
             _startButton.onClick.AddListener(OnStartButtonClicked);
             _creditsButton.onClick.AddListener(OnCreditsButtonClicked);
+#if UNITY_WEBGL
+            _quitButton.gameObject.SetActive(false);
+#else
             _quitButton.onClick.AddListener(Application.Quit);
+#endif
+            
             _panel.gameObject.SetActive(true);
         }
 

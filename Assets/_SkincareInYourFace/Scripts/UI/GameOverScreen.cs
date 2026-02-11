@@ -14,7 +14,11 @@ namespace Campero.SkincareInYourFace.UI
         private void Awake()
         {
             _startButton.onClick.AddListener(OnStartButtonClicked);
+#if UNITY_WEBGL
+            _quitButton.gameObject.SetActive(false);
+#else
             _quitButton.onClick.AddListener(Application.Quit);
+#endif
             _panel.gameObject.SetActive(false);
         }
 
